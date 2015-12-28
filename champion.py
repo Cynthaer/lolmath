@@ -1,43 +1,70 @@
 from __future__ import division
-import requests, riot
+import os, logging, json, httplib
+import riot
+from damage import *
+from item import *
 
 class Champion(object):
 
-    def __init__(self, name, level=1):
+    def __init__(self, name, level=1, items=[], refresh=False):
         self.api = riot.LoLAPI()
+        self.refresh = refresh
         
         self.name = name
         self.level = level
+        self.items = items
         
-        self._set_data()
-        
-    def _set_data(self):
         self._ability_ranks = { 'q': 0, 'w': 0, 'e': 0, 'r': 0 }
         
-        self.apidata = self.api.get_champion(self.name, ['stats', 'spells'])
-        stats = self.apidata['stats']
+        self._set_api_data()
+        
+    def _set_api_data(self):
+        cachepath = 'json_cache/%s.json' % self.name
+        if self.refresh == False and os.path.isfile(cachepath):
+            with open(cachepath, 'r') as f:
+                self.champion_api_data = json.load(f)
+        else:
+            print 'invoking api'
+            self.champion_api_data = self.api.get_champion(self.name, ['stats', 'spells'])
+            with open(cachepath, 'w') as f:
+                json.dump(self.champion_api_data, f, indent=4)
+        
+        stats = self.champion_api_data['stats']
         
         # Offensive
-        self.nat_AD = { 'base': stats['attackdamage'], 'growth': stats['attackdamageperlevel'] }
-        self.nat_AS = { 'base': 0.625 / (1 + stats['attackspeedoffset']), 'growth': stats['attackspeedperlevel'] }
+        self.nat_AD =   { 'base': stats['attackdamage'], 'growth': stats['attackdamageperlevel'] }
+        self.nat_AS =   { 'base': 0.625 / (1 + stats['attackspeedoffset']), 'growth': stats['attackspeedperlevel'] }
         self.nat_crit = { 'base': stats['crit'], 'growth': stats['critperlevel'] }
+        
         self.base_range = stats['attackrange']
 
         # Defensive
-        self.nat_HP = { 'base': stats['hp'], 'growth': stats['hpperlevel'] }
-        self.nat_HPR = { 'base': stats['hpregen'], 'growth': stats['hpregenperlevel'] }
-        self.nat_AR = { 'base': stats['armor'], 'growth': stats['armorperlevel'] }
-        self.nat_MR = { 'base': stats['spellblock'], 'growth': stats['spellblockperlevel'] }
+        self.nat_HP =  { 'base': stats['hp'],         'growth': stats['hpperlevel'] }
+        self.nat_HPR = { 'base': stats['hpregen'],    'growth': stats['hpregenperlevel'] }
+        self.nat_AR =  { 'base': stats['armor'],      'growth': stats['armorperlevel'] }
+        self.nat_MR =  { 'base': stats['spellblock'], 'growth': stats['spellblockperlevel'] }
         
         # Ability
-        self.nat_MP = { 'base': stats['mp'], 'growth': stats['mpperlevel'] }
+        self.nat_MP =  { 'base': stats['mp'],      'growth': stats['mpperlevel'] }
         self.nat_MPR = { 'base': stats['mpregen'], 'growth': stats['mpregenperlevel'] }
         
         # Movement
         self.base_MS = stats['movespeed']
 
     def base(self, stat):
+        if type(stat) is str:
+            if stat == 'MS':
+                return self.base_MS
+            stat = getattr(self, 'nat_' + stat)
+        
+        # AS growth is bonus AS
+        if stat is self.nat_AS:
+            return stat['base']
+        
         return stat['base'] + stat['growth']*((7/400)*(pow(self.level, 2) - 1) + (267/400)*(self.level-1))
+    
+    def get_item_attr(self, attr):
+        return sum(map(lambda item: getattr(item, attr), self.items))
     
     ''' Stats '''
     if True:
@@ -46,25 +73,29 @@ class Champion(object):
         if True:
             @property
             def bonus_AD(self):
-                return 0
+                item_AD = self.get_item_attr('AD')
+                return item_AD
                 
             @property
             def AD(self):
-                return self.base(self.nat_AD) + self.bonus_AD
+                return self.base('AD') + self.bonus_AD
             
             @property
             def bonus_AS(self):
                 # natural AS growth is bonus AS
-                nat_bonus_AS = self.base(self.nat_AS) - self.base_AS
-                return nat_bonus_AS
+                nat_bonus_AS = (self.nat_AS['growth']/100)*((7/400)*(pow(self.level, 2) - 1) + (267/400)*(self.level-1))
+                
+                item_AS = self.get_item_attr('AS')
+                
+                return nat_bonus_AS + item_AS
             
             @property
             def AS(self):
-                return self.nat_AS['base'] + self.bonus_AS
+                return self.base('AS') * (1 + self.bonus_AS)
             
             @property
             def crit_chance(self):
-                return self.base(self.nat_crit)
+                return self.base('crit')
             
             @property
             def crit_mult(self):
@@ -76,6 +107,10 @@ class Champion(object):
             
             @property
             def perc_APen(self):
+                return 0
+            
+            @property
+            def perc_bonus_APen(self):
                 return 0
             
             @property    
@@ -90,7 +125,7 @@ class Champion(object):
             
             @property
             def HP(self):
-                return self.base(self.nat_HP) + self.bonus_HP
+                return self.base('HP') + self.bonus_HP
             
             @property
             def bonus_HPR(self):
@@ -98,7 +133,7 @@ class Champion(object):
             
             @property
             def HPR(self):
-                return self.base(self.nat_HPR) + self.bonus_HPR
+                return self.base('HPR') + self.bonus_HPR
             
             @property
             def bonus_AR(self):
@@ -106,11 +141,7 @@ class Champion(object):
             
             @property
             def AR(self):
-                return self.base(self.nat_AR) + self.bonus_APR
-            
-            @property
-            def prop(self):
-                return 0
+                return self.base('AR') + self.bonus_APR
             
             @property
             def bonus_MR(self):
@@ -118,7 +149,7 @@ class Champion(object):
                 
             @property
             def MR(self):
-                return self.base(self.nat_MR) + self.bonus_MR
+                return self.base('MR') + self.bonus_MR
 
         ''' Ability '''
         if True:
@@ -136,7 +167,7 @@ class Champion(object):
             
             @property
             def MP(self):
-                return self.base(self.nat_MP) + self.bonus_MP
+                return self.base('MP') + self.bonus_MP
             
             @property
             def bonus_MPR(self):
@@ -144,7 +175,7 @@ class Champion(object):
                 
             @property
             def MPR(self):
-                return self.base(self.nat_MPR) + self.bonus_MPR
+                return self.base('MPR') + self.bonus_MPR
             
             @property
             def flat_MPen(self):
@@ -166,7 +197,7 @@ class Champion(object):
             
             @property
             def MS(self):
-                return self.base_MS + self.bonus_MS
+                return self.base('MS') + self.bonus_MS
     
     ''' Abilities '''
     def ability_ranks():
@@ -191,12 +222,41 @@ class Champion(object):
             return 'q: %s\nw: %s\ne: %s\nr: %s' % (ar['q'], ar['w'], ar['e'], ar['r'])
         return 'q: %s | w: %s | e: %s | r: %s' % (ar['q'], ar['w'], ar['e'], ar['r'])
     
+    ''' Attacks '''
+    def AA_dmg(self, target=None):
+        # average damage per hit after counting crits
+        crit_factor = self.AD * (1 - self.crit_chance) + self.AD * self.crit_chance * self.crit_mult
+        return crit_factor * self.AR_factor(target)
+    
+    def AA_DPS(self, target=None):
+        return self.AA_dmg() * self.AS
+        
+    ''' Utility '''
+    def AR_factor(self, target=None):
+        if target is None:
+            return 1
+        
+        net_AR = (target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen)) * (1 - self.perc_APen) - self.flat_APen
+        return 1 - (net_AR / (100 + net_AR))
+    
+    def MR_factor(self, target=None):
+        if target is None:
+            return 1
+        
+        net_MR = target.MR * (1 - self.perc_MPen) - self.flat_MPen
+        return 1 - (net_MR / (100 + net_MR))
+    
 def main():
-    kindred = Champion('Kindred')
-    # for i in range(1, 19):
-    #     kindred.level = i
-    #     print kindred.AD
+    # httplib.HTTPConnection.debuglevel = 1
+    logging.basicConfig(filename='riot.log', level=logging.ERROR)
+    
+    kindred = Champion('Kindred', items=[Warrior()])
+    for i in range(1, 19):
+        kindred.level = i
+    print 'level: %s,\tAD: %s,\tAA_dmg: %s,\tAS: %.3f,\tAA_DPS: %s' % (kindred.level, kindred.AD, kindred.AA_dmg(), kindred.AS, kindred.AA_DPS())
+    print 'bonus_AD: %s,\tbonus_AS: %.3f' % (kindred.bonus_AD, kindred.bonus_AS)
     print kindred.ability_str()
+    print kindred.items
         
 if __name__ == "__main__":
     main()

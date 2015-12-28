@@ -1,5 +1,10 @@
+import os, json
 import requests
+import inspect
+import logging
+import httplib
 
+logger = logging.getLogger(__name__)
 champ_map = {
     "Wukong": "62",
     "Jax": "24",
@@ -136,10 +141,13 @@ class HTTPException(Exception):
 
 class LoLAPI():
 
-    def __init__(self, api_key='8fe8525b-d2c4-4850-a33b-d412cb959cd1', region="na"):
+    def __init__(self, api_key='8fe8525b-d2c4-4850-a33b-d412cb959cd1', region="na", refresh=False):
+        
         self.region = region
         self.api_key = api_key
         self.key_end = "?api_key=" + self.api_key
+        
+        self.refresh = refresh
         
         self.base_url = "https://na.api.pvp.net/api/lol/" + self.region 
         self.team_base_url = "https://na.api.pvp.net/api/lol/" + self.region + "/v2.4"
@@ -152,10 +160,22 @@ class LoLAPI():
     """ STATIC INFO """
     if True:
         def get_champion_list(self, champData=[]):
-            url = self.static_url + "champion" + self.key_end
-            if len(champData) > 0:
-                url += "&champData=" + ",".join(champData)
-            return self.send_req(url)
+            cachepath = 'json_cache/%s.json' % inspect.currentframe().f_code.co_name
+            if self.refresh == False and os.path.isfile(cachepath):
+                with open(cachepath, 'r') as f:
+                    data = json.load(f)
+            else:
+                print 'invoking api'
+                
+                url = self.static_url + "champion" + self.key_end
+                if len(champData) > 0:
+                    url += "&champData=" + ",".join(champData)
+                    
+                data = self.send_req(url)
+                with open(cachepath, 'w') as f:
+                    json.dump(data, f, indent=4, sort_keys=True)
+            
+            return data
 
         def get_champion(self, id, champData=[]):
             id = str(id)
@@ -165,10 +185,13 @@ class LoLAPI():
             url = self.static_url + "champion/" + id + self.key_end
             if len(champData) > 0:
                 url += "&champData=" + ",".join(champData)
+            logger.info(url)
             return self.send_req(url)
         
         def get_item_list(self, itemListData=[]):
             url = self.static_url + "item" + self.key_end
+            if len(itemListData) > 0:
+                url += '&itemListData=' + ','.join(itemListData)
             return self.send_req(url)
         
         def get_item(self, id, itemListData=[]):
@@ -312,15 +335,18 @@ def main():
     # print champion_data
     # champion_data = champion_list["stats"]
     # print "champ_map = {"
-    for ckey in champion_data['data']:
-        stats = champion_data['data'][ckey]['stats']
-        if stats['critperlevel'] != 0:
-            print stats['critperlevel']
+    # for ckey in champion_data['data']:
+    #     stats = champion_data['data'][ckey]['stats']
+    #     if stats['critperlevel'] != 0:
+    #         print stats['critperlevel']
     #     data = champion_data[ckey]
     #     print '\"' + data["name"] + "\": \"" + str(data["id"]) + "\","
     # print "}"
     
     # print api.get_item(1410)
+    
+    # print api.get_item_list(['effect', 'from', 'gold', 'stats'])
+    # print api.get_champion('Kindred', ['stats', 'spells'])
     
 if __name__ == "__main__":
     main()

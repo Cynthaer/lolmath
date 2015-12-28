@@ -1,8 +1,8 @@
 from champion import *
 
 class Kindred(Champion):
-    def __init__(self):
-        super(Kindred, self).__init__('Kindred')
+    def __init__(self, level=1, refresh=False):
+        super(Kindred, self).__init__('Kindred', level, refresh)
     
     def q(self):
         spelldata = self.apidata['spells'][0]

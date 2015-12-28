@@ -1,145 +1,147 @@
-"id": 203,
-"key": "Kindred",
-"name": "Kindred",
-"title": "The Eternal Hunters",
-"spells": [{
-    "name": "Dance of Arrows",
-    "description": "Kindred tumbles and shoots up to three arrows at nearby targets.",
-    "sanitizedDescription": "Kindred tumbles and shoots up to three arrows at nearby targets.",
-    "tooltip": "Lamb vaults, firing up to 3 arrows at nearby enemies, dealing {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> physical damage.<br><br>Casting <span class=\"colorFFFFFF\">Wolf's Frenzy</span> or vaulting inside of its effect reduces the cooldown of this spell to {{ e4 }} seconds.",
-    "sanitizedTooltip": "Lamb vaults, firing up to 3 arrows at nearby enemies, dealing {{ e1 }} (+{{ f1 }}) physical damage. Casting Wolf's Frenzy or vaulting inside of its effect reduces the cooldown of this spell to {{ e4 }} seconds.",
-    "leveltip": {
-        "label": ["Damage"],
-        "effect": ["{{ e1 }} -> {{ e1NL }}"]
-    },
-    "image": {
-        "full": "KindredQ.png",
-        "sprite": "spell14.png",
-        "group": "spell",
-        "x": 240,
-        "y": 48,
-        "w": 48,
-        "h": 48
-    },
-    "resource": "{{ cost }} Mana",
-    "maxrank": 5,
-    "cost": [30, 30, 30, 30, 30],
-    "costType": "Mana",
-    "costBurn": "30",
-    "cooldown": [9.0, 9.0, 9.0, 9.0, 9.0],
-    "cooldownBurn": "9",
-    "effect": [
-        null, 
-        [60.0, 90.0, 120.0, 150.0, 180.0], 
-        [0.2, 0.2, 0.2, 0.2, 0.2], 
-        [400.0, 400.0, 400.0, 400.0, 400.0], 
-        [2.0, 2.0, 2.0, 2.0, 2.0], 
-        [100.0, 100.0, 100.0, 100.0, 100.0], 
-        [12.0, 12.0, 12.0, 12.0, 12.0]
-    ],
-    "effectBurn": [
-        "", 
-        "60/90/120/150/180", 
-        "0.2", 
-        "400", 
-        "2", 
-        "100", 
-        "12"
-    ],
-    "range": [340, 340, 340, 340, 340],
-    "rangeBurn": "340",
-    "key": "KindredQ"
-}, {
-    "name": "Wolf's Frenzy",
-    "description": "Wolf enrages and attacks enemies around him.",
-    "sanitizedDescription": "Wolf enrages and attacks enemies around him.",
-    "tooltip": "<span class=\"colorFF9900\">Passive:</span> As Kindred move they build stacks of Hunter's Vigor, up to a maximum of 100. At full stacks Lamb's next basic attack drains <span class=\"colorFFFFFF\">{{ f1 }}</span> health from the target.<br><br><span class=\"colorFF9900\">Active:</span> Wolf claims a territory, attacking nearby enemies inside it for {{ e4 }} seconds. Lamb can direct him to targets by attacking them. If Lamb leaves Wolf's territory he will cease attacking and join her.<br><br>Wolf's attacks deal physical damage equal to {{ e5 }}<span class=\"colorFF8C00\"> (+{{ f2 }})</span> plus {{ e3 }}% of the damage from <span class=\"colorFFFFFF\">Mark of the Kindred</span>.<br>",
-    "sanitizedTooltip": "Passive: As Kindred move they build stacks of Hunter's Vigor, up to a maximum of 100. At full stacks Lamb's next basic attack drains {{ f1 }} health from the target. Active: Wolf claims a territory, attacking nearby enemies inside it for {{ e4 }} seconds. Lamb can direct him to targets by attacking them. If Lamb leaves Wolf's territory he will cease attacking and join her. Wolf's attacks deal physical damage equal to {{ e5 }} (+{{ f2 }}) plus {{ e3 }}% of the damage from Mark of the Kindred.",
-    "leveltip": {
-        "label": ["Damage", "Cooldown"],
-        "effect": ["{{ e5 }} -> {{ e5NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
-    },
-    "image": {
-        "full": "KindredW.png",
-        "sprite": "spell14.png",
-        "group": "spell",
-        "x": 288,
-        "y": 48,
-        "w": 48,
-        "h": 48
-    },
-    "resource": "{{ cost }} Mana",
-    "maxrank": 5,
-    "cost": [40, 40, 40, 40, 40],
-    "costType": "Mana",
-    "costBurn": "40",
-    "cooldown": [18.0, 17.0, 16.0, 15.0, 14.0],
-    "cooldownBurn": "18/17/16/15/14",
-    "effect": [null, [40.0, 45.0, 50.0, 55.0, 60.0], [1.0, 1.0, 1.0, 1.0, 1.0], [40.0, 40.0, 40.0, 40.0, 40.0], [8.0, 8.0, 8.0, 8.0, 8.0], [25.0, 30.0, 35.0, 40.0, 45.0], [800.0, 800.0, 800.0, 800.0, 800.0]],
-    "effectBurn": ["", "40/45/50/55/60", "1", "40", "8", "25/30/35/40/45", "800"],
-    "range": "self",
-    "rangeBurn": "self",
-    "key": "KindredW"
-}, {
-    "name": "Mounting Dread",
-    "description": "Lamb fires a carefully placed shot, slowing the target. If Lamb attacks the target two more times, her third attack instead directs Wolf to pounce on the enemy, savaging them for massive damage.",
-    "sanitizedDescription": "Lamb fires a carefully placed shot, slowing the target. If Lamb attacks the target two more times, her third attack instead directs Wolf to pounce on the enemy, savaging them for massive damage.",
-    "tooltip": "Cripple an enemy, slowing their movement speed by {{ e2 }}% for {{ e8 }} second.<br><br>After Lamb attacks the target twice, her third attack instead directs Wolf to pounce on the enemy, dealing massive physical damage.<br><br>Wolf deals physical damage equal to {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> +{{ e4 }}% of the target's maximum health. [Maximum {{ e10 }} vs. monsters]",
-    "sanitizedTooltip": "Cripple an enemy, slowing their movement speed by {{ e2 }}% for {{ e8 }} second. After Lamb attacks the target twice, her third attack instead directs Wolf to pounce on the enemy, dealing massive physical damage. Wolf deals physical damage equal to {{ e1 }} (+{{ f1 }}) +{{ e4 }}% of the target's maximum health. [Maximum {{ e10 }} vs. monsters]",
-    "leveltip": {
-        "label": ["Damage", "Cooldown"],
-        "effect": ["{{ e1 }} -> {{ e1NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
-    },
-    "image": {
-        "full": "KindredEWrapper.png",
-        "sprite": "spell14.png",
-        "group": "spell",
-        "x": 336,
-        "y": 48,
-        "w": 48,
-        "h": 48
-    },
-    "resource": "{{ cost }} Mana",
-    "maxrank": 5,
-    "cost": [0, 0, 0, 0, 0],
-    "costType": "Mana",
-    "costBurn": "0",
-    "cooldown": [16.0, 15.0, 14.0, 13.0, 12.0],
-    "cooldownBurn": "16/15/14/13/12",
-    "effect": [null, [80.0, 110.0, 140.0, 170.0, 200.0], [70.0, 70.0, 70.0, 70.0, 70.0], [15.0, 15.0, 15.0, 15.0, 15.0], [5.0, 5.0, 5.0, 5.0, 5.0], [0.2, 0.2, 0.2, 0.2, 0.2], [70.0, 70.0, 70.0, 70.0, 70.0], [4.0, 4.0, 4.0, 4.0, 4.0], [1.0, 1.0, 1.0, 1.0, 1.0], [4.0, 4.0, 4.0, 4.0, 4.0], [300.0, 300.0, 300.0, 300.0, 300.0]],
-    "effectBurn": ["", "80/110/140/170/200", "70", "15", "5", "0.2", "70", "4", "1", "4", "300"],
-    "range": [500, 500, 500, 500, 500],
-    "rangeBurn": "500",
-    "key": "KindredEWrapper"
-}, {
-    "name": "Lamb's Respite",
-    "description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
-    "sanitizedDescription": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
-    "tooltip": "Lamb blesses the ground under a friendly champion for {{ e2 }} seconds, creating an area in which no living things, <span class=\"color99FF99\">ally</span> or <span class=\"colorFF9999\">enemy</span>, can die. Upon reaching 10% Health, units become immune to further damage or healing.<br><br>When the blessing ends all living things inside heal for {{ e1 }}.",
-    "sanitizedTooltip": "Lamb blesses the ground under a friendly champion for {{ e2 }} seconds, creating an area in which no living things, ally or enemy, can die. Upon reaching 10% Health, units become immune to further damage or healing. When the blessing ends all living things inside heal for {{ e1 }}.",
-    "leveltip": {
-        "label": ["Heal", "Cooldown"],
-        "effect": ["{{ e1 }} -> {{ e1NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
-    },
-    "image": {
-        "full": "KindredR.png",
-        "sprite": "spell14.png",
-        "group": "spell",
-        "x": 384,
-        "y": 48,
-        "w": 48,
-        "h": 48
-    },
-    "resource": "{{ cost }} Mana",
-    "maxrank": 3,
-    "cost": [0, 0, 0],
-    "costType": "Mana",
-    "costBurn": "0",
-    "cooldown": [160.0, 130.0, 100.0],
-    "cooldownBurn": "160/130/100",
-    "effect": [null, [200.0, 250.0, 300.0], [4.0, 4.0, 4.0], [530.0, 530.0, 530.0], [400.0, 600.0, 800.0]],
-    "effectBurn": ["", "200/250/300", "4", "530", "400/600/800"],
-    "range": [500, 500, 500],
-    "rangeBurn": "500",
-    "key": "KindredR"
-}]
+{
+    "id": 203,
+    "key": "Kindred",
+    "name": "Kindred",
+    "title": "The Eternal Hunters",
+    "spells": [{
+        "name": "Dance of Arrows",
+        "description": "Kindred tumbles and shoots up to three arrows at nearby targets.",
+        "sanitizedDescription": "Kindred tumbles and shoots up to three arrows at nearby targets.",
+        "tooltip": "Lamb vaults, firing up to 3 arrows at nearby enemies, dealing {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> physical damage.<br><br>Casting <span class=\"colorFFFFFF\">Wolf's Frenzy</span> or vaulting inside of its effect reduces the cooldown of this spell to {{ e4 }} seconds.",
+        "sanitizedTooltip": "Lamb vaults, firing up to 3 arrows at nearby enemies, dealing {{ e1 }} (+{{ f1 }}) physical damage. Casting Wolf's Frenzy or vaulting inside of its effect reduces the cooldown of this spell to {{ e4 }} seconds.",
+        "leveltip": {
+            "label": ["Damage"],
+            "effect": ["{{ e1 }} -> {{ e1NL }}"]
+        },
+        "image": {
+            "full": "KindredQ.png",
+            "sprite": "spell14.png",
+            "group": "spell",
+            "x": 240,
+            "y": 48,
+            "w": 48,
+            "h": 48
+        },
+        "resource": "{{ cost }} Mana",
+        "maxrank": 5,
+        "cost": [30, 30, 30, 30, 30],
+        "costType": "Mana",
+        "costBurn": "30",
+        "cooldown": [9.0, 9.0, 9.0, 9.0, 9.0],
+        "cooldownBurn": "9",
+        "effect": [
+            null, 
+            [60.0, 90.0, 120.0, 150.0, 180.0], 
+            [0.2, 0.2, 0.2, 0.2, 0.2], 
+            [400.0, 400.0, 400.0, 400.0, 400.0], 
+            [2.0, 2.0, 2.0, 2.0, 2.0], 
+            [100.0, 100.0, 100.0, 100.0, 100.0], 
+            [12.0, 12.0, 12.0, 12.0, 12.0]
+        ],
+        "effectBurn": [
+            "", 
+            "60/90/120/150/180", 
+            "0.2", 
+            "400", 
+            "2", 
+            "100", 
+            "12"
+        ],
+        "range": [340, 340, 340, 340, 340],
+        "rangeBurn": "340",
+        "key": "KindredQ"
+    }, {
+        "name": "Wolf's Frenzy",
+        "description": "Wolf enrages and attacks enemies around him.",
+        "sanitizedDescription": "Wolf enrages and attacks enemies around him.",
+        "tooltip": "<span class=\"colorFF9900\">Passive:</span> As Kindred move they build stacks of Hunter's Vigor, up to a maximum of 100. At full stacks Lamb's next basic attack drains <span class=\"colorFFFFFF\">{{ f1 }}</span> health from the target.<br><br><span class=\"colorFF9900\">Active:</span> Wolf claims a territory, attacking nearby enemies inside it for {{ e4 }} seconds. Lamb can direct him to targets by attacking them. If Lamb leaves Wolf's territory he will cease attacking and join her.<br><br>Wolf's attacks deal physical damage equal to {{ e5 }}<span class=\"colorFF8C00\"> (+{{ f2 }})</span> plus {{ e3 }}% of the damage from <span class=\"colorFFFFFF\">Mark of the Kindred</span>.<br>",
+        "sanitizedTooltip": "Passive: As Kindred move they build stacks of Hunter's Vigor, up to a maximum of 100. At full stacks Lamb's next basic attack drains {{ f1 }} health from the target. Active: Wolf claims a territory, attacking nearby enemies inside it for {{ e4 }} seconds. Lamb can direct him to targets by attacking them. If Lamb leaves Wolf's territory he will cease attacking and join her. Wolf's attacks deal physical damage equal to {{ e5 }} (+{{ f2 }}) plus {{ e3 }}% of the damage from Mark of the Kindred.",
+        "leveltip": {
+            "label": ["Damage", "Cooldown"],
+            "effect": ["{{ e5 }} -> {{ e5NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
+        },
+        "image": {
+            "full": "KindredW.png",
+            "sprite": "spell14.png",
+            "group": "spell",
+            "x": 288,
+            "y": 48,
+            "w": 48,
+            "h": 48
+        },
+        "resource": "{{ cost }} Mana",
+        "maxrank": 5,
+        "cost": [40, 40, 40, 40, 40],
+        "costType": "Mana",
+        "costBurn": "40",
+        "cooldown": [18.0, 17.0, 16.0, 15.0, 14.0],
+        "cooldownBurn": "18/17/16/15/14",
+        "effect": [null, [40.0, 45.0, 50.0, 55.0, 60.0], [1.0, 1.0, 1.0, 1.0, 1.0], [40.0, 40.0, 40.0, 40.0, 40.0], [8.0, 8.0, 8.0, 8.0, 8.0], [25.0, 30.0, 35.0, 40.0, 45.0], [800.0, 800.0, 800.0, 800.0, 800.0]],
+        "effectBurn": ["", "40/45/50/55/60", "1", "40", "8", "25/30/35/40/45", "800"],
+        "range": "self",
+        "rangeBurn": "self",
+        "key": "KindredW"
+    }, {
+        "name": "Mounting Dread",
+        "description": "Lamb fires a carefully placed shot, slowing the target. If Lamb attacks the target two more times, her third attack instead directs Wolf to pounce on the enemy, savaging them for massive damage.",
+        "sanitizedDescription": "Lamb fires a carefully placed shot, slowing the target. If Lamb attacks the target two more times, her third attack instead directs Wolf to pounce on the enemy, savaging them for massive damage.",
+        "tooltip": "Cripple an enemy, slowing their movement speed by {{ e2 }}% for {{ e8 }} second.<br><br>After Lamb attacks the target twice, her third attack instead directs Wolf to pounce on the enemy, dealing massive physical damage.<br><br>Wolf deals physical damage equal to {{ e1 }}<span class=\"colorFF8C00\"> (+{{ f1 }})</span> +{{ e4 }}% of the target's maximum health. [Maximum {{ e10 }} vs. monsters]",
+        "sanitizedTooltip": "Cripple an enemy, slowing their movement speed by {{ e2 }}% for {{ e8 }} second. After Lamb attacks the target twice, her third attack instead directs Wolf to pounce on the enemy, dealing massive physical damage. Wolf deals physical damage equal to {{ e1 }} (+{{ f1 }}) +{{ e4 }}% of the target's maximum health. [Maximum {{ e10 }} vs. monsters]",
+        "leveltip": {
+            "label": ["Damage", "Cooldown"],
+            "effect": ["{{ e1 }} -> {{ e1NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
+        },
+        "image": {
+            "full": "KindredEWrapper.png",
+            "sprite": "spell14.png",
+            "group": "spell",
+            "x": 336,
+            "y": 48,
+            "w": 48,
+            "h": 48
+        },
+        "resource": "{{ cost }} Mana",
+        "maxrank": 5,
+        "cost": [0, 0, 0, 0, 0],
+        "costType": "Mana",
+        "costBurn": "0",
+        "cooldown": [16.0, 15.0, 14.0, 13.0, 12.0],
+        "cooldownBurn": "16/15/14/13/12",
+        "effect": [null, [80.0, 110.0, 140.0, 170.0, 200.0], [70.0, 70.0, 70.0, 70.0, 70.0], [15.0, 15.0, 15.0, 15.0, 15.0], [5.0, 5.0, 5.0, 5.0, 5.0], [0.2, 0.2, 0.2, 0.2, 0.2], [70.0, 70.0, 70.0, 70.0, 70.0], [4.0, 4.0, 4.0, 4.0, 4.0], [1.0, 1.0, 1.0, 1.0, 1.0], [4.0, 4.0, 4.0, 4.0, 4.0], [300.0, 300.0, 300.0, 300.0, 300.0]],
+        "effectBurn": ["", "80/110/140/170/200", "70", "15", "5", "0.2", "70", "4", "1", "4", "300"],
+        "range": [500, 500, 500, 500, 500],
+        "rangeBurn": "500",
+        "key": "KindredEWrapper"
+    }, {
+        "name": "Lamb's Respite",
+        "description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
+        "sanitizedDescription": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
+        "tooltip": "Lamb blesses the ground under a friendly champion for {{ e2 }} seconds, creating an area in which no living things, <span class=\"color99FF99\">ally</span> or <span class=\"colorFF9999\">enemy</span>, can die. Upon reaching 10% Health, units become immune to further damage or healing.<br><br>When the blessing ends all living things inside heal for {{ e1 }}.",
+        "sanitizedTooltip": "Lamb blesses the ground under a friendly champion for {{ e2 }} seconds, creating an area in which no living things, ally or enemy, can die. Upon reaching 10% Health, units become immune to further damage or healing. When the blessing ends all living things inside heal for {{ e1 }}.",
+        "leveltip": {
+            "label": ["Heal", "Cooldown"],
+            "effect": ["{{ e1 }} -> {{ e1NL }}", "{{ cooldown }} -> {{ cooldownnNL }}"]
+        },
+        "image": {
+            "full": "KindredR.png",
+            "sprite": "spell14.png",
+            "group": "spell",
+            "x": 384,
+            "y": 48,
+            "w": 48,
+            "h": 48
+        },
+        "resource": "{{ cost }} Mana",
+        "maxrank": 3,
+        "cost": [0, 0, 0],
+        "costType": "Mana",
+        "costBurn": "0",
+        "cooldown": [160.0, 130.0, 100.0],
+        "cooldownBurn": "160/130/100",
+        "effect": [null, [200.0, 250.0, 300.0], [4.0, 4.0, 4.0], [530.0, 530.0, 530.0], [400.0, 600.0, 800.0]],
+        "effectBurn": ["", "200/250/300", "4", "530", "400/600/800"],
+        "range": [500, 500, 500],
+        "rangeBurn": "500",
+        "key": "KindredR"
+    }]
+}
