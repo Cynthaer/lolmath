@@ -6,18 +6,66 @@ Stacks: 3
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 89 (89.2, 0.0) | AA_DPS = 84 (83.8, 0.0)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(50.3, 0.0),
+    'scaling_dmg': Damage(17.8, 0.0),
+    'total_dmg': Damage(100.7, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(71.9, 0.0),
+    'scaling_dmg': Damage(35.7, 0.0),
+    'stack_dmg': Damage(4.5, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(17.8, 0.0),
+    'total_dmg': Damage(103.1, 0.0)}
 Total DPS = 206 (206.1, 0.0)
 Total Burst = 103 (103.1, 0.0)
 Time to Kill = 3.7s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 86 (86.4, 0.0) | AA_DPS = 81 (81.2, 0.0)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(48.7, 0.0),
+    'scaling_dmg': Damage(17.3, 0.0),
+    'total_dmg': Damage(97.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(71.8, 0.0),
+    'scaling_dmg': Damage(34.6, 0.0),
+    'stack_dmg': Damage(6.1, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(17.3, 0.0),
+    'total_dmg': Damage(111.4, 0.0)}
 Total DPS = 202 (201.8, 0.0)
 Total Burst = 111 (111.4, 0.0)
 Time to Kill = 5.5s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 61 (60.6, 0.0) | AA_DPS = 57 (57.0, 0.0)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(34.2, 0.0),
+    'scaling_dmg': Damage(12.1, 0.0),
+    'total_dmg': Damage(68.4, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(51.3, 0.0),
+    'scaling_dmg': Damage(24.2, 0.0),
+    'stack_dmg': Damage(5.0, 0.0),
+    'total_dmg': Damage(41.0, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(12.1, 0.0),
+    'total_dmg': Damage(83.1, 0.0)}
 Total DPS = 142 (142.5, 0.0)
 Total Burst = 83 (83.1, 0.0)
 Time to Kill = 9.5s
@@ -31,18 +79,66 @@ Stacks: 6
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 89 (89.2, 0.0) | AA_DPS = 84 (83.8, 0.0)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(50.3, 0.0),
+    'scaling_dmg': Damage(17.8, 0.0),
+    'total_dmg': Damage(100.7, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(77.6, 0.0),
+    'scaling_dmg': Damage(35.7, 0.0),
+    'stack_dmg': Damage(9.0, 0.0),
+    'total_dmg': Damage(62.0, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(17.8, 0.0),
+    'total_dmg': Damage(103.1, 0.0)}
 Total DPS = 212 (211.7, 0.0)
 Total Burst = 103 (103.1, 0.0)
 Time to Kill = 3.6s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 86 (86.4, 0.0) | AA_DPS = 81 (81.2, 0.0)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(48.7, 0.0),
+    'scaling_dmg': Damage(17.3, 0.0),
+    'total_dmg': Damage(97.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(79.5, 0.0),
+    'scaling_dmg': Damage(34.6, 0.0),
+    'stack_dmg': Damage(12.2, 0.0),
+    'total_dmg': Damage(63.5, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(17.3, 0.0),
+    'total_dmg': Damage(111.4, 0.0)}
 Total DPS = 209 (209.4, 0.0)
 Total Burst = 111 (111.4, 0.0)
 Time to Kill = 5.3s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 61 (60.6, 0.0) | AA_DPS = 57 (57.0, 0.0)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(34.2, 0.0),
+    'scaling_dmg': Damage(12.1, 0.0),
+    'total_dmg': Damage(68.4, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(57.6, 0.0),
+    'scaling_dmg': Damage(24.2, 0.0),
+    'stack_dmg': Damage(10.1, 0.0),
+    'total_dmg': Damage(46.0, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(12.1, 0.0),
+    'total_dmg': Damage(83.1, 0.0)}
 Total DPS = 149 (148.7, 0.0)
 Total Burst = 83 (83.1, 0.0)
 Time to Kill = 9.1s
@@ -56,18 +152,66 @@ Stacks: 3
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 69 (47.8, 21.1) | AA_DPS = 82 (56.9, 25.1)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(59.4, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(4.5, 0.0),
+    'total_dmg': Damage(40.9, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 188 (162.4, 25.1)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 4.1s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 66 (46.3, 20.1) | AA_DPS = 79 (55.1, 23.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(60.0, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(6.1, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 184 (159.8, 23.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 6.1s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 53 (32.5, 20.1) | AA_DPS = 63 (38.6, 23.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(5.0, 0.0),
+    'total_dmg': Damage(29.7, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 137 (113.2, 23.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 9.9s
@@ -81,18 +225,66 @@ Stacks: 6
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 69 (47.8, 21.1) | AA_DPS = 82 (56.9, 25.1)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(65.9, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(9.0, 0.0),
+    'total_dmg': Damage(45.4, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 194 (169.0, 25.1)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 4.0s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 66 (46.3, 20.1) | AA_DPS = 79 (55.1, 23.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(68.9, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(12.2, 0.0),
+    'total_dmg': Damage(47.4, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 193 (168.7, 23.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 5.8s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 53 (32.5, 20.1) | AA_DPS = 63 (38.6, 23.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(50.5, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(10.1, 0.0),
+    'total_dmg': Damage(34.8, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 144 (120.5, 23.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 9.4s
@@ -106,18 +298,66 @@ Stacks: 3
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 79 (47.8, 31.7) | AA_DPS = 95 (56.9, 37.7)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(59.4, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(4.5, 0.0),
+    'total_dmg': Damage(40.9, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 200 (162.4, 37.7)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 3.9s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 76 (46.3, 30.2) | AA_DPS = 91 (55.1, 35.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(60.0, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(6.1, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 196 (159.8, 35.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 5.7s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 63 (32.5, 30.2) | AA_DPS = 75 (38.6, 35.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(5.0, 0.0),
+    'total_dmg': Damage(29.7, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 149 (113.2, 35.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 9.1s
@@ -131,18 +371,66 @@ Stacks: 6
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 79 (47.8, 31.7) | AA_DPS = 95 (56.9, 37.7)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(65.9, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(9.0, 0.0),
+    'total_dmg': Damage(45.4, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 207 (169.0, 37.7)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 3.8s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 76 (46.3, 30.2) | AA_DPS = 91 (55.1, 35.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(68.9, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(12.2, 0.0),
+    'total_dmg': Damage(47.4, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 205 (168.7, 35.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 5.4s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 63 (32.5, 30.2) | AA_DPS = 75 (38.6, 35.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(50.5, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(10.1, 0.0),
+    'total_dmg': Damage(34.8, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 156 (120.5, 35.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 8.6s
@@ -156,18 +444,66 @@ Stacks: 3
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 101 (47.8, 52.8) | AA_DPS = 120 (56.9, 62.8)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(59.4, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(4.5, 0.0),
+    'total_dmg': Damage(40.9, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 225 (162.4, 62.8)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 3.4s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 97 (46.3, 50.3) | AA_DPS = 115 (55.1, 59.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(60.0, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(6.1, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 220 (159.8, 59.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 5.1s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 83 (32.5, 50.3) | AA_DPS = 98 (38.6, 59.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(5.0, 0.0),
+    'total_dmg': Damage(29.7, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 173 (113.2, 59.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 7.8s
@@ -181,18 +517,66 @@ Stacks: 6
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
 AA_dmg = 101 (47.8, 52.8) | AA_DPS = 120 (56.9, 62.8)
+q:
+{   'base_dmg': Damage(82.8, 0.0),
+    'dps': Damage(46.2, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(92.4, 0.0)}
+w:
+{   'base_dmg': Damage(17.3, 0.0),
+    'dps': Damage(65.9, 0.0),
+    'scaling_dmg': Damage(19.1, 0.0),
+    'stack_dmg': Damage(9.0, 0.0),
+    'total_dmg': Damage(45.4, 0.0)}
+e:
+{   'base_dmg': Damage(55.2, 0.0),
+    'hp_dmg': Damage(30.0, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(94.8, 0.0)}
 Total DPS = 232 (169.0, 62.8)
 Total Burst = 95 (94.8, 0.0)
 Time to Kill = 3.3s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
 AA_dmg = 97 (46.3, 50.3) | AA_DPS = 115 (55.1, 59.9)
+q:
+{   'base_dmg': Damage(80.2, 0.0),
+    'dps': Damage(44.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(89.5, 0.0)}
+w:
+{   'base_dmg': Damage(16.7, 0.0),
+    'dps': Damage(68.9, 0.0),
+    'scaling_dmg': Damage(18.5, 0.0),
+    'stack_dmg': Damage(12.2, 0.0),
+    'total_dmg': Damage(47.4, 0.0)}
+e:
+{   'base_dmg': Damage(53.5, 0.0),
+    'hp_dmg': Damage(40.6, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
 Total DPS = 229 (168.7, 59.9)
 Total Burst = 103 (103.4, 0.0)
 Time to Kill = 4.9s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
 AA_dmg = 83 (32.5, 50.3) | AA_DPS = 98 (38.6, 59.9)
+q:
+{   'base_dmg': Damage(56.3, 0.0),
+    'dps': Damage(31.4, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(62.7, 0.0)}
+w:
+{   'base_dmg': Damage(11.7, 0.0),
+    'dps': Damage(50.5, 0.0),
+    'scaling_dmg': Damage(13.0, 0.0),
+    'stack_dmg': Damage(10.1, 0.0),
+    'total_dmg': Damage(34.8, 0.0)}
+e:
+{   'base_dmg': Damage(37.5, 0.0),
+    'hp_dmg': Damage(33.5, 0.0),
+    'scaling_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(77.5, 0.0)}
 Total DPS = 180 (120.5, 59.9)
 Total Burst = 78 (77.5, 0.0)
 Time to Kill = 7.5s
@@ -206,18 +590,66 @@ Stacks: 3
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
 AA_dmg = 149 (149.3, 0.0) | AA_DPS = 212 (212.2, 0.0)
+q:
+{   'base_dmg': Damage(90.0, 0.0),
+    'dps': Damage(60.0, 0.0),
+    'scaling_dmg': Damage(29.9, 0.0),
+    'total_dmg': Damage(119.9, 0.0)}
+w:
+{   'base_dmg': Damage(18.8, 0.0),
+    'dps': Damage(138.6, 0.0),
+    'scaling_dmg': Damage(59.7, 0.0),
+    'stack_dmg': Damage(6.2, 0.0),
+    'total_dmg': Damage(84.7, 0.0)}
+e:
+{   'base_dmg': Damage(60.0, 0.0),
+    'hp_dmg': Damage(41.0, 0.0),
+    'scaling_dmg': Damage(29.9, 0.0),
+    'total_dmg': Damage(130.9, 0.0)}
 Total DPS = 411 (410.7, 0.0)
 Total Burst = 131 (130.9, 0.0)
 Time to Kill = 2.3s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
 AA_dmg = 81 (81.3, 0.0) | AA_DPS = 116 (115.6, 0.0)
+q:
+{   'base_dmg': Damage(54.5, 0.0),
+    'dps': Damage(36.3, 0.0),
+    'scaling_dmg': Damage(18.1, 0.0),
+    'total_dmg': Damage(72.6, 0.0)}
+w:
+{   'base_dmg': Damage(11.4, 0.0),
+    'dps': Damage(88.7, 0.0),
+    'scaling_dmg': Damage(36.2, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(54.2, 0.0)}
+e:
+{   'base_dmg': Damage(36.3, 0.0),
+    'hp_dmg': Damage(44.5, 0.0),
+    'scaling_dmg': Damage(18.1, 0.0),
+    'total_dmg': Damage(98.9, 0.0)}
 Total DPS = 241 (240.5, 0.0)
 Total Burst = 99 (98.9, 0.0)
 Time to Kill = 7.7s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
 AA_dmg = 50 (49.8, 0.0) | AA_DPS = 60 (60.1, 0.0)
+q:
+{   'base_dmg': Damage(33.4, 0.0),
+    'dps': Damage(22.2, 0.0),
+    'scaling_dmg': Damage(11.1, 0.0),
+    'total_dmg': Damage(44.4, 0.0)}
+w:
+{   'base_dmg': Damage(6.9, 0.0),
+    'dps': Damage(53.3, 0.0),
+    'scaling_dmg': Damage(22.1, 0.0),
+    'stack_dmg': Damage(3.5, 0.0),
+    'total_dmg': Damage(32.6, 0.0)}
+e:
+{   'base_dmg': Damage(22.2, 0.0),
+    'hp_dmg': Damage(23.4, 0.0),
+    'scaling_dmg': Damage(11.1, 0.0),
+    'total_dmg': Damage(56.7, 0.0)}
 Total DPS = 136 (135.7, 0.0)
 Total Burst = 57 (56.7, 0.0)
 Time to Kill = 12.0s
@@ -231,18 +663,66 @@ Stacks: 6
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
 AA_dmg = 149 (149.3, 0.0) | AA_DPS = 212 (212.2, 0.0)
+q:
+{   'base_dmg': Damage(90.0, 0.0),
+    'dps': Damage(60.0, 0.0),
+    'scaling_dmg': Damage(29.9, 0.0),
+    'total_dmg': Damage(119.9, 0.0)}
+w:
+{   'base_dmg': Damage(18.8, 0.0),
+    'dps': Damage(148.6, 0.0),
+    'scaling_dmg': Damage(59.7, 0.0),
+    'stack_dmg': Damage(12.3, 0.0),
+    'total_dmg': Damage(90.8, 0.0)}
+e:
+{   'base_dmg': Damage(60.0, 0.0),
+    'hp_dmg': Damage(41.0, 0.0),
+    'scaling_dmg': Damage(29.9, 0.0),
+    'total_dmg': Damage(130.9, 0.0)}
 Total DPS = 421 (420.8, 0.0)
 Total Burst = 131 (130.9, 0.0)
 Time to Kill = 2.3s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
 AA_dmg = 81 (81.3, 0.0) | AA_DPS = 116 (115.6, 0.0)
+q:
+{   'base_dmg': Damage(54.5, 0.0),
+    'dps': Damage(36.3, 0.0),
+    'scaling_dmg': Damage(18.1, 0.0),
+    'total_dmg': Damage(72.6, 0.0)}
+w:
+{   'base_dmg': Damage(11.4, 0.0),
+    'dps': Damage(99.6, 0.0),
+    'scaling_dmg': Damage(36.2, 0.0),
+    'stack_dmg': Damage(13.3, 0.0),
+    'total_dmg': Damage(60.8, 0.0)}
+e:
+{   'base_dmg': Damage(36.3, 0.0),
+    'hp_dmg': Damage(44.5, 0.0),
+    'scaling_dmg': Damage(18.1, 0.0),
+    'total_dmg': Damage(98.9, 0.0)}
 Total DPS = 251 (251.5, 0.0)
 Total Burst = 99 (98.9, 0.0)
 Time to Kill = 7.4s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
 AA_dmg = 50 (49.8, 0.0) | AA_DPS = 60 (60.1, 0.0)
+q:
+{   'base_dmg': Damage(33.4, 0.0),
+    'dps': Damage(22.2, 0.0),
+    'scaling_dmg': Damage(11.1, 0.0),
+    'total_dmg': Damage(44.4, 0.0)}
+w:
+{   'base_dmg': Damage(6.9, 0.0),
+    'dps': Damage(59.1, 0.0),
+    'scaling_dmg': Damage(22.1, 0.0),
+    'stack_dmg': Damage(7.0, 0.0),
+    'total_dmg': Damage(36.1, 0.0)}
+e:
+{   'base_dmg': Damage(22.2, 0.0),
+    'hp_dmg': Damage(23.4, 0.0),
+    'scaling_dmg': Damage(11.1, 0.0),
+    'total_dmg': Damage(56.7, 0.0)}
 Total DPS = 141 (141.4, 0.0)
 Total Burst = 57 (56.7, 0.0)
 Time to Kill = 11.5s
@@ -256,18 +736,66 @@ Stacks: 3
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
 AA_dmg = 136 (104.3, 31.7) | AA_DPS = 227 (174.3, 52.9)
+q:
+{   'base_dmg': Damage(90.0, 0.0),
+    'dps': Damage(55.5, 0.0),
+    'scaling_dmg': Damage(20.9, 0.0),
+    'total_dmg': Damage(110.9, 0.0)}
+w:
+{   'base_dmg': Damage(18.8, 0.0),
+    'dps': Damage(122.4, 0.0),
+    'scaling_dmg': Damage(41.7, 0.0),
+    'stack_dmg': Damage(6.2, 0.0),
+    'total_dmg': Damage(66.6, 0.0)}
+e:
+{   'base_dmg': Damage(60.0, 0.0),
+    'hp_dmg': Damage(41.0, 0.0),
+    'scaling_dmg': Damage(20.9, 0.0),
+    'total_dmg': Damage(121.9, 0.0)}
 Total DPS = 405 (352.2, 52.9)
 Total Burst = 122 (121.9, 0.0)
 Time to Kill = 2.4s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
 AA_dmg = 86 (56.8, 29.5) | AA_DPS = 144 (94.9, 49.3)
+q:
+{   'base_dmg': Damage(54.5, 0.0),
+    'dps': Damage(33.6, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(67.1, 0.0)}
+w:
+{   'base_dmg': Damage(11.4, 0.0),
+    'dps': Damage(79.5, 0.0),
+    'scaling_dmg': Damage(25.3, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(43.3, 0.0)}
+e:
+{   'base_dmg': Damage(36.3, 0.0),
+    'hp_dmg': Damage(44.5, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(93.4, 0.0)}
 Total DPS = 257 (208.0, 49.3)
 Total Burst = 93 (93.4, 0.0)
 Time to Kill = 7.2s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
 AA_dmg = 64 (34.8, 29.5) | AA_DPS = 91 (49.4, 41.9)
+q:
+{   'base_dmg': Damage(33.4, 0.0),
+    'dps': Damage(20.5, 0.0),
+    'scaling_dmg': Damage(7.7, 0.0),
+    'total_dmg': Damage(41.1, 0.0)}
+w:
+{   'base_dmg': Damage(6.9, 0.0),
+    'dps': Damage(47.6, 0.0),
+    'scaling_dmg': Damage(15.5, 0.0),
+    'stack_dmg': Damage(3.5, 0.0),
+    'total_dmg': Damage(25.9, 0.0)}
+e:
+{   'base_dmg': Damage(22.2, 0.0),
+    'hp_dmg': Damage(23.4, 0.0),
+    'scaling_dmg': Damage(7.7, 0.0),
+    'total_dmg': Damage(53.3, 0.0)}
 Total DPS = 159 (117.5, 41.9)
 Total Burst = 53 (53.3, 0.0)
 Time to Kill = 10.2s
@@ -281,18 +809,66 @@ Stacks: 6
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
 AA_dmg = 136 (104.3, 31.7) | AA_DPS = 227 (174.3, 52.9)
+q:
+{   'base_dmg': Damage(90.0, 0.0),
+    'dps': Damage(55.5, 0.0),
+    'scaling_dmg': Damage(20.9, 0.0),
+    'total_dmg': Damage(110.9, 0.0)}
+w:
+{   'base_dmg': Damage(18.8, 0.0),
+    'dps': Damage(133.7, 0.0),
+    'scaling_dmg': Damage(41.7, 0.0),
+    'stack_dmg': Damage(12.3, 0.0),
+    'total_dmg': Damage(72.8, 0.0)}
+e:
+{   'base_dmg': Damage(60.0, 0.0),
+    'hp_dmg': Damage(41.0, 0.0),
+    'scaling_dmg': Damage(20.9, 0.0),
+    'total_dmg': Damage(121.9, 0.0)}
 Total DPS = 416 (363.5, 52.9)
 Total Burst = 122 (121.9, 0.0)
 Time to Kill = 2.3s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
 AA_dmg = 86 (56.8, 29.5) | AA_DPS = 144 (94.9, 49.3)
+q:
+{   'base_dmg': Damage(54.5, 0.0),
+    'dps': Damage(33.6, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(67.1, 0.0)}
+w:
+{   'base_dmg': Damage(11.4, 0.0),
+    'dps': Damage(91.7, 0.0),
+    'scaling_dmg': Damage(25.3, 0.0),
+    'stack_dmg': Damage(13.3, 0.0),
+    'total_dmg': Damage(49.9, 0.0)}
+e:
+{   'base_dmg': Damage(36.3, 0.0),
+    'hp_dmg': Damage(44.5, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(93.4, 0.0)}
 Total DPS = 270 (220.2, 49.3)
 Total Burst = 93 (93.4, 0.0)
 Time to Kill = 6.9s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
 AA_dmg = 64 (34.8, 29.5) | AA_DPS = 91 (49.4, 41.9)
+q:
+{   'base_dmg': Damage(33.4, 0.0),
+    'dps': Damage(20.5, 0.0),
+    'scaling_dmg': Damage(7.7, 0.0),
+    'total_dmg': Damage(41.1, 0.0)}
+w:
+{   'base_dmg': Damage(6.9, 0.0),
+    'dps': Damage(54.0, 0.0),
+    'scaling_dmg': Damage(15.5, 0.0),
+    'stack_dmg': Damage(7.0, 0.0),
+    'total_dmg': Damage(29.4, 0.0)}
+e:
+{   'base_dmg': Damage(22.2, 0.0),
+    'hp_dmg': Damage(23.4, 0.0),
+    'scaling_dmg': Damage(7.7, 0.0),
+    'total_dmg': Damage(53.3, 0.0)}
 Total DPS = 166 (124.0, 41.9)
 Total Burst = 53 (53.3, 0.0)
 Time to Kill = 9.8s

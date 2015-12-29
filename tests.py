@@ -2,7 +2,7 @@ import sys, pprint, re
 from champion import *
 from kindred import *
 
-detail_lvl = 1
+detail_lvl = 2
 result = [['Level', 'Items', 'Stacks', 'Squishy', 'Bruiser', 'Tank']]
 def main():
     with open('out.txt', 'w') as out:
