@@ -156,28 +156,29 @@ class LoLAPI():
         
         self.champion_url = self.base_url + "/v1.2/champion/"
         self.summoner_url = self.base_url + "/v1.4/summoner/"
-        
+    
+    def send_cached_req(self, cachepath, url):
+        if self.refresh == False and os.path.isfile(cachepath):
+            with open(cachepath, 'r') as f:
+                data = json.load(f)
+        else:
+            data = self.send_req(url)
+            with open(cachepath, 'w') as f:
+                json.dump(data, f, indent=4, sort_keys=True)
+        return data
+    
     """ STATIC INFO """
     if True:
         def get_champion_list(self, champData=[]):
-            cachepath = 'json_cache/%s.json' % inspect.currentframe().f_code.co_name
-            if self.refresh == False and os.path.isfile(cachepath):
-                with open(cachepath, 'r') as f:
-                    data = json.load(f)
-            else:
-                print 'invoking api'
-                
-                url = self.static_url + "champion" + self.key_end
-                if len(champData) > 0:
-                    url += "&champData=" + ",".join(champData)
-                    
-                data = self.send_req(url)
-                with open(cachepath, 'w') as f:
-                    json.dump(data, f, indent=4, sort_keys=True)
+            url = self.static_url + "champion" + self.key_end
+            if len(champData) > 0:
+                url += "&champData=" + ",".join(champData)
             
-            return data
+            return self.send_cached_req('json_cache/get_champion_list.json', url)
 
         def get_champion(self, id, champData=[]):
+            cachepath = 'json_cache/%s.json' % id
+            
             id = str(id)
             if not id.isdigit():
                 id = champ_map[id]
@@ -185,14 +186,15 @@ class LoLAPI():
             url = self.static_url + "champion/" + id + self.key_end
             if len(champData) > 0:
                 url += "&champData=" + ",".join(champData)
-            logger.info(url)
-            return self.send_req(url)
+
+            return self.send_cached_req(cachepath, url)
         
         def get_item_list(self, itemListData=[]):
             url = self.static_url + "item" + self.key_end
             if len(itemListData) > 0:
                 url += '&itemListData=' + ','.join(itemListData)
-            return self.send_req(url)
+            
+            return self.send_cached_req('json_cache/get_item_list.json', url)
         
         def get_item(self, id, itemListData=[]):
             id = str(id)

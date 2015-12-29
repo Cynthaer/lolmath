@@ -1,0 +1,419 @@
+{
+    "stats": {
+        "armorperlevel": 3.75, 
+        "attackdamage": 61.97, 
+        "mpperlevel": 40.0, 
+        "attackspeedoffset": -0.02, 
+        "mp": 282.2, 
+        "armor": 28.3, 
+        "hp": 574.2, 
+        "hpregenperlevel": 0.55, 
+        "attackspeedperlevel": 3.4, 
+        "attackrange": 125.0, 
+        "movespeed": 335.0, 
+        "attackdamageperlevel": 3.375, 
+        "mpregenperlevel": 0.55, 
+        "critperlevel": 0.0, 
+        "spellblockperlevel": 1.25, 
+        "crit": 0.0, 
+        "mpregen": 7.32, 
+        "spellblock": 32.1, 
+        "hpregen": 8.37, 
+        "hpperlevel": 90.0
+    }, 
+    "name": "Malphite", 
+    "title": "Shard of the Monolith", 
+    "key": "Malphite", 
+    "id": 54, 
+    "spells": [
+        {
+            "cooldownBurn": "8", 
+            "key": "SeismicShard", 
+            "resource": "{{ cost }} Mana", 
+            "leveltip": {
+                "effect": [
+                    "{{ e1 }} -> {{ e1NL }}", 
+                    "{{ e2 }}% -> {{ e2NL }}%", 
+                    "{{ cost }} -> {{ costnNL }}"
+                ], 
+                "label": [
+                    "Damage", 
+                    "Movement Speed", 
+                    "Mana Cost"
+                ]
+            }, 
+            "vars": [
+                {
+                    "coeff": [
+                        0.6
+                    ], 
+                    "link": "spelldamage", 
+                    "key": "a1"
+                }
+            ], 
+            "costType": "Mana", 
+            "description": "Using his primal elemental magic, Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing Movement Speed for 4 seconds.", 
+            "sanitizedDescription": "Using his primal elemental magic, Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing Movement Speed for 4 seconds.", 
+            "sanitizedTooltip": "Deals {{ e1 }} (+{{ a1 }}) magic damage and steals {{ e2 }}% Movement Speed from the target for {{ e3 }} seconds.", 
+            "effect": [
+                null, 
+                [
+                    70.0, 
+                    120.0, 
+                    170.0, 
+                    220.0, 
+                    270.0
+                ], 
+                [
+                    14.0, 
+                    17.0, 
+                    20.0, 
+                    23.0, 
+                    26.0
+                ], 
+                [
+                    4.0, 
+                    4.0, 
+                    4.0, 
+                    4.0, 
+                    4.0
+                ]
+            ], 
+            "tooltip": "Deals {{ e1 }} <span class=\"color99FF99\">(+{{ a1 }})</span> magic damage and steals {{ e2 }}% Movement Speed from the target for {{ e3 }} seconds.", 
+            "maxrank": 5, 
+            "costBurn": "70/75/80/85/90", 
+            "rangeBurn": "625", 
+            "range": [
+                625, 
+                625, 
+                625, 
+                625, 
+                625
+            ], 
+            "cost": [
+                70, 
+                75, 
+                80, 
+                85, 
+                90
+            ], 
+            "effectBurn": [
+                "", 
+                "70/120/170/220/270", 
+                "14/17/20/23/26", 
+                "4"
+            ], 
+            "image": {
+                "full": "SeismicShard.png", 
+                "group": "spell", 
+                "sprite": "spell6.png", 
+                "h": 48, 
+                "w": 48, 
+                "y": 96, 
+                "x": 96
+            }, 
+            "cooldown": [
+                8.0, 
+                8.0, 
+                8.0, 
+                8.0, 
+                8.0
+            ], 
+            "name": "Seismic Shard"
+        }, 
+        {
+            "cooldownBurn": "14", 
+            "key": "Obduracy", 
+            "resource": "{{ cost }} Mana", 
+            "leveltip": {
+                "effect": [
+                    "{{ e1 }}% -> {{ e1NL }}%", 
+                    "{{ e2 }} -> {{ e2NL }}"
+                ], 
+                "label": [
+                    "Armor", 
+                    "Damage"
+                ]
+            }, 
+            "vars": [
+                {
+                    "coeff": [
+                        0.1
+                    ], 
+                    "link": "spelldamage", 
+                    "key": "a1"
+                }
+            ], 
+            "costType": "Mana", 
+            "description": "Malphite starts to hit with such force that his attacks deal damage to all units in front of him. Passively increases his Armor.", 
+            "sanitizedDescription": "Malphite starts to hit with such force that his attacks deal damage to all units in front of him. Passively increases his Armor.", 
+            "sanitizedTooltip": "Passive: Malphite's armor is increased by {{ e1 }}% ({{ f1 }}). Active: Basic attacks deal an additional {{ e2 }} (+{{ f2 }}) (+{{ a1 }}) physical damage to the target and any nearby units. Lasts {{ e3 }} seconds.", 
+            "effect": [
+                null, 
+                [
+                    10.0, 
+                    15.0, 
+                    20.0, 
+                    25.0, 
+                    30.0
+                ], 
+                [
+                    15.0, 
+                    30.0, 
+                    45.0, 
+                    60.0, 
+                    75.0
+                ], 
+                [
+                    6.0, 
+                    6.0, 
+                    6.0, 
+                    6.0, 
+                    6.0
+                ], 
+                [
+                    225.0, 
+                    225.0, 
+                    225.0, 
+                    225.0, 
+                    225.0
+                ]
+            ], 
+            "tooltip": "<span class=\"colorFF9900\">Passive: </span>Malphite's armor is increased by {{ e1 }}% (<span class=\"colorFFFF00\">{{ f1 }}</span>).<br><br><span class=\"colorFF9900\">Active: </span>Basic attacks deal an additional {{ e2 }} <span class=\"colorFFFF00\">(+{{ f2 }})</span> <span class=\"color99FF99\">(+{{ a1 }})</span> physical damage to the target and any nearby units. Lasts {{ e3 }} seconds.", 
+            "maxrank": 5, 
+            "costBurn": "25", 
+            "rangeBurn": "self", 
+            "range": "self", 
+            "cost": [
+                25, 
+                25, 
+                25, 
+                25, 
+                25
+            ], 
+            "effectBurn": [
+                "", 
+                "10/15/20/25/30", 
+                "15/30/45/60/75", 
+                "6", 
+                "225"
+            ], 
+            "image": {
+                "full": "Obduracy.png", 
+                "group": "spell", 
+                "sprite": "spell6.png", 
+                "h": 48, 
+                "w": 48, 
+                "y": 96, 
+                "x": 144
+            }, 
+            "cooldown": [
+                14.0, 
+                14.0, 
+                14.0, 
+                14.0, 
+                14.0
+            ], 
+            "name": "Brutal Strikes"
+        }, 
+        {
+            "cooldownBurn": "7", 
+            "key": "Landslide", 
+            "resource": "{{ cost }} Mana", 
+            "leveltip": {
+                "effect": [
+                    "{{ e2 }} -> {{ e2NL }}", 
+                    "{{ e1 }}% -> {{ e1NL }}%", 
+                    "{{ cost }} -> {{ costnNL }}"
+                ], 
+                "label": [
+                    "Damage", 
+                    "Attack Speed Reduction", 
+                    "Mana Cost"
+                ]
+            }, 
+            "vars": [
+                {
+                    "coeff": [
+                        0.3
+                    ], 
+                    "link": "armor", 
+                    "key": "f1"
+                }, 
+                {
+                    "coeff": [
+                        0.2
+                    ], 
+                    "link": "spelldamage", 
+                    "key": "f2"
+                }
+            ], 
+            "costType": "Mana", 
+            "description": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor as damage and reduces the Attack Speed of enemies for a short duration.", 
+            "sanitizedDescription": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor as damage and reduces the Attack Speed of enemies for a short duration.", 
+            "sanitizedTooltip": "Malphite slams the ground dealing {{ e2 }} (+{{ f1 }}) (+{{ f2 }}) magic damage to surrounding enemies, reducing their Attack Speed by {{ e1 }}% for {{ e4 }} seconds. This ability gains damage equal to {{ e3 }}% of Malphite's Armor.", 
+            "effect": [
+                null, 
+                [
+                    30.0, 
+                    35.0, 
+                    40.0, 
+                    45.0, 
+                    50.0
+                ], 
+                [
+                    60.0, 
+                    100.0, 
+                    140.0, 
+                    180.0, 
+                    220.0
+                ], 
+                [
+                    30.0, 
+                    30.0, 
+                    30.0, 
+                    30.0, 
+                    30.0
+                ], 
+                [
+                    3.0, 
+                    3.0, 
+                    3.0, 
+                    3.0, 
+                    3.0
+                ], 
+                [
+                    6.0, 
+                    6.0, 
+                    6.0, 
+                    6.0, 
+                    6.0
+                ]
+            ], 
+            "tooltip": "Malphite slams the ground dealing {{ e2 }} <span class=\"colorFFFF00\">(+{{ f1 }})</span> <span class=\"color99FF99\">(+{{ f2 }})</span> magic damage to surrounding enemies, reducing their Attack Speed by {{ e1 }}% for {{ e4 }} seconds.<br><br>This ability gains damage equal to {{ e3 }}% of Malphite's Armor.", 
+            "maxrank": 5, 
+            "costBurn": "50/55/60/65/70", 
+            "rangeBurn": "400", 
+            "range": [
+                400, 
+                400, 
+                400, 
+                400, 
+                400
+            ], 
+            "cost": [
+                50, 
+                55, 
+                60, 
+                65, 
+                70
+            ], 
+            "effectBurn": [
+                "", 
+                "30/35/40/45/50", 
+                "60/100/140/180/220", 
+                "30", 
+                "3", 
+                "6"
+            ], 
+            "image": {
+                "full": "Landslide.png", 
+                "group": "spell", 
+                "sprite": "spell6.png", 
+                "h": 48, 
+                "w": 48, 
+                "y": 96, 
+                "x": 192
+            }, 
+            "cooldown": [
+                7.0, 
+                7.0, 
+                7.0, 
+                7.0, 
+                7.0
+            ], 
+            "name": "Ground Slam"
+        }, 
+        {
+            "cooldownBurn": "130/115/100", 
+            "key": "UFSlash", 
+            "resource": "{{ cost }} Mana", 
+            "leveltip": {
+                "effect": [
+                    "{{ e2 }} -> {{ e2NL }}", 
+                    "{{ cooldown }} -> {{ cooldownnNL }}"
+                ], 
+                "label": [
+                    "Damage", 
+                    "Cooldown"
+                ]
+            }, 
+            "vars": [
+                {
+                    "coeff": [
+                        1.0
+                    ], 
+                    "link": "spelldamage", 
+                    "key": "a1"
+                }
+            ], 
+            "costType": "Mana", 
+            "description": "Malphite ferociously charges to a location, damaging enemies and knocking them into the air.", 
+            "sanitizedDescription": "Malphite ferociously charges to a location, damaging enemies and knocking them into the air.", 
+            "sanitizedTooltip": "Malphite charges toward the target area, dealing {{ e2 }} (+{{ a1 }}) magic damage and knocking enemies into the air for {{ e3 }} seconds.", 
+            "effect": [
+                null, 
+                [
+                    1.5, 
+                    1.75, 
+                    2.0
+                ], 
+                [
+                    200.0, 
+                    300.0, 
+                    400.0
+                ], 
+                [
+                    1.5, 
+                    1.5, 
+                    1.5
+                ]
+            ], 
+            "tooltip": "Malphite charges toward the target area, dealing {{ e2 }} <span class=\"color99FF99\">(+{{ a1 }})</span> magic damage and knocking enemies into the air for {{ e3 }} seconds.", 
+            "maxrank": 3, 
+            "costBurn": "100", 
+            "rangeBurn": "1000", 
+            "range": [
+                1000, 
+                1000, 
+                1000
+            ], 
+            "cost": [
+                100, 
+                100, 
+                100
+            ], 
+            "effectBurn": [
+                "", 
+                "1.5/1.75/2", 
+                "200/300/400", 
+                "1.5"
+            ], 
+            "image": {
+                "full": "UFSlash.png", 
+                "group": "spell", 
+                "sprite": "spell6.png", 
+                "h": 48, 
+                "w": 48, 
+                "y": 96, 
+                "x": 240
+            }, 
+            "cooldown": [
+                130.0, 
+                115.0, 
+                100.0
+            ], 
+            "name": "Unstoppable Force"
+        }
+    ]
+}

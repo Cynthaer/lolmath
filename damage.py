@@ -1,20 +1,28 @@
 from collections import Iterable
-from functools import wraps
 
 class Damage(object):
-    def __init__(self, p=0.0, m=0.0):
+    def __init__(self, p=0.0, m=0.0, t=0.0):
         self.p = float(p)
         self.m = float(m)
+        self.t = float(t)
     
     def __getitem__(self, index):
-        if index == 0:
+        if index in (0, 'p'):
             return self.p
-        elif index == 1:
+        elif index in (1, 'm'):
             return self.m
+        elif index in (2, 't'):
+            return self.t
         raise StopIteration
 
     def __add__(self, other):
-        return Damage(self.p + other.p, self.m + other.m)
+        try:
+            return Damage(self.p + other.p, self.m + other.m)
+        except AttributeError:
+            return Damage(self.p + other, self.m + other)
+    
+    def __radd__(self, other):
+        return self.__add__(other)
 
     def __sub__(self, other):
         return Damage(self.p - other.p, self.m - other.m)
@@ -41,13 +49,17 @@ class Damage(object):
         return not self.__eq__(other)
 
     def __str__(self):
-        return '(%g, %g)' % (self.p, self.m)
+        return '(%.1f, %.1f)' % (self.p, self.m)
 
     def __repr__(self):
         return 'Damage' + str(self)
 
     def __pow__(self, power):
         raise NotImplementedError('Damage ** not implemented')
+    
+    @property
+    def total(self):
+        return self.p + self.m + self.t
     
 def main():
     

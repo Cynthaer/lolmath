@@ -3,10 +3,11 @@ import os, logging, json, httplib
 import riot
 from damage import *
 from item import *
+from rune import *
 
 class Champion(object):
 
-    def __init__(self, name, level=1, items=[], refresh=False):
+    def __init__(self, name, level=1, runepage=None, abilities=None, items=[], refresh=False):
         self.api = riot.LoLAPI()
         self.refresh = refresh
         
@@ -14,7 +15,16 @@ class Champion(object):
         self.level = level
         self.items = items
         
+        if runepage is None:
+            self.runepage = Runepage()
+        elif type(runepage) == str:
+            self.runepage = Runepage(runepage)
+        else:
+            self.runepage = runepage
+        
         self._ability_ranks = { 'q': 0, 'w': 0, 'e': 0, 'r': 0 }
+        if abilities is not None:
+            self.ability_ranks = abilities
         
         self._set_api_data()
         
@@ -63,8 +73,9 @@ class Champion(object):
         
         return stat['base'] + stat['growth']*((7/400)*(pow(self.level, 2) - 1) + (267/400)*(self.level-1))
     
-    def get_item_attr(self, attr):
-        return sum(map(lambda item: getattr(item, attr), self.items))
+    def get_ext_stat(self, source, attr):
+        '''Total stats from a given external source (i.e., items)'''
+        return sum(map(lambda item: getattr(item, attr, 0), source))
     
     ''' Stats '''
     if True:
@@ -72,9 +83,14 @@ class Champion(object):
         ''' Offensive '''
         if True:
             @property
+            def range(self):
+                return self.base_range
+            
+            @property
             def bonus_AD(self):
-                item_AD = self.get_item_attr('AD')
-                return item_AD
+                rune_AD = self.runepage.AD
+                item_AD = self.get_ext_stat(self.items, 'AD')
+                return rune_AD + item_AD
                 
             @property
             def AD(self):
@@ -84,10 +100,10 @@ class Champion(object):
             def bonus_AS(self):
                 # natural AS growth is bonus AS
                 nat_bonus_AS = (self.nat_AS['growth']/100)*((7/400)*(pow(self.level, 2) - 1) + (267/400)*(self.level-1))
+                rune_AS = self.runepage.AS
+                item_AS = self.get_ext_stat(self.items, 'AS')
                 
-                item_AS = self.get_item_attr('AS')
-                
-                return nat_bonus_AS + item_AS
+                return nat_bonus_AS + rune_AS + item_AS
             
             @property
             def AS(self):
@@ -103,7 +119,9 @@ class Champion(object):
             
             @property
             def flat_APen(self):
-                return 0
+                rune_APen = self.runepage.APen
+                item_APen = self.get_ext_stat(self.items, 'flat_APen')
+                return rune_APen + item_APen
             
             @property
             def perc_APen(self):
@@ -115,13 +133,17 @@ class Champion(object):
             
             @property    
             def LS(self):
-                return 0
+                rune_LS = self.runepage.LS
+                item_LS = self.get_ext_stat(self.items, 'LS')
+                return rune_LS + item_LS
         
         ''' Defensive '''
         if True:
             @property
             def bonus_HP(self):
-                return 0
+                rune_HP = self.runepage.HP
+                item_HP = self.get_ext_stat(self.items, 'HP')
+                return rune_HP + item_HP
             
             @property
             def HP(self):
@@ -137,15 +159,18 @@ class Champion(object):
             
             @property
             def bonus_AR(self):
-                return 0
+                rune_AR = self.runepage.AR
+                item_AR = self.get_ext_stat(self.items, 'AR')
+                return rune_AR + item_AR
             
             @property
             def AR(self):
-                return self.base('AR') + self.bonus_APR
+                return self.base('AR') + self.bonus_AR
             
             @property
             def bonus_MR(self):
-                return 0
+                rune_MR = self.runepage.MR
+                return rune_MR
                 
             @property
             def MR(self):
@@ -199,6 +224,21 @@ class Champion(object):
             def MS(self):
                 return self.base('MS') + self.bonus_MS
     
+    def statblock(self, show_details=False):
+        s = '%s lvl %d\n' % (self.name, self.level)
+        s += 'Items: %s\n' % self.items
+        if show_details:
+            s += 'HPR:  %.1f\t\t| MPR:  %.1f\n' % (self.HPR, self.MPR)
+            s += 'APen: %.1f/%d%%\t| MPen: %.1f/%d%%\n' % (self.flat_APen, self.perc_APen*100, self.flat_MPen, self.perc_MPen*100)
+            s += 'LS:   %d%%\t\t| SV:   %d%%\n' % (self.LS*100, self.SV*100)
+            s += 'Rg:   %d\t\t| ??: \n' % (self.range)
+            s += 'AD:   %d\t\t| AP:   %d\n' % (self.AD, self.AP)
+            s += 'AR:   %d(%d%%)\t| MR:   %d(%d%%)\n' % (self.AR, (self.AR / (100 + self.AR))*100, self.MR, (self.MR / (100 + self.MR))*100)
+            s += 'AS:   %.3f\t\t| CDR:  %d\n' % (self.AS, self.CDR*100)
+            s += '??:   \t\t\t| MS:   %d\n' % (self.MS)
+        s += self.ability_str()
+        return s
+    
     ''' Abilities '''
     def ability_ranks():
         def fget(self):
@@ -225,18 +265,38 @@ class Champion(object):
     ''' Attacks '''
     def AA_dmg(self, target=None):
         # average damage per hit after counting crits
-        crit_factor = self.AD * (1 - self.crit_chance) + self.AD * self.crit_chance * self.crit_mult
-        return crit_factor * self.AR_factor(target)
+        crit_factor = Damage(self.AD * (1 - self.crit_chance) + self.AD * self.crit_chance * self.crit_mult, 0)
+        if target is not None and any(map(lambda i: type(i) is Tabi, target.items)):
+            crit_factor *= 0.9
+        
+        onhit = self.get_ext_stat(self.items, 'onhit') * self.get_ext_stat(self.items, 'onhit_mult')
+        raw_dmg = crit_factor + onhit
+        return raw_dmg * self.def_factor(target)
     
     def AA_DPS(self, target=None):
-        return self.AA_dmg() * self.AS
-        
+        dps = self.AA_dmg(target) * self.AS
+        if target is not None:
+            if any(map(lambda i: type(i) is FH, target.items)):
+                dps *= 0.85
+        return dps
+    
+    def AA_stats(self, target=None):
+        s = 'AA_dmg = %.0f %s | AA_DPS = %.0f %s' % (self.AA_dmg(target).total, self.AA_dmg(target), self.AA_DPS(target).total, self.AA_DPS(target))
+        # if target is not None:
+        #     s += ' | Time to kill: %.1f' % (target.HP / self.AA_DPS().total)
+        return s
+    
     ''' Utility '''
+    def def_factor(self, target=None):
+        ''' combines AR and MR factors into a tuple for ease of use with Damage() type '''
+        return (self.AR_factor(target), self.MR_factor(target))
+    
     def AR_factor(self, target=None):
         if target is None:
             return 1
         
         net_AR = (target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen)) * (1 - self.perc_APen) - self.flat_APen
+        logging.info('net_AR = %s' % net_AR)
         return 1 - (net_AR / (100 + net_AR))
     
     def MR_factor(self, target=None):
@@ -248,15 +308,15 @@ class Champion(object):
     
 def main():
     # httplib.HTTPConnection.debuglevel = 1
-    logging.basicConfig(filename='riot.log', level=logging.ERROR)
+    logging.basicConfig(filename='champion.log', level=logging.INFO)
     
-    kindred = Champion('Kindred', items=[Warrior()])
-    for i in range(1, 19):
-        kindred.level = i
-    print 'level: %s,\tAD: %s,\tAA_dmg: %s,\tAS: %.3f,\tAA_DPS: %s' % (kindred.level, kindred.AD, kindred.AA_dmg(), kindred.AS, kindred.AA_DPS())
-    print 'bonus_AD: %s,\tbonus_AS: %.3f' % (kindred.bonus_AD, kindred.bonus_AS)
-    print kindred.ability_str()
-    print kindred.items
+    kindred = Champion('Kindred', level=2, items=[Devourer()])
+    print kindred.statblock()
+    print '---'
+    # for i in range(1, 19):
+    #     kindred.level = i
+    print 'AA_dmg: %s;\tAA_DPS: %s' % (kindred.AA_dmg(kindred), kindred.AA_DPS())
+    print 'bonus_AD: %s;\tbonus_AS: %d%%' % (kindred.bonus_AD, kindred.bonus_AS*100)
         
 if __name__ == "__main__":
     main()
