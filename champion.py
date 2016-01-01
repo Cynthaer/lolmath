@@ -283,8 +283,8 @@ class Champion(object):
         pass
     
     def apply_spell_mult(self, spelldata, target=None):
-        return { k: v * self.def_factor(target) * (1 + self.masterypage.Ab_mult) 
-            for k, v in spelldata.iteritems() }
+        total_mult = self.def_factor(target) * (1 + self.masterypage.Ab_mult + self.masterypage.perc_dmg_out)
+        return { k: v * total_mult for k, v in spelldata.iteritems() }
     
     def ability_str(self, vertical=False):
         ar = self.ability_ranks

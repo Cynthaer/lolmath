@@ -40,58 +40,6 @@ def test(scenario, kindred, squishy, bruiser, tank):
     print_matchup(kindred, tank)
     print '---\n'
     result.append([str(kindred.level), str(kindred.items), str(kindred.stacks)] + map(lambda t: '%.1f' % kindred.time_to_kill(t), [squishy, bruiser, tank]))
-    
-def test1():
-    print '--- Test 1 (baseline stats) ---'
-    kindred = Kindred(level=1, abilities=[1, 0, 0, 0])
-    lucian = Champion('Lucian', level=1)
-    print indent(kindred.statblock().splitlines())
-    print kindred.AA_stats(lucian)
-    print '---\n'
-
-def test2():
-    print '--- Test 2 (lvl 3 gank) ---'
-    kindred = Kindred(stacks=1, runepage='ADC', level=3, abilities=[1, 1, 1, 0])
-    lucian = Champion('Lucian', runepage='ADC', level=3)
-    print indent(kindred.statblock())
-    print_matchup(kindred, lucian)
-    print '---\n'
-
-def test3():
-    scenario = "Test 3 (lvl 6 w/ Warrior)"
-    print '--- %s ---' % scenario
-    kindred = Kindred(stacks=3, runepage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Warrior()])
-    lucian = Champion('Lucian', level=6, runepage='ADC')
-    renekton = Champion('Renekton', level=6, runepage='Bruiser', items=[Cleaver()])
-    malphite = Malphite(level=6, runepage='Bruiser', items=[Sunfire()])
-    test(scenario, kindred, lucian, renekton, malphite)
-
-def test4():
-    scenario = "Test 4 (lvl 6 w/ unstacked Devourer)"
-    print '--- %s ---' % scenario
-    kindred = Kindred(stacks=3, runepage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Devourer(0)])
-    lucian = Champion('Lucian', level=6, runepage='ADC')
-    renekton = Champion('Renekton', level=6, runepage='Bruiser', items=[Cleaver()])
-    malphite = Malphite(level=6, runepage='Bruiser', items=[Sunfire()])
-    test(scenario, kindred, lucian, renekton, malphite)
-
-def test5():
-    scenario = "Test 5 (lvl 6 w/ half Devourer)"
-    print '--- %s ---' % scenario
-    kindred = Kindred(stacks=3, runepage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Devourer(15)])
-    lucian = Champion('Lucian', level=6, runepage='ADC')
-    renekton = Champion('Renekton', level=6, runepage='Bruiser', items=[Cleaver()])
-    malphite = Malphite(level=6, runepage='Bruiser', items=[Sunfire()])
-    test(scenario, kindred, lucian, renekton, malphite)
-
-def test6():
-    scenario = "Test 6 (lvl 6 w/ Sated Devourer)"
-    print '--- %s ---' % scenario
-    kindred = Kindred(stacks=3, runepage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Devourer(30)])
-    lucian = Champion('Lucian', level=6, runepage='ADC')
-    renekton = Champion('Renekton', level=6, runepage='Bruiser', items=[Cleaver()])
-    malphite = Malphite(level=6, runepage='Bruiser', items=[Sunfire()])
-    test(scenario, kindred, lucian, renekton, malphite)
 
 def test_one_item(kindred):
     scenario = "lvl %d %s" % (kindred.level, kindred.items)
