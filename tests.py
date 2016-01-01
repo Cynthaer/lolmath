@@ -5,21 +5,20 @@ from kindred import *
 detail_lvl = 2
 result = [['Level', 'Items', 'Stacks', 'Squishy', 'Bruiser', 'Tank']]
 def main():
+    global result
     with open('out.txt', 'w') as out:
         sys.stdout = out
-        global result
         def test_stacks(test, kindred):
             for s in [3, 6]:
                 kindred.stacks = s
                 test(kindred)
         
         # 1-item tests
-        kindred = Kindred(stacks=0, runepage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Warrior()])
+        kindred = Kindred(stacks=0, runepage='ADC', masterypage='ADC', level=6, abilities=[3, 1, 1, 1], items=[Warrior()])
         test_stacks(test_one_item, kindred)
         for ds in [0, 15, 30]:
             kindred.items = [Devourer(ds)]
             test_stacks(test_one_item, kindred)
-        # result.append(['']*6)
         
         # 2-item tests
         kindred.level = 9

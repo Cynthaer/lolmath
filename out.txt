@@ -5,70 +5,70 @@
 Stacks: 3
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 89 (89.2, 0.0) | AA_DPS = 84 (83.8, 0.0)
+AA_dmg = 99 (98.8, 0.0) | AA_DPS = 95 (95.3, 0.0)
 q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(50.3, 0.0),
-    'scaling_dmg': Damage(17.8, 0.0),
-    'total_dmg': Damage(100.7, 0.0)}
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(52.3, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'total_dmg': Damage(104.7, 0.0)}
 w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(71.9, 0.0),
-    'scaling_dmg': Damage(35.7, 0.0),
-    'stack_dmg': Damage(4.5, 0.0),
-    'total_dmg': Damage(57.4, 0.0)}
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(76.0, 0.0),
+    'scaling_dmg': Damage(37.1, 0.0),
+    'stack_dmg': Damage(4.7, 0.0),
+    'total_dmg': Damage(59.7, 0.0)}
 e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(17.8, 0.0),
-    'total_dmg': Damage(103.1, 0.0)}
-Total DPS = 206 (206.1, 0.0)
-Total Burst = 103 (103.1, 0.0)
-Time to Kill = 3.7s
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'total_dmg': Damage(107.2, 0.0)}
+Total DPS = 224 (223.7, 0.0)
+Total Burst = 107 (107.2, 0.0)
+Time to Kill = 3.4s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 86 (86.4, 0.0) | AA_DPS = 81 (81.2, 0.0)
+AA_dmg = 96 (95.7, 0.0) | AA_DPS = 92 (92.3, 0.0)
 q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(48.7, 0.0),
-    'scaling_dmg': Damage(17.3, 0.0),
-    'total_dmg': Damage(97.5, 0.0)}
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(50.7, 0.0),
+    'scaling_dmg': Damage(18.0, 0.0),
+    'total_dmg': Damage(101.4, 0.0)}
 w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(71.8, 0.0),
-    'scaling_dmg': Damage(34.6, 0.0),
-    'stack_dmg': Damage(6.1, 0.0),
-    'total_dmg': Damage(57.4, 0.0)}
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(75.9, 0.0),
+    'scaling_dmg': Damage(35.9, 0.0),
+    'stack_dmg': Damage(6.3, 0.0),
+    'total_dmg': Damage(59.7, 0.0)}
 e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(17.3, 0.0),
-    'total_dmg': Damage(111.4, 0.0)}
-Total DPS = 202 (201.8, 0.0)
-Total Burst = 111 (111.4, 0.0)
-Time to Kill = 5.5s
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(18.0, 0.0),
+    'total_dmg': Damage(115.8, 0.0)}
+Total DPS = 219 (218.9, 0.0)
+Total Burst = 116 (115.8, 0.0)
+Time to Kill = 5.0s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 61 (60.6, 0.0) | AA_DPS = 57 (57.0, 0.0)
+AA_dmg = 67 (67.0, 0.0) | AA_DPS = 65 (64.7, 0.0)
 q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(34.2, 0.0),
-    'scaling_dmg': Damage(12.1, 0.0),
-    'total_dmg': Damage(68.4, 0.0)}
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(35.5, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(71.0, 0.0)}
 w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(51.3, 0.0),
-    'scaling_dmg': Damage(24.2, 0.0),
-    'stack_dmg': Damage(5.0, 0.0),
-    'total_dmg': Damage(41.0, 0.0)}
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(54.2, 0.0),
+    'scaling_dmg': Damage(25.2, 0.0),
+    'stack_dmg': Damage(5.2, 0.0),
+    'total_dmg': Damage(42.6, 0.0)}
 e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(12.1, 0.0),
-    'total_dmg': Damage(83.1, 0.0)}
-Total DPS = 142 (142.5, 0.0)
-Total Burst = 83 (83.1, 0.0)
-Time to Kill = 9.5s
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(86.4, 0.0)}
+Total DPS = 154 (154.3, 0.0)
+Total Burst = 86 (86.4, 0.0)
+Time to Kill = 8.7s
 ---
 
 --- lvl 6 [Warrior] ---
@@ -78,654 +78,654 @@ Time to Kill = 9.5s
 Stacks: 6
 -
 vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 89 (89.2, 0.0) | AA_DPS = 84 (83.8, 0.0)
+AA_dmg = 99 (98.8, 0.0) | AA_DPS = 95 (95.3, 0.0)
 q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(50.3, 0.0),
-    'scaling_dmg': Damage(17.8, 0.0),
-    'total_dmg': Damage(100.7, 0.0)}
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(52.3, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'total_dmg': Damage(104.7, 0.0)}
 w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(77.6, 0.0),
-    'scaling_dmg': Damage(35.7, 0.0),
-    'stack_dmg': Damage(9.0, 0.0),
-    'total_dmg': Damage(62.0, 0.0)}
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(81.9, 0.0),
+    'scaling_dmg': Damage(37.1, 0.0),
+    'stack_dmg': Damage(9.4, 0.0),
+    'total_dmg': Damage(64.4, 0.0)}
 e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(17.8, 0.0),
-    'total_dmg': Damage(103.1, 0.0)}
-Total DPS = 212 (211.7, 0.0)
-Total Burst = 103 (103.1, 0.0)
-Time to Kill = 3.6s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 86 (86.4, 0.0) | AA_DPS = 81 (81.2, 0.0)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(48.7, 0.0),
-    'scaling_dmg': Damage(17.3, 0.0),
-    'total_dmg': Damage(97.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(79.5, 0.0),
-    'scaling_dmg': Damage(34.6, 0.0),
-    'stack_dmg': Damage(12.2, 0.0),
-    'total_dmg': Damage(63.5, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(17.3, 0.0),
-    'total_dmg': Damage(111.4, 0.0)}
-Total DPS = 209 (209.4, 0.0)
-Total Burst = 111 (111.4, 0.0)
-Time to Kill = 5.3s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 61 (60.6, 0.0) | AA_DPS = 57 (57.0, 0.0)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(34.2, 0.0),
-    'scaling_dmg': Damage(12.1, 0.0),
-    'total_dmg': Damage(68.4, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(57.6, 0.0),
-    'scaling_dmg': Damage(24.2, 0.0),
-    'stack_dmg': Damage(10.1, 0.0),
-    'total_dmg': Damage(46.0, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(12.1, 0.0),
-    'total_dmg': Damage(83.1, 0.0)}
-Total DPS = 149 (148.7, 0.0)
-Total Burst = 83 (83.1, 0.0)
-Time to Kill = 9.1s
----
-
---- lvl 6 [Devourer(0)] ---
-	Kindred lvl 6
-	Items: [Devourer(0)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 3
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 69 (47.8, 21.1) | AA_DPS = 82 (56.9, 25.1)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(59.4, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(4.5, 0.0),
-    'total_dmg': Damage(40.9, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 188 (162.4, 25.1)
-Total Burst = 95 (94.8, 0.0)
-Time to Kill = 4.1s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 66 (46.3, 20.1) | AA_DPS = 79 (55.1, 23.9)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(60.0, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(6.1, 0.0),
-    'total_dmg': Damage(41.3, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 184 (159.8, 23.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 6.1s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 53 (32.5, 20.1) | AA_DPS = 63 (38.6, 23.9)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(43.2, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(5.0, 0.0),
-    'total_dmg': Damage(29.7, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 137 (113.2, 23.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 9.9s
----
-
---- lvl 6 [Devourer(0)] ---
-	Kindred lvl 6
-	Items: [Devourer(0)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 6
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 69 (47.8, 21.1) | AA_DPS = 82 (56.9, 25.1)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(65.9, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(9.0, 0.0),
-    'total_dmg': Damage(45.4, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 194 (169.0, 25.1)
-Total Burst = 95 (94.8, 0.0)
-Time to Kill = 4.0s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 66 (46.3, 20.1) | AA_DPS = 79 (55.1, 23.9)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(68.9, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(12.2, 0.0),
-    'total_dmg': Damage(47.4, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 193 (168.7, 23.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 5.8s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 53 (32.5, 20.1) | AA_DPS = 63 (38.6, 23.9)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(50.5, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(10.1, 0.0),
-    'total_dmg': Damage(34.8, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 144 (120.5, 23.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 9.4s
----
-
---- lvl 6 [Devourer(15)] ---
-	Kindred lvl 6
-	Items: [Devourer(15)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 3
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 79 (47.8, 31.7) | AA_DPS = 95 (56.9, 37.7)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(59.4, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(4.5, 0.0),
-    'total_dmg': Damage(40.9, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 200 (162.4, 37.7)
-Total Burst = 95 (94.8, 0.0)
-Time to Kill = 3.9s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 76 (46.3, 30.2) | AA_DPS = 91 (55.1, 35.9)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(60.0, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(6.1, 0.0),
-    'total_dmg': Damage(41.3, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 196 (159.8, 35.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 5.7s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 63 (32.5, 30.2) | AA_DPS = 75 (38.6, 35.9)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(43.2, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(5.0, 0.0),
-    'total_dmg': Damage(29.7, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 149 (113.2, 35.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 9.1s
----
-
---- lvl 6 [Devourer(15)] ---
-	Kindred lvl 6
-	Items: [Devourer(15)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 6
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 79 (47.8, 31.7) | AA_DPS = 95 (56.9, 37.7)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(65.9, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(9.0, 0.0),
-    'total_dmg': Damage(45.4, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 207 (169.0, 37.7)
-Total Burst = 95 (94.8, 0.0)
-Time to Kill = 3.8s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 76 (46.3, 30.2) | AA_DPS = 91 (55.1, 35.9)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(68.9, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(12.2, 0.0),
-    'total_dmg': Damage(47.4, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 205 (168.7, 35.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 5.4s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 63 (32.5, 30.2) | AA_DPS = 75 (38.6, 35.9)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(50.5, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(10.1, 0.0),
-    'total_dmg': Damage(34.8, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 156 (120.5, 35.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 8.6s
----
-
---- lvl 6 [Devourer(30)] ---
-	Kindred lvl 6
-	Items: [Devourer(30)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 3
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 101 (47.8, 52.8) | AA_DPS = 120 (56.9, 62.8)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(59.4, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(4.5, 0.0),
-    'total_dmg': Damage(40.9, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 225 (162.4, 62.8)
-Total Burst = 95 (94.8, 0.0)
-Time to Kill = 3.4s
--
-vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 97 (46.3, 50.3) | AA_DPS = 115 (55.1, 59.9)
-q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
-w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(60.0, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(6.1, 0.0),
-    'total_dmg': Damage(41.3, 0.0)}
-e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 220 (159.8, 59.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 5.1s
--
-vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 83 (32.5, 50.3) | AA_DPS = 98 (38.6, 59.9)
-q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
-w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(43.2, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(5.0, 0.0),
-    'total_dmg': Damage(29.7, 0.0)}
-e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 173 (113.2, 59.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 7.8s
----
-
---- lvl 6 [Devourer(30)] ---
-	Kindred lvl 6
-	Items: [Devourer(30)]
-	q: 3 | w: 1 | e: 1 | r: 1
-Stacks: 6
--
-vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
-AA_dmg = 101 (47.8, 52.8) | AA_DPS = 120 (56.9, 62.8)
-q:
-{   'base_dmg': Damage(82.8, 0.0),
-    'dps': Damage(46.2, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(92.4, 0.0)}
-w:
-{   'base_dmg': Damage(17.3, 0.0),
-    'dps': Damage(65.9, 0.0),
-    'scaling_dmg': Damage(19.1, 0.0),
-    'stack_dmg': Damage(9.0, 0.0),
-    'total_dmg': Damage(45.4, 0.0)}
-e:
-{   'base_dmg': Damage(55.2, 0.0),
-    'hp_dmg': Damage(30.0, 0.0),
-    'scaling_dmg': Damage(9.6, 0.0),
-    'total_dmg': Damage(94.8, 0.0)}
-Total DPS = 232 (169.0, 62.8)
-Total Burst = 95 (94.8, 0.0)
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'total_dmg': Damage(107.2, 0.0)}
+Total DPS = 230 (229.6, 0.0)
+Total Burst = 107 (107.2, 0.0)
 Time to Kill = 3.3s
 -
 vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
-AA_dmg = 97 (46.3, 50.3) | AA_DPS = 115 (55.1, 59.9)
+AA_dmg = 96 (95.7, 0.0) | AA_DPS = 92 (92.3, 0.0)
 q:
-{   'base_dmg': Damage(80.2, 0.0),
-    'dps': Damage(44.7, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(89.5, 0.0)}
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(50.7, 0.0),
+    'scaling_dmg': Damage(18.0, 0.0),
+    'total_dmg': Damage(101.4, 0.0)}
 w:
-{   'base_dmg': Damage(16.7, 0.0),
-    'dps': Damage(68.9, 0.0),
-    'scaling_dmg': Damage(18.5, 0.0),
-    'stack_dmg': Damage(12.2, 0.0),
-    'total_dmg': Damage(47.4, 0.0)}
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(83.9, 0.0),
+    'scaling_dmg': Damage(35.9, 0.0),
+    'stack_dmg': Damage(12.7, 0.0),
+    'total_dmg': Damage(66.0, 0.0)}
 e:
-{   'base_dmg': Damage(53.5, 0.0),
-    'hp_dmg': Damage(40.6, 0.0),
-    'scaling_dmg': Damage(9.3, 0.0),
-    'total_dmg': Damage(103.4, 0.0)}
-Total DPS = 229 (168.7, 59.9)
-Total Burst = 103 (103.4, 0.0)
-Time to Kill = 4.9s
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(18.0, 0.0),
+    'total_dmg': Damage(115.8, 0.0)}
+Total DPS = 227 (227.0, 0.0)
+Total Burst = 116 (115.8, 0.0)
+Time to Kill = 4.8s
 -
 vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
-AA_dmg = 83 (32.5, 50.3) | AA_DPS = 98 (38.6, 59.9)
+AA_dmg = 67 (67.0, 0.0) | AA_DPS = 65 (64.7, 0.0)
 q:
-{   'base_dmg': Damage(56.3, 0.0),
-    'dps': Damage(31.4, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(62.7, 0.0)}
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(35.5, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(71.0, 0.0)}
 w:
-{   'base_dmg': Damage(11.7, 0.0),
-    'dps': Damage(50.5, 0.0),
-    'scaling_dmg': Damage(13.0, 0.0),
-    'stack_dmg': Damage(10.1, 0.0),
-    'total_dmg': Damage(34.8, 0.0)}
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(60.8, 0.0),
+    'scaling_dmg': Damage(25.2, 0.0),
+    'stack_dmg': Damage(10.4, 0.0),
+    'total_dmg': Damage(47.8, 0.0)}
 e:
-{   'base_dmg': Damage(37.5, 0.0),
-    'hp_dmg': Damage(33.5, 0.0),
-    'scaling_dmg': Damage(6.5, 0.0),
-    'total_dmg': Damage(77.5, 0.0)}
-Total DPS = 180 (120.5, 59.9)
-Total Burst = 78 (77.5, 0.0)
-Time to Kill = 7.5s
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(12.6, 0.0),
+    'total_dmg': Damage(86.4, 0.0)}
+Total DPS = 161 (161.0, 0.0)
+Total Burst = 86 (86.4, 0.0)
+Time to Kill = 8.3s
 ---
 
---- lvl 9 [Warrior, Berserker's, Ghostblade(active)] ---
-	Kindred lvl 9
-	Items: [Warrior, Berserker's, Ghostblade(active)]
+--- lvl 6 [Devourer(0)] ---
+	Kindred lvl 6
+	Items: [Devourer(0)]
 	q: 3 | w: 1 | e: 1 | r: 1
 Stacks: 3
 -
-vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
-AA_dmg = 149 (149.3, 0.0) | AA_DPS = 212 (212.2, 0.0)
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 76 (52.9, 22.9) | AA_DPS = 92 (64.3, 27.8)
 q:
-{   'base_dmg': Damage(90.0, 0.0),
-    'dps': Damage(60.0, 0.0),
-    'scaling_dmg': Damage(29.9, 0.0),
-    'total_dmg': Damage(119.9, 0.0)}
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
 w:
-{   'base_dmg': Damage(18.8, 0.0),
-    'dps': Damage(138.6, 0.0),
-    'scaling_dmg': Damage(59.7, 0.0),
-    'stack_dmg': Damage(6.2, 0.0),
-    'total_dmg': Damage(84.7, 0.0)}
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(62.6, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(4.7, 0.0),
+    'total_dmg': Damage(42.5, 0.0)}
 e:
-{   'base_dmg': Damage(60.0, 0.0),
-    'hp_dmg': Damage(41.0, 0.0),
-    'scaling_dmg': Damage(29.9, 0.0),
-    'total_dmg': Damage(130.9, 0.0)}
-Total DPS = 411 (410.7, 0.0)
-Total Burst = 131 (130.9, 0.0)
-Time to Kill = 2.3s
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 203 (174.9, 27.8)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.8s
 -
-vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
-AA_dmg = 81 (81.3, 0.0) | AA_DPS = 116 (115.6, 0.0)
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 73 (51.3, 21.8) | AA_DPS = 89 (62.3, 26.5)
 q:
-{   'base_dmg': Damage(54.5, 0.0),
-    'dps': Damage(36.3, 0.0),
-    'scaling_dmg': Damage(18.1, 0.0),
-    'total_dmg': Damage(72.6, 0.0)}
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
 w:
-{   'base_dmg': Damage(11.4, 0.0),
-    'dps': Damage(88.7, 0.0),
-    'scaling_dmg': Damage(36.2, 0.0),
-    'stack_dmg': Damage(6.7, 0.0),
-    'total_dmg': Damage(54.2, 0.0)}
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(63.3, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(6.3, 0.0),
+    'total_dmg': Damage(43.0, 0.0)}
 e:
-{   'base_dmg': Damage(36.3, 0.0),
-    'hp_dmg': Damage(44.5, 0.0),
-    'scaling_dmg': Damage(18.1, 0.0),
-    'total_dmg': Damage(98.9, 0.0)}
-Total DPS = 241 (240.5, 0.0)
-Total Burst = 99 (98.9, 0.0)
-Time to Kill = 7.7s
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 199 (172.1, 26.5)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 5.6s
 -
-vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
-AA_dmg = 50 (49.8, 0.0) | AA_DPS = 60 (60.1, 0.0)
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 58 (35.9, 21.8) | AA_DPS = 70 (43.6, 26.5)
 q:
-{   'base_dmg': Damage(33.4, 0.0),
-    'dps': Damage(22.2, 0.0),
-    'scaling_dmg': Damage(11.1, 0.0),
-    'total_dmg': Damage(44.4, 0.0)}
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
 w:
-{   'base_dmg': Damage(6.9, 0.0),
-    'dps': Damage(53.3, 0.0),
-    'scaling_dmg': Damage(22.1, 0.0),
-    'stack_dmg': Damage(3.5, 0.0),
-    'total_dmg': Damage(32.6, 0.0)}
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(45.5, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(5.2, 0.0),
+    'total_dmg': Damage(30.9, 0.0)}
 e:
-{   'base_dmg': Damage(22.2, 0.0),
-    'hp_dmg': Damage(23.4, 0.0),
-    'scaling_dmg': Damage(11.1, 0.0),
-    'total_dmg': Damage(56.7, 0.0)}
-Total DPS = 136 (135.7, 0.0)
-Total Burst = 57 (56.7, 0.0)
-Time to Kill = 12.0s
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 148 (121.7, 26.5)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 9.1s
 ---
 
---- lvl 9 [Warrior, Berserker's, Ghostblade(active)] ---
-	Kindred lvl 9
-	Items: [Warrior, Berserker's, Ghostblade(active)]
+--- lvl 6 [Devourer(0)] ---
+	Kindred lvl 6
+	Items: [Devourer(0)]
 	q: 3 | w: 1 | e: 1 | r: 1
 Stacks: 6
 -
-vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
-AA_dmg = 149 (149.3, 0.0) | AA_DPS = 212 (212.2, 0.0)
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 76 (52.9, 22.9) | AA_DPS = 92 (64.3, 27.8)
 q:
-{   'base_dmg': Damage(90.0, 0.0),
-    'dps': Damage(60.0, 0.0),
-    'scaling_dmg': Damage(29.9, 0.0),
-    'total_dmg': Damage(119.9, 0.0)}
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
 w:
-{   'base_dmg': Damage(18.8, 0.0),
-    'dps': Damage(148.6, 0.0),
-    'scaling_dmg': Damage(59.7, 0.0),
-    'stack_dmg': Damage(12.3, 0.0),
-    'total_dmg': Damage(90.8, 0.0)}
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(69.5, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(9.4, 0.0),
+    'total_dmg': Damage(47.2, 0.0)}
 e:
-{   'base_dmg': Damage(60.0, 0.0),
-    'hp_dmg': Damage(41.0, 0.0),
-    'scaling_dmg': Damage(29.9, 0.0),
-    'total_dmg': Damage(130.9, 0.0)}
-Total DPS = 421 (420.8, 0.0)
-Total Burst = 131 (130.9, 0.0)
-Time to Kill = 2.3s
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 210 (181.8, 27.8)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.7s
 -
-vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
-AA_dmg = 81 (81.3, 0.0) | AA_DPS = 116 (115.6, 0.0)
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 73 (51.3, 21.8) | AA_DPS = 89 (62.3, 26.5)
 q:
-{   'base_dmg': Damage(54.5, 0.0),
-    'dps': Damage(36.3, 0.0),
-    'scaling_dmg': Damage(18.1, 0.0),
-    'total_dmg': Damage(72.6, 0.0)}
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
 w:
-{   'base_dmg': Damage(11.4, 0.0),
-    'dps': Damage(99.6, 0.0),
-    'scaling_dmg': Damage(36.2, 0.0),
-    'stack_dmg': Damage(13.3, 0.0),
-    'total_dmg': Damage(60.8, 0.0)}
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(72.6, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(12.7, 0.0),
+    'total_dmg': Damage(49.3, 0.0)}
 e:
-{   'base_dmg': Damage(36.3, 0.0),
-    'hp_dmg': Damage(44.5, 0.0),
-    'scaling_dmg': Damage(18.1, 0.0),
-    'total_dmg': Damage(98.9, 0.0)}
-Total DPS = 251 (251.5, 0.0)
-Total Burst = 99 (98.9, 0.0)
-Time to Kill = 7.4s
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 208 (181.4, 26.5)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 5.3s
 -
-vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
-AA_dmg = 50 (49.8, 0.0) | AA_DPS = 60 (60.1, 0.0)
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 58 (35.9, 21.8) | AA_DPS = 70 (43.6, 26.5)
 q:
-{   'base_dmg': Damage(33.4, 0.0),
-    'dps': Damage(22.2, 0.0),
-    'scaling_dmg': Damage(11.1, 0.0),
-    'total_dmg': Damage(44.4, 0.0)}
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
 w:
-{   'base_dmg': Damage(6.9, 0.0),
-    'dps': Damage(59.1, 0.0),
-    'scaling_dmg': Damage(22.1, 0.0),
-    'stack_dmg': Damage(7.0, 0.0),
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(53.2, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(10.4, 0.0),
     'total_dmg': Damage(36.1, 0.0)}
 e:
-{   'base_dmg': Damage(22.2, 0.0),
-    'hp_dmg': Damage(23.4, 0.0),
-    'scaling_dmg': Damage(11.1, 0.0),
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 156 (129.4, 26.5)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 8.7s
+---
+
+--- lvl 6 [Devourer(15)] ---
+	Kindred lvl 6
+	Items: [Devourer(15)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 3
+-
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 87 (52.9, 34.3) | AA_DPS = 106 (64.3, 41.7)
+q:
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
+w:
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(62.6, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(4.7, 0.0),
+    'total_dmg': Damage(42.5, 0.0)}
+e:
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 217 (174.9, 41.7)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.6s
+-
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 84 (51.3, 32.7) | AA_DPS = 102 (62.3, 39.7)
+q:
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
+w:
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(63.3, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(6.3, 0.0),
+    'total_dmg': Damage(43.0, 0.0)}
+e:
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 212 (172.1, 39.7)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 5.2s
+-
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 69 (35.9, 32.7) | AA_DPS = 83 (43.6, 39.7)
+q:
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
+w:
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(45.5, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(5.2, 0.0),
+    'total_dmg': Damage(30.9, 0.0)}
+e:
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 161 (121.7, 39.7)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 8.4s
+---
+
+--- lvl 6 [Devourer(15)] ---
+	Kindred lvl 6
+	Items: [Devourer(15)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 6
+-
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 87 (52.9, 34.3) | AA_DPS = 106 (64.3, 41.7)
+q:
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
+w:
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(69.5, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(9.4, 0.0),
+    'total_dmg': Damage(47.2, 0.0)}
+e:
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 224 (181.8, 41.7)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.5s
+-
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 84 (51.3, 32.7) | AA_DPS = 102 (62.3, 39.7)
+q:
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
+w:
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(72.6, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(12.7, 0.0),
+    'total_dmg': Damage(49.3, 0.0)}
+e:
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 221 (181.4, 39.7)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 5.0s
+-
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 69 (35.9, 32.7) | AA_DPS = 83 (43.6, 39.7)
+q:
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
+w:
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(53.2, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(10.4, 0.0),
+    'total_dmg': Damage(36.1, 0.0)}
+e:
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 169 (129.4, 39.7)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 8.0s
+---
+
+--- lvl 6 [Devourer(30)] ---
+	Kindred lvl 6
+	Items: [Devourer(30)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 3
+-
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 110 (52.9, 57.2) | AA_DPS = 134 (64.3, 69.5)
+q:
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
+w:
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(62.6, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(4.7, 0.0),
+    'total_dmg': Damage(42.5, 0.0)}
+e:
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 244 (174.9, 69.5)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.2s
+-
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 106 (51.3, 54.4) | AA_DPS = 128 (62.3, 66.1)
+q:
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
+w:
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(63.3, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(6.3, 0.0),
+    'total_dmg': Damage(43.0, 0.0)}
+e:
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 238 (172.1, 66.1)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 4.7s
+-
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 90 (35.9, 54.4) | AA_DPS = 110 (43.6, 66.1)
+q:
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
+w:
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(45.5, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(5.2, 0.0),
+    'total_dmg': Damage(30.9, 0.0)}
+e:
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 188 (121.7, 66.1)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 7.2s
+---
+
+--- lvl 6 [Devourer(30)] ---
+	Kindred lvl 6
+	Items: [Devourer(30)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 6
+-
+vs. lvl 6 Lucian [] (870 HP, 44 AR, 42 MR)
+AA_dmg = 110 (52.9, 57.2) | AA_DPS = 134 (64.3, 69.5)
+q:
+{   'base_dmg': Damage(86.1, 0.0),
+    'dps': Damage(48.0, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(96.1, 0.0)}
+w:
+{   'base_dmg': Damage(17.9, 0.0),
+    'dps': Damage(69.5, 0.0),
+    'scaling_dmg': Damage(19.9, 0.0),
+    'stack_dmg': Damage(9.4, 0.0),
+    'total_dmg': Damage(47.2, 0.0)}
+e:
+{   'base_dmg': Damage(57.4, 0.0),
+    'hp_dmg': Damage(31.2, 0.0),
+    'scaling_dmg': Damage(9.9, 0.0),
+    'total_dmg': Damage(98.6, 0.0)}
+Total DPS = 251 (181.8, 69.5)
+Total Burst = 99 (98.6, 0.0)
+Time to Kill = 3.1s
+-
+vs. lvl 6 Renekton [Cleaver(0)] (1215 HP, 49 AR, 49 MR)
+AA_dmg = 106 (51.3, 54.4) | AA_DPS = 128 (62.3, 66.1)
+q:
+{   'base_dmg': Damage(83.4, 0.0),
+    'dps': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(93.0, 0.0)}
+w:
+{   'base_dmg': Damage(17.4, 0.0),
+    'dps': Damage(72.6, 0.0),
+    'scaling_dmg': Damage(19.3, 0.0),
+    'stack_dmg': Damage(12.7, 0.0),
+    'total_dmg': Damage(49.3, 0.0)}
+e:
+{   'base_dmg': Damage(55.6, 0.0),
+    'hp_dmg': Damage(42.3, 0.0),
+    'scaling_dmg': Damage(9.6, 0.0),
+    'total_dmg': Damage(107.5, 0.0)}
+Total DPS = 248 (181.4, 66.1)
+Total Burst = 107 (107.5, 0.0)
+Time to Kill = 4.5s
+-
+vs. lvl 6 Malphite [Sunfire Cape] (1429 HP, 113 AR, 49 MR)
+AA_dmg = 90 (35.9, 54.4) | AA_DPS = 110 (43.6, 66.1)
+q:
+{   'base_dmg': Damage(58.4, 0.0),
+    'dps': Damage(32.6, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(65.2, 0.0)}
+w:
+{   'base_dmg': Damage(12.2, 0.0),
+    'dps': Damage(53.2, 0.0),
+    'scaling_dmg': Damage(13.5, 0.0),
+    'stack_dmg': Damage(10.4, 0.0),
+    'total_dmg': Damage(36.1, 0.0)}
+e:
+{   'base_dmg': Damage(39.0, 0.0),
+    'hp_dmg': Damage(34.8, 0.0),
+    'scaling_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(80.5, 0.0)}
+Total DPS = 196 (129.4, 66.1)
+Total Burst = 81 (80.5, 0.0)
+Time to Kill = 6.9s
+---
+
+--- lvl 9 [Warrior, Berserker's, Ghostblade(active)] ---
+	Kindred lvl 9
+	Items: [Warrior, Berserker's, Ghostblade(active)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 3
+-
+vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
+AA_dmg = 167 (167.4, 0.0) | AA_DPS = 242 (242.0, 0.0)
+q:
+{   'base_dmg': Damage(94.8, 0.0),
+    'dps': Damage(63.1, 0.0),
+    'scaling_dmg': Damage(31.4, 0.0),
+    'total_dmg': Damage(126.2, 0.0)}
+w:
+{   'base_dmg': Damage(19.7, 0.0),
+    'dps': Damage(147.6, 0.0),
+    'scaling_dmg': Damage(62.9, 0.0),
+    'stack_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(89.1, 0.0)}
+e:
+{   'base_dmg': Damage(63.2, 0.0),
+    'hp_dmg': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(31.4, 0.0),
+    'total_dmg': Damage(137.8, 0.0)}
+Total DPS = 453 (452.6, 0.0)
+Total Burst = 138 (137.8, 0.0)
+Time to Kill = 2.1s
+-
+vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
+AA_dmg = 91 (90.6, 0.0) | AA_DPS = 131 (131.0, 0.0)
+q:
+{   'base_dmg': Damage(57.0, 0.0),
+    'dps': Damage(38.0, 0.0),
+    'scaling_dmg': Damage(18.9, 0.0),
+    'total_dmg': Damage(75.9, 0.0)}
+w:
+{   'base_dmg': Damage(11.9, 0.0),
+    'dps': Damage(93.9, 0.0),
+    'scaling_dmg': Damage(37.8, 0.0),
+    'stack_dmg': Damage(7.0, 0.0),
     'total_dmg': Damage(56.7, 0.0)}
-Total DPS = 141 (141.4, 0.0)
-Total Burst = 57 (56.7, 0.0)
-Time to Kill = 11.5s
+e:
+{   'base_dmg': Damage(38.0, 0.0),
+    'hp_dmg': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(18.9, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
+Total DPS = 263 (262.8, 0.0)
+Total Burst = 103 (103.4, 0.0)
+Time to Kill = 7.1s
+-
+vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
+AA_dmg = 55 (55.3, 0.0) | AA_DPS = 68 (67.9, 0.0)
+q:
+{   'base_dmg': Damage(34.8, 0.0),
+    'dps': Damage(23.1, 0.0),
+    'scaling_dmg': Damage(11.5, 0.0),
+    'total_dmg': Damage(46.3, 0.0)}
+w:
+{   'base_dmg': Damage(7.2, 0.0),
+    'dps': Damage(56.2, 0.0),
+    'scaling_dmg': Damage(23.1, 0.0),
+    'stack_dmg': Damage(3.7, 0.0),
+    'total_dmg': Damage(34.0, 0.0)}
+e:
+{   'base_dmg': Damage(23.2, 0.0),
+    'hp_dmg': Damage(24.3, 0.0),
+    'scaling_dmg': Damage(11.5, 0.0),
+    'total_dmg': Damage(59.0, 0.0)}
+Total DPS = 147 (147.3, 0.0)
+Total Burst = 59 (59.0, 0.0)
+Time to Kill = 11.0s
+---
+
+--- lvl 9 [Warrior, Berserker's, Ghostblade(active)] ---
+	Kindred lvl 9
+	Items: [Warrior, Berserker's, Ghostblade(active)]
+	q: 3 | w: 1 | e: 1 | r: 1
+Stacks: 6
+-
+vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
+AA_dmg = 167 (167.4, 0.0) | AA_DPS = 242 (242.0, 0.0)
+q:
+{   'base_dmg': Damage(94.8, 0.0),
+    'dps': Damage(63.1, 0.0),
+    'scaling_dmg': Damage(31.4, 0.0),
+    'total_dmg': Damage(126.2, 0.0)}
+w:
+{   'base_dmg': Damage(19.7, 0.0),
+    'dps': Damage(158.3, 0.0),
+    'scaling_dmg': Damage(62.9, 0.0),
+    'stack_dmg': Damage(13.0, 0.0),
+    'total_dmg': Damage(95.5, 0.0)}
+e:
+{   'base_dmg': Damage(63.2, 0.0),
+    'hp_dmg': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(31.4, 0.0),
+    'total_dmg': Damage(137.8, 0.0)}
+Total DPS = 463 (463.4, 0.0)
+Total Burst = 138 (137.8, 0.0)
+Time to Kill = 2.1s
+-
+vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
+AA_dmg = 91 (90.6, 0.0) | AA_DPS = 131 (131.0, 0.0)
+q:
+{   'base_dmg': Damage(57.0, 0.0),
+    'dps': Damage(38.0, 0.0),
+    'scaling_dmg': Damage(18.9, 0.0),
+    'total_dmg': Damage(75.9, 0.0)}
+w:
+{   'base_dmg': Damage(11.9, 0.0),
+    'dps': Damage(105.4, 0.0),
+    'scaling_dmg': Damage(37.8, 0.0),
+    'stack_dmg': Damage(14.0, 0.0),
+    'total_dmg': Damage(63.6, 0.0)}
+e:
+{   'base_dmg': Damage(38.0, 0.0),
+    'hp_dmg': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(18.9, 0.0),
+    'total_dmg': Damage(103.4, 0.0)}
+Total DPS = 274 (274.4, 0.0)
+Total Burst = 103 (103.4, 0.0)
+Time to Kill = 6.8s
+-
+vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
+AA_dmg = 55 (55.3, 0.0) | AA_DPS = 68 (67.9, 0.0)
+q:
+{   'base_dmg': Damage(34.8, 0.0),
+    'dps': Damage(23.1, 0.0),
+    'scaling_dmg': Damage(11.5, 0.0),
+    'total_dmg': Damage(46.3, 0.0)}
+w:
+{   'base_dmg': Damage(7.2, 0.0),
+    'dps': Damage(62.3, 0.0),
+    'scaling_dmg': Damage(23.1, 0.0),
+    'stack_dmg': Damage(7.3, 0.0),
+    'total_dmg': Damage(37.6, 0.0)}
+e:
+{   'base_dmg': Damage(23.2, 0.0),
+    'hp_dmg': Damage(24.3, 0.0),
+    'scaling_dmg': Damage(11.5, 0.0),
+    'total_dmg': Damage(59.0, 0.0)}
+Total DPS = 153 (153.3, 0.0)
+Total Burst = 59 (59.0, 0.0)
+Time to Kill = 10.6s
 ---
 
 --- lvl 9 [Devourer(15), Berserker's, Ghostblade(active)] ---
@@ -735,70 +735,70 @@ Time to Kill = 11.5s
 Stacks: 3
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
-AA_dmg = 136 (104.3, 31.7) | AA_DPS = 227 (174.3, 52.9)
+AA_dmg = 151 (116.9, 34.4) | AA_DPS = 257 (198.2, 58.4)
 q:
-{   'base_dmg': Damage(90.0, 0.0),
-    'dps': Damage(55.5, 0.0),
-    'scaling_dmg': Damage(20.9, 0.0),
-    'total_dmg': Damage(110.9, 0.0)}
+{   'base_dmg': Damage(94.8, 0.0),
+    'dps': Damage(58.4, 0.0),
+    'scaling_dmg': Damage(22.0, 0.0),
+    'total_dmg': Damage(116.7, 0.0)}
 w:
-{   'base_dmg': Damage(18.8, 0.0),
-    'dps': Damage(122.4, 0.0),
-    'scaling_dmg': Damage(41.7, 0.0),
-    'stack_dmg': Damage(6.2, 0.0),
-    'total_dmg': Damage(66.6, 0.0)}
+{   'base_dmg': Damage(19.7, 0.0),
+    'dps': Damage(130.2, 0.0),
+    'scaling_dmg': Damage(43.9, 0.0),
+    'stack_dmg': Damage(6.5, 0.0),
+    'total_dmg': Damage(70.1, 0.0)}
 e:
-{   'base_dmg': Damage(60.0, 0.0),
-    'hp_dmg': Damage(41.0, 0.0),
-    'scaling_dmg': Damage(20.9, 0.0),
-    'total_dmg': Damage(121.9, 0.0)}
-Total DPS = 405 (352.2, 52.9)
-Total Burst = 122 (121.9, 0.0)
-Time to Kill = 2.4s
+{   'base_dmg': Damage(63.2, 0.0),
+    'hp_dmg': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(22.0, 0.0),
+    'total_dmg': Damage(128.3, 0.0)}
+Total DPS = 445 (386.8, 58.4)
+Total Burst = 128 (128.3, 0.0)
+Time to Kill = 2.2s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
-AA_dmg = 86 (56.8, 29.5) | AA_DPS = 144 (94.9, 49.3)
+AA_dmg = 95 (63.3, 32.0) | AA_DPS = 162 (107.3, 54.3)
 q:
-{   'base_dmg': Damage(54.5, 0.0),
-    'dps': Damage(33.6, 0.0),
-    'scaling_dmg': Damage(12.6, 0.0),
-    'total_dmg': Damage(67.1, 0.0)}
+{   'base_dmg': Damage(57.0, 0.0),
+    'dps': Damage(35.1, 0.0),
+    'scaling_dmg': Damage(13.2, 0.0),
+    'total_dmg': Damage(70.2, 0.0)}
 w:
-{   'base_dmg': Damage(11.4, 0.0),
-    'dps': Damage(79.5, 0.0),
-    'scaling_dmg': Damage(25.3, 0.0),
-    'stack_dmg': Damage(6.7, 0.0),
-    'total_dmg': Damage(43.3, 0.0)}
+{   'base_dmg': Damage(11.9, 0.0),
+    'dps': Damage(84.0, 0.0),
+    'scaling_dmg': Damage(26.4, 0.0),
+    'stack_dmg': Damage(7.0, 0.0),
+    'total_dmg': Damage(45.3, 0.0)}
 e:
-{   'base_dmg': Damage(36.3, 0.0),
-    'hp_dmg': Damage(44.5, 0.0),
-    'scaling_dmg': Damage(12.6, 0.0),
-    'total_dmg': Damage(93.4, 0.0)}
-Total DPS = 257 (208.0, 49.3)
-Total Burst = 93 (93.4, 0.0)
-Time to Kill = 7.2s
+{   'base_dmg': Damage(38.0, 0.0),
+    'hp_dmg': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(13.2, 0.0),
+    'total_dmg': Damage(97.7, 0.0)}
+Total DPS = 281 (226.5, 54.3)
+Total Burst = 98 (97.7, 0.0)
+Time to Kill = 6.6s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
-AA_dmg = 64 (34.8, 29.5) | AA_DPS = 91 (49.4, 41.9)
+AA_dmg = 71 (38.6, 32.0) | AA_DPS = 102 (55.6, 46.1)
 q:
-{   'base_dmg': Damage(33.4, 0.0),
-    'dps': Damage(20.5, 0.0),
-    'scaling_dmg': Damage(7.7, 0.0),
-    'total_dmg': Damage(41.1, 0.0)}
+{   'base_dmg': Damage(34.8, 0.0),
+    'dps': Damage(21.4, 0.0),
+    'scaling_dmg': Damage(8.1, 0.0),
+    'total_dmg': Damage(42.8, 0.0)}
 w:
-{   'base_dmg': Damage(6.9, 0.0),
-    'dps': Damage(47.6, 0.0),
-    'scaling_dmg': Damage(15.5, 0.0),
-    'stack_dmg': Damage(3.5, 0.0),
-    'total_dmg': Damage(25.9, 0.0)}
+{   'base_dmg': Damage(7.2, 0.0),
+    'dps': Damage(50.1, 0.0),
+    'scaling_dmg': Damage(16.1, 0.0),
+    'stack_dmg': Damage(3.7, 0.0),
+    'total_dmg': Damage(27.0, 0.0)}
 e:
-{   'base_dmg': Damage(22.2, 0.0),
-    'hp_dmg': Damage(23.4, 0.0),
-    'scaling_dmg': Damage(7.7, 0.0),
-    'total_dmg': Damage(53.3, 0.0)}
-Total DPS = 159 (117.5, 41.9)
-Total Burst = 53 (53.3, 0.0)
-Time to Kill = 10.2s
+{   'base_dmg': Damage(23.2, 0.0),
+    'hp_dmg': Damage(24.3, 0.0),
+    'scaling_dmg': Damage(8.1, 0.0),
+    'total_dmg': Damage(55.6, 0.0)}
+Total DPS = 173 (127.2, 46.1)
+Total Burst = 56 (55.6, 0.0)
+Time to Kill = 9.4s
 ---
 
 --- lvl 9 [Devourer(15), Berserker's, Ghostblade(active)] ---
@@ -808,82 +808,82 @@ Time to Kill = 10.2s
 Stacks: 6
 -
 vs. lvl 9 Lucian [] (1093 HP, 53 AR, 42 MR)
-AA_dmg = 136 (104.3, 31.7) | AA_DPS = 227 (174.3, 52.9)
+AA_dmg = 151 (116.9, 34.4) | AA_DPS = 257 (198.2, 58.4)
 q:
-{   'base_dmg': Damage(90.0, 0.0),
-    'dps': Damage(55.5, 0.0),
-    'scaling_dmg': Damage(20.9, 0.0),
-    'total_dmg': Damage(110.9, 0.0)}
+{   'base_dmg': Damage(94.8, 0.0),
+    'dps': Damage(58.4, 0.0),
+    'scaling_dmg': Damage(22.0, 0.0),
+    'total_dmg': Damage(116.7, 0.0)}
 w:
-{   'base_dmg': Damage(18.8, 0.0),
-    'dps': Damage(133.7, 0.0),
-    'scaling_dmg': Damage(41.7, 0.0),
-    'stack_dmg': Damage(12.3, 0.0),
-    'total_dmg': Damage(72.8, 0.0)}
+{   'base_dmg': Damage(19.7, 0.0),
+    'dps': Damage(142.2, 0.0),
+    'scaling_dmg': Damage(43.9, 0.0),
+    'stack_dmg': Damage(13.0, 0.0),
+    'total_dmg': Damage(76.6, 0.0)}
 e:
-{   'base_dmg': Damage(60.0, 0.0),
-    'hp_dmg': Damage(41.0, 0.0),
-    'scaling_dmg': Damage(20.9, 0.0),
-    'total_dmg': Damage(121.9, 0.0)}
-Total DPS = 416 (363.5, 52.9)
-Total Burst = 122 (121.9, 0.0)
-Time to Kill = 2.3s
+{   'base_dmg': Damage(63.2, 0.0),
+    'hp_dmg': Damage(43.2, 0.0),
+    'scaling_dmg': Damage(22.0, 0.0),
+    'total_dmg': Damage(128.3, 0.0)}
+Total DPS = 457 (398.8, 58.4)
+Total Burst = 128 (128.3, 0.0)
+Time to Kill = 2.1s
 -
 vs. lvl 9 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (1958 HP, 140 AR, 52 MR)
-AA_dmg = 86 (56.8, 29.5) | AA_DPS = 144 (94.9, 49.3)
+AA_dmg = 95 (63.3, 32.0) | AA_DPS = 162 (107.3, 54.3)
 q:
-{   'base_dmg': Damage(54.5, 0.0),
-    'dps': Damage(33.6, 0.0),
-    'scaling_dmg': Damage(12.6, 0.0),
-    'total_dmg': Damage(67.1, 0.0)}
+{   'base_dmg': Damage(57.0, 0.0),
+    'dps': Damage(35.1, 0.0),
+    'scaling_dmg': Damage(13.2, 0.0),
+    'total_dmg': Damage(70.2, 0.0)}
 w:
-{   'base_dmg': Damage(11.4, 0.0),
-    'dps': Damage(91.7, 0.0),
-    'scaling_dmg': Damage(25.3, 0.0),
-    'stack_dmg': Damage(13.3, 0.0),
-    'total_dmg': Damage(49.9, 0.0)}
+{   'base_dmg': Damage(11.9, 0.0),
+    'dps': Damage(97.0, 0.0),
+    'scaling_dmg': Damage(26.4, 0.0),
+    'stack_dmg': Damage(14.0, 0.0),
+    'total_dmg': Damage(52.2, 0.0)}
 e:
-{   'base_dmg': Damage(36.3, 0.0),
-    'hp_dmg': Damage(44.5, 0.0),
-    'scaling_dmg': Damage(12.6, 0.0),
-    'total_dmg': Damage(93.4, 0.0)}
-Total DPS = 270 (220.2, 49.3)
-Total Burst = 93 (93.4, 0.0)
-Time to Kill = 6.9s
+{   'base_dmg': Damage(38.0, 0.0),
+    'hp_dmg': Damage(46.5, 0.0),
+    'scaling_dmg': Damage(13.2, 0.0),
+    'total_dmg': Damage(97.7, 0.0)}
+Total DPS = 294 (239.4, 54.3)
+Total Burst = 98 (97.7, 0.0)
+Time to Kill = 6.3s
 -
 vs. lvl 9 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1680 HP, 279 AR, 52 MR)
-AA_dmg = 64 (34.8, 29.5) | AA_DPS = 91 (49.4, 41.9)
+AA_dmg = 71 (38.6, 32.0) | AA_DPS = 102 (55.6, 46.1)
 q:
-{   'base_dmg': Damage(33.4, 0.0),
-    'dps': Damage(20.5, 0.0),
-    'scaling_dmg': Damage(7.7, 0.0),
-    'total_dmg': Damage(41.1, 0.0)}
+{   'base_dmg': Damage(34.8, 0.0),
+    'dps': Damage(21.4, 0.0),
+    'scaling_dmg': Damage(8.1, 0.0),
+    'total_dmg': Damage(42.8, 0.0)}
 w:
-{   'base_dmg': Damage(6.9, 0.0),
-    'dps': Damage(54.0, 0.0),
-    'scaling_dmg': Damage(15.5, 0.0),
-    'stack_dmg': Damage(7.0, 0.0),
-    'total_dmg': Damage(29.4, 0.0)}
+{   'base_dmg': Damage(7.2, 0.0),
+    'dps': Damage(56.9, 0.0),
+    'scaling_dmg': Damage(16.1, 0.0),
+    'stack_dmg': Damage(7.3, 0.0),
+    'total_dmg': Damage(30.7, 0.0)}
 e:
-{   'base_dmg': Damage(22.2, 0.0),
-    'hp_dmg': Damage(23.4, 0.0),
-    'scaling_dmg': Damage(7.7, 0.0),
-    'total_dmg': Damage(53.3, 0.0)}
-Total DPS = 166 (124.0, 41.9)
-Total Burst = 53 (53.3, 0.0)
-Time to Kill = 9.8s
+{   'base_dmg': Damage(23.2, 0.0),
+    'hp_dmg': Damage(24.3, 0.0),
+    'scaling_dmg': Damage(8.1, 0.0),
+    'total_dmg': Damage(55.6, 0.0)}
+Total DPS = 180 (134.0, 46.1)
+Total Burst = 56 (55.6, 0.0)
+Time to Kill = 9.0s
 ---
 
 | Level | Items                                           | Stacks | Squishy | Bruiser | Tank |
-| 6     | [Devourer(0)]                                   | 3      | 4.1     | 6.1     | 9.9  |
-| 6     | [Devourer(15)]                                  | 3      | 3.9     | 5.7     | 9.1  |
-| 6     | [Devourer(30)]                                  | 3      | 3.4     | 5.1     | 7.8  |
-| 6     | [Warrior]                                       | 3      | 3.7     | 5.5     | 9.5  |
-| 6     | [Devourer(0)]                                   | 6      | 4.0     | 5.8     | 9.4  |
-| 6     | [Devourer(15)]                                  | 6      | 3.8     | 5.4     | 8.6  |
-| 6     | [Devourer(30)]                                  | 6      | 3.3     | 4.9     | 7.5  |
-| 6     | [Warrior]                                       | 6      | 3.6     | 5.3     | 9.1  |
-| 9     | [Devourer(15), Berserker's, Ghostblade(active)] | 3      | 2.4     | 7.2     | 10.2 |
-| 9     | [Warrior, Berserker's, Ghostblade(active)]      | 3      | 2.3     | 7.7     | 12.0 |
-| 9     | [Devourer(15), Berserker's, Ghostblade(active)] | 6      | 2.3     | 6.9     | 9.8  |
-| 9     | [Warrior, Berserker's, Ghostblade(active)]      | 6      | 2.3     | 7.4     | 11.5 |
+| 6     | [Devourer(0)]                                   | 3      | 3.8     | 5.6     | 9.1  |
+| 6     | [Devourer(15)]                                  | 3      | 3.6     | 5.2     | 8.4  |
+| 6     | [Devourer(30)]                                  | 3      | 3.2     | 4.7     | 7.2  |
+| 6     | [Warrior]                                       | 3      | 3.4     | 5.0     | 8.7  |
+| 6     | [Devourer(0)]                                   | 6      | 3.7     | 5.3     | 8.7  |
+| 6     | [Devourer(15)]                                  | 6      | 3.5     | 5.0     | 8.0  |
+| 6     | [Devourer(30)]                                  | 6      | 3.1     | 4.5     | 6.9  |
+| 6     | [Warrior]                                       | 6      | 3.3     | 4.8     | 8.3  |
+| 9     | [Devourer(15), Berserker's, Ghostblade(active)] | 3      | 2.2     | 6.6     | 9.4  |
+| 9     | [Warrior, Berserker's, Ghostblade(active)]      | 3      | 2.1     | 7.1     | 11.0 |
+| 9     | [Devourer(15), Berserker's, Ghostblade(active)] | 6      | 2.1     | 6.3     | 9.0  |
+| 9     | [Warrior, Berserker's, Ghostblade(active)]      | 6      | 2.1     | 6.8     | 10.6 |

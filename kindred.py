@@ -21,7 +21,7 @@ class Kindred(Champion):
         qdata['total_dmg'] = qdata['base_dmg'] + qdata['scaling_dmg']
         qdata['dps'] = qdata['total_dmg'] / effectdata[4][rank]
         
-        qdata = self.apply_spell_def(qdata, target)
+        qdata = self.apply_spell_mult(qdata, target)
         return qdata
     
     def w(self, target=None):
@@ -38,7 +38,7 @@ class Kindred(Champion):
         wdata['total_dmg'] = wdata['base_dmg'] + wdata['scaling_dmg'] + wdata['stack_dmg']
         wdata['dps'] = wdata['total_dmg'] * (1 + self.bonus_AS/2)
         
-        wdata = self.apply_spell_def(wdata, target)
+        wdata = self.apply_spell_mult(wdata, target)
         return wdata
     
     def e(self, target=None):
@@ -54,11 +54,8 @@ class Kindred(Champion):
         edata['hp_dmg'] = Damage(0) if target is None else Damage(0.05 * target.HP)
         edata['total_dmg'] = edata['base_dmg'] + edata['scaling_dmg'] + edata['hp_dmg']
         
-        edata = self.apply_spell_def(edata, target)
+        edata = self.apply_spell_mult(edata, target)
         return edata
-    
-    def apply_spell_def(self, spelldata, target=None):
-        return { k: v * self.def_factor(target) for k, v in spelldata.iteritems() }
     
     def total_DPS(self, target=None):
         return self.AA_DPS(target) + self.q(target)['dps'] + self.w(target)['dps']
@@ -66,9 +63,6 @@ class Kindred(Champion):
     def total_burst(self, target=None):
         return self.e(target)['total_dmg']
     
-    def time_to_kill(self, target):
-        return (target.HP - self.total_burst(target).total) / self.total_DPS(target).total
-
 class Malphite(Champion):
     def __init__(self, **kwargs):
         super(Malphite, self).__init__("Malphite", **kwargs)

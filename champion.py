@@ -4,10 +4,11 @@ import riot
 from damage import *
 from item import *
 from rune import *
+from mastery import *
 
 class Champion(object):
 
-    def __init__(self, name, level=1, runepage=None, abilities=None, items=[], refresh=False):
+    def __init__(self, name, level=1, runepage=None, masterypage=None, abilities=None, items=[], refresh=False):
         self.api = riot.LoLAPI()
         self.refresh = refresh
         
@@ -21,6 +22,13 @@ class Champion(object):
             self.runepage = Runepage(runepage)
         else:
             self.runepage = runepage
+        
+        if masterypage is None:
+            self.masterypage = MasteryPage()
+        elif type(masterypage) == str:
+            self.masterypage = MasteryPage(masterypage)
+        else:
+            self.masterypage = masterypage
         
         self._ability_ranks = { 'q': 0, 'w': 0, 'e': 0, 'r': 0 }
         if abilities is not None:
@@ -101,9 +109,10 @@ class Champion(object):
                 # natural AS growth is bonus AS
                 nat_bonus_AS = (self.nat_AS['growth']/100)*((7/400)*(pow(self.level, 2) - 1) + (267/400)*(self.level-1))
                 rune_AS = self.runepage.AS
+                mast_AS = self.masterypage.AS
                 item_AS = self.get_ext_stat(self.items, 'AS')
                 
-                return nat_bonus_AS + rune_AS + item_AS
+                return nat_bonus_AS + rune_AS + mast_AS + item_AS
             
             @property
             def AS(self):
@@ -120,12 +129,14 @@ class Champion(object):
             @property
             def flat_APen(self):
                 rune_APen = self.runepage.APen
+                mast_APen = self.masterypage.flat_APen + (self.masterypage.flat_APen_per_lvl * self.level)
                 item_APen = self.get_ext_stat(self.items, 'flat_APen')
-                return rune_APen + item_APen
+                return rune_APen + mast_APen + item_APen
             
             @property
             def perc_APen(self):
-                return 0
+                mast_perc_APen = self.masterypage.perc_APen
+                return mast_perc_APen
             
             @property
             def perc_bonus_APen(self):
@@ -134,8 +145,9 @@ class Champion(object):
             @property    
             def LS(self):
                 rune_LS = self.runepage.LS
+                mast_LS = self.masterypage.LS
                 item_LS = self.get_ext_stat(self.items, 'LS')
-                return rune_LS + item_LS
+                return rune_LS + mast_LS + item_LS
         
         ''' Defensive '''
         if True:
@@ -204,7 +216,8 @@ class Champion(object):
             
             @property
             def flat_MPen(self):
-                return 0
+                mast_MPen = self.masterypage.flat_MPen + (self.masterypage.flat_MPen_per_lvl * self.level)
+                return mast_MPen
             
             @property
             def perc_MPen(self):
@@ -212,7 +225,8 @@ class Champion(object):
             
             @property
             def SV(self):
-                return 0
+                mast_SV = self.masterypage.SV
+                return mast_SV
         
         ''' Movement '''
         if True:
@@ -256,6 +270,22 @@ class Champion(object):
         return locals()
     ability_ranks = property(**ability_ranks())
     
+    def q(self, target=None):
+        pass
+    
+    def w(self, target=None):
+        pass
+        
+    def e(self, target=None):
+        pass
+    
+    def r(self, target=None):
+        pass
+    
+    def apply_spell_mult(self, spelldata, target=None):
+        return { k: v * self.def_factor(target) * (1 + self.masterypage.Ab_mult) 
+            for k, v in spelldata.iteritems() }
+    
     def ability_str(self, vertical=False):
         ar = self.ability_ranks
         if vertical:
@@ -271,7 +301,9 @@ class Champion(object):
         
         onhit = self.get_ext_stat(self.items, 'onhit') * self.get_ext_stat(self.items, 'onhit_mult')
         raw_dmg = crit_factor + onhit
-        return raw_dmg * self.def_factor(target)
+        
+        mast_perc_mult = 1 + self.masterypage.perc_dmg_out
+        return raw_dmg * self.def_factor(target) * mast_perc_mult
     
     def AA_DPS(self, target=None):
         dps = self.AA_dmg(target) * self.AS
@@ -282,8 +314,6 @@ class Champion(object):
     
     def AA_stats(self, target=None):
         s = 'AA_dmg = %.0f %s | AA_DPS = %.0f %s' % (self.AA_dmg(target).total, self.AA_dmg(target), self.AA_DPS(target).total, self.AA_DPS(target))
-        # if target is not None:
-        #     s += ' | Time to kill: %.1f' % (target.HP / self.AA_DPS().total)
         return s
     
     ''' Utility '''
@@ -296,15 +326,28 @@ class Champion(object):
             return 1
         
         net_AR = (target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen)) * (1 - self.perc_APen) - self.flat_APen
-        logging.info('net_AR = %s' % net_AR)
-        return 1 - (net_AR / (100 + net_AR))
+        mast_perc_mult = 1 + target.masterypage.perc_dmg_in
+        return (1 - (net_AR / (100 + net_AR))) * mast_perc_mult
     
     def MR_factor(self, target=None):
         if target is None:
             return 1
         
         net_MR = target.MR * (1 - self.perc_MPen) - self.flat_MPen
-        return 1 - (net_MR / (100 + net_MR))
+        mast_perc_mult = 1 + target.masterypage.perc_dmg_in
+        return (1 - (net_MR / (100 + net_MR))) * mast_perc_mult
+    
+    ''' Totals '''
+    def total_DPS(self, target=None):
+        ''' Extend this for specific champions '''
+        return self.AA_DPS(target)
+    
+    def total_burst(self, target=None):
+        ''' Extend this for specific champions '''
+        return Damage()
+    
+    def time_to_kill(self, target):
+        return (target.HP - self.total_burst(target).total) / self.total_DPS(target).total
     
 def main():
     # httplib.HTTPConnection.debuglevel = 1
