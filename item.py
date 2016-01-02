@@ -112,7 +112,7 @@ class Ghostblade(Item):
 class BotRK(Item):
     """Blade of the Ruined King"""
 
-    def __init__(self, active=False):
+    def __init__(self, active=True):
         super(BotRK, self).__init__("Blade of the Ruined King")
         self.active = active
 

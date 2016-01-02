@@ -48,20 +48,20 @@ def main():
         kindred.ability_ranks = [5, 3, 1, 2]
         stackvals = [3, 5, 7]
         itemsets = [
+            [Warrior(), Berserkers(), BotRK(False)],
             [Warrior(), Berserkers(), BotRK()],
-            [Warrior(), Berserkers(), BotRK(True)],
             [Warrior(), Berserkers(), Ghostblade()],
             [Warrior(), Berserkers(), Ghostblade(True)],
+            [Devourer(0), Berserkers(), BotRK(False)],
             [Devourer(0), Berserkers(), BotRK()],
-            [Devourer(0), Berserkers(), BotRK(True)],
             [Devourer(0), Berserkers(), Ghostblade()],
             [Devourer(0), Berserkers(), Ghostblade(True)],
+            [Devourer(15), Berserkers(), BotRK(False)],
             [Devourer(15), Berserkers(), BotRK()],
-            [Devourer(15), Berserkers(), BotRK(True)],
             [Devourer(15), Berserkers(), Ghostblade()],
             [Devourer(15), Berserkers(), Ghostblade(True)],
+            [Devourer(30), Berserkers(), BotRK(False)],
             [Devourer(30), Berserkers(), BotRK()],
-            [Devourer(30), Berserkers(), BotRK(True)],
             [Devourer(30), Berserkers(), Ghostblade()],
             [Devourer(30), Berserkers(), Ghostblade(True)],
         ]
