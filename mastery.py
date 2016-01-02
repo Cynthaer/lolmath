@@ -21,9 +21,12 @@ class MasteryPage(object):
                      "flat_MPen",
                      "flat_MPen_per_lvl",
                      "CDR",
+                     "HP",
+                     "AR",
                      "perc_bonus_AR",
+                     "MR",
                      "perc_bonus_MR",
-                     "HP"]:
+                     ]:
             setattr(self, stat, 0)
 
         # fuck it, let's just get this shit done

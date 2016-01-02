@@ -1,4 +1,4 @@
---- lvl 5 [Warrior] ---
+--- lvl 5 st 1 [Warrior] ---
 	Kindred lvl 5
 	Items: [Warrior]
 	HPR:  8.7		| MPR:  8.2
@@ -79,7 +79,7 @@ Total Burst = 91 (91.1, 0.0)
 Time to Kill = 9.7s
 ---
 
---- lvl 5 [Warrior] ---
+--- lvl 5 st 3 [Warrior] ---
 	Kindred lvl 5
 	Items: [Warrior]
 	HPR:  8.7		| MPR:  8.2
@@ -160,7 +160,7 @@ Total Burst = 91 (91.1, 0.0)
 Time to Kill = 9.0s
 ---
 
---- lvl 5 [Warrior] ---
+--- lvl 5 st 4 [Warrior] ---
 	Kindred lvl 5
 	Items: [Warrior]
 	HPR:  8.7		| MPR:  8.2
@@ -241,7 +241,7 @@ Total Burst = 91 (91.1, 0.0)
 Time to Kill = 8.7s
 ---
 
---- lvl 5 [Devourer(0)] ---
+--- lvl 5 st 1 [Devourer(0)] ---
 	Kindred lvl 5
 	Items: [Devourer(0)]
 	HPR:  8.7		| MPR:  8.2
@@ -322,7 +322,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 9.9s
 ---
 
---- lvl 5 [Devourer(0)] ---
+--- lvl 5 st 3 [Devourer(0)] ---
 	Kindred lvl 5
 	Items: [Devourer(0)]
 	HPR:  8.7		| MPR:  8.2
@@ -403,7 +403,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 9.0s
 ---
 
---- lvl 5 [Devourer(0)] ---
+--- lvl 5 st 4 [Devourer(0)] ---
 	Kindred lvl 5
 	Items: [Devourer(0)]
 	HPR:  8.7		| MPR:  8.2
@@ -484,7 +484,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 8.6s
 ---
 
---- lvl 5 [Devourer(15)] ---
+--- lvl 5 st 1 [Devourer(15)] ---
 	Kindred lvl 5
 	Items: [Devourer(15)]
 	HPR:  8.7		| MPR:  8.2
@@ -565,7 +565,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 9.1s
 ---
 
---- lvl 5 [Devourer(15)] ---
+--- lvl 5 st 3 [Devourer(15)] ---
 	Kindred lvl 5
 	Items: [Devourer(15)]
 	HPR:  8.7		| MPR:  8.2
@@ -646,7 +646,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 8.3s
 ---
 
---- lvl 5 [Devourer(15)] ---
+--- lvl 5 st 4 [Devourer(15)] ---
 	Kindred lvl 5
 	Items: [Devourer(15)]
 	HPR:  8.7		| MPR:  8.2
@@ -727,7 +727,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 8.0s
 ---
 
---- lvl 5 [Devourer(30)] ---
+--- lvl 5 st 1 [Devourer(30)] ---
 	Kindred lvl 5
 	Items: [Devourer(30)]
 	HPR:  8.7		| MPR:  8.2
@@ -808,7 +808,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 7.8s
 ---
 
---- lvl 5 [Devourer(30)] ---
+--- lvl 5 st 3 [Devourer(30)] ---
 	Kindred lvl 5
 	Items: [Devourer(30)]
 	HPR:  8.7		| MPR:  8.2
@@ -889,7 +889,7 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 7.2s
 ---
 
---- lvl 5 [Devourer(30)] ---
+--- lvl 5 st 4 [Devourer(30)] ---
 	Kindred lvl 5
 	Items: [Devourer(30)]
 	HPR:  8.7		| MPR:  8.2
@@ -970,9 +970,252 @@ Total Burst = 85 (84.8, 0.0)
 Time to Kill = 6.9s
 ---
 
---- lvl 11 [Warrior, Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 3 [Warrior, Berserker's, Blade of the Ruined King] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   162		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.478		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 3
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 157 (156.7, 0.0) | onhit = 43 (42.9, 0.0) | AA_DPS = 232 (231.6, 0.0)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(74.4, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(148.8, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(100.2, 0.0),
+    'scaling_dmg': Damage(45.5, 0.0),
+    'stack_dmg': Damage(6.6, 0.0),
+    'total_dmg': Damage(76.6, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(122.8, 0.0)}
+Total DPS = 406 (406.2, 0.0)
+Total Burst = 123 (122.8, 0.0)
+Time to Kill = 2.8s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 112 (112.3, 0.0) | onhit = 47 (46.7, 0.0) | AA_DPS = 166 (165.9, 0.0)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(47.6, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(95.3, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(68.0, 0.0),
+    'scaling_dmg': Damage(29.1, 0.0),
+    'stack_dmg': Damage(7.2, 0.0),
+    'total_dmg': Damage(52.0, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(98.3, 0.0)}
+Total DPS = 282 (281.5, 0.0)
+Total Burst = 98 (98.3, 0.0)
+Time to Kill = 7.2s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 68 (67.9, 0.0) | onhit = 26 (26.0, 0.0) | AA_DPS = 85 (85.2, 0.0)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(30.4, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(60.8, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(42.6, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'stack_dmg': Damage(4.0, 0.0),
+    'total_dmg': Damage(32.6, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(58.9, 0.0)}
+Total DPS = 158 (158.3, 0.0)
+Total Burst = 59 (58.9, 0.0)
+Time to Kill = 12.6s
+---
+
+--- lvl 11 st 5 [Warrior, Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Warrior, Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   162		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.478		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 5
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 168 (167.7, 0.0) | onhit = 54 (53.9, 0.0) | AA_DPS = 248 (247.8, 0.0)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(74.4, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(148.8, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(105.9, 0.0),
+    'scaling_dmg': Damage(45.5, 0.0),
+    'stack_dmg': Damage(11.0, 0.0),
+    'total_dmg': Damage(81.0, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(122.8, 0.0)}
+Total DPS = 428 (428.2, 0.0)
+Total Burst = 123 (122.8, 0.0)
+Time to Kill = 2.6s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 124 (124.2, 0.0) | onhit = 59 (58.7, 0.0) | AA_DPS = 184 (183.6, 0.0)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(47.6, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(95.3, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(74.3, 0.0),
+    'scaling_dmg': Damage(29.1, 0.0),
+    'stack_dmg': Damage(12.0, 0.0),
+    'total_dmg': Damage(56.8, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(98.3, 0.0)}
+Total DPS = 305 (305.5, 0.0)
+Total Burst = 98 (98.3, 0.0)
+Time to Kill = 6.7s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 75 (74.5, 0.0) | onhit = 33 (32.7, 0.0) | AA_DPS = 94 (93.6, 0.0)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(30.4, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(60.8, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(46.1, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(35.3, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(58.9, 0.0)}
+Total DPS = 170 (170.1, 0.0)
+Total Burst = 59 (58.9, 0.0)
+Time to Kill = 11.7s
+---
+
+--- lvl 11 st 7 [Warrior, Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Warrior, Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   162		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.478		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 7
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 179 (178.7, 0.0) | onhit = 65 (64.9, 0.0) | AA_DPS = 264 (264.1, 0.0)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(74.4, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(148.8, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(111.7, 0.0),
+    'scaling_dmg': Damage(45.5, 0.0),
+    'stack_dmg': Damage(15.4, 0.0),
+    'total_dmg': Damage(85.4, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(22.8, 0.0),
+    'total_dmg': Damage(122.8, 0.0)}
+Total DPS = 450 (450.2, 0.0)
+Total Burst = 123 (122.8, 0.0)
+Time to Kill = 2.5s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 136 (136.2, 0.0) | onhit = 71 (70.6, 0.0) | AA_DPS = 201 (201.3, 0.0)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(47.6, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(95.3, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(80.5, 0.0),
+    'scaling_dmg': Damage(29.1, 0.0),
+    'stack_dmg': Damage(16.8, 0.0),
+    'total_dmg': Damage(61.6, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(14.6, 0.0),
+    'total_dmg': Damage(98.3, 0.0)}
+Total DPS = 329 (329.4, 0.0)
+Total Burst = 98 (98.3, 0.0)
+Time to Kill = 6.2s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 81 (81.2, 0.0) | onhit = 39 (39.3, 0.0) | AA_DPS = 102 (102.0, 0.0)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(30.4, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(60.8, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(49.6, 0.0),
+    'scaling_dmg': Damage(18.6, 0.0),
+    'stack_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(38.0, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(58.9, 0.0)}
+Total DPS = 182 (182.0, 0.0)
+Total Burst = 59 (58.9, 0.0)
+Time to Kill = 10.9s
+---
+
+--- lvl 11 st 3 [Warrior, Berserker's, Blade of the Ruined King(active)] ---
+	Kindred lvl 11
+	Items: [Warrior, Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1051,9 +1294,9 @@ Total Burst = 112 (112.2, 0.0)
 Time to Kill = 12.2s
 ---
 
---- lvl 11 [Warrior, Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 5 [Warrior, Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Warrior, Berserker's, Blade of the Ruined King]
+	Items: [Warrior, Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1132,9 +1375,9 @@ Total Burst = 112 (112.2, 0.0)
 Time to Kill = 11.4s
 ---
 
---- lvl 11 [Warrior, Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 7 [Warrior, Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Warrior, Berserker's, Blade of the Ruined King]
+	Items: [Warrior, Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1213,7 +1456,7 @@ Total Burst = 112 (112.2, 0.0)
 Time to Kill = 10.6s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade] ---
+--- lvl 11 st 3 [Warrior, Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -1294,7 +1537,7 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 13.7s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade] ---
+--- lvl 11 st 5 [Warrior, Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -1375,7 +1618,7 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 12.7s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade] ---
+--- lvl 11 st 7 [Warrior, Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -1456,7 +1699,7 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 11.9s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 3 [Warrior, Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -1537,7 +1780,7 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 11.9s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 5 [Warrior, Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -1618,7 +1861,7 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 11.0s
 ---
 
---- lvl 11 [Warrior, Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 7 [Warrior, Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Warrior, Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -1699,9 +1942,252 @@ Total Burst = 65 (64.6, 0.0)
 Time to Kill = 10.3s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 3 [Devourer(0), Berserker's, Blade of the Ruined King] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 3
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 138 (114.7, 23.0) | onhit = 66 (42.9, 23.0) | AA_DPS = 238 (198.1, 39.7)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(90.2, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(6.6, 0.0),
+    'total_dmg': Damage(59.8, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 398 (358.5, 39.7)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.9s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 109 (88.0, 21.0) | onhit = 68 (46.7, 21.0) | AA_DPS = 188 (152.1, 36.3)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(62.2, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(7.2, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 296 (259.2, 36.3)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 6.9s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 73 (52.4, 21.0) | onhit = 47 (26.0, 21.0) | AA_DPS = 108 (77.0, 30.9)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(38.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(4.0, 0.0),
+    'total_dmg': Damage(25.7, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 175 (144.5, 30.9)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 11.4s
+---
+
+--- lvl 11 st 5 [Devourer(0), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(0), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 5
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 149 (125.7, 23.0) | onhit = 77 (53.9, 23.0) | AA_DPS = 257 (217.1, 39.7)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(96.8, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(11.0, 0.0),
+    'total_dmg': Damage(64.2, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 424 (384.2, 39.7)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.7s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 121 (100.0, 21.0) | onhit = 80 (58.7, 21.0) | AA_DPS = 209 (172.8, 36.3)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(69.4, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(12.0, 0.0),
+    'total_dmg': Damage(46.0, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 323 (287.1, 36.3)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 6.3s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 80 (59.1, 21.0) | onhit = 54 (32.7, 21.0) | AA_DPS = 118 (86.8, 30.9)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(42.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(28.4, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 189 (158.3, 30.9)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 10.5s
+---
+
+--- lvl 11 st 7 [Devourer(0), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(0), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 7
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 160 (136.7, 23.0) | onhit = 88 (64.9, 23.0) | AA_DPS = 276 (236.2, 39.7)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(103.4, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(15.4, 0.0),
+    'total_dmg': Damage(68.6, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 450 (409.8, 39.7)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.5s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 133 (112.0, 21.0) | onhit = 92 (70.6, 21.0) | AA_DPS = 230 (193.5, 36.3)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(76.6, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(16.8, 0.0),
+    'total_dmg': Damage(50.8, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 351 (315.0, 36.3)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 5.8s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 87 (65.7, 21.0) | onhit = 60 (39.3, 21.0) | AA_DPS = 127 (96.5, 30.9)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(46.9, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(31.1, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 203 (172.1, 30.9)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 9.8s
+---
+
+--- lvl 11 st 3 [Devourer(0), Berserker's, Blade of the Ruined King(active)] ---
+	Kindred lvl 11
+	Items: [Devourer(0), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1780,9 +2266,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 11.1s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 5 [Devourer(0), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(0), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(0), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1861,9 +2347,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 10.3s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 7 [Devourer(0), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(0), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(0), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -1942,7 +2428,7 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 9.6s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade] ---
+--- lvl 11 st 3 [Devourer(0), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2023,7 +2509,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 12.3s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade] ---
+--- lvl 11 st 5 [Devourer(0), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2104,7 +2590,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 11.4s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade] ---
+--- lvl 11 st 7 [Devourer(0), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2185,7 +2671,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 10.6s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 3 [Devourer(0), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -2266,7 +2752,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 10.9s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 5 [Devourer(0), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -2347,7 +2833,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 10.1s
 ---
 
---- lvl 11 [Devourer(0), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 7 [Devourer(0), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(0), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -2428,9 +2914,252 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 9.4s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 3 [Devourer(15), Berserker's, Blade of the Ruined King] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 3
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 149 (114.7, 34.5) | onhit = 77 (42.9, 34.5) | AA_DPS = 258 (198.1, 59.6)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(90.2, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(6.6, 0.0),
+    'total_dmg': Damage(59.8, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 418 (358.5, 59.6)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.7s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 120 (88.0, 31.5) | onhit = 78 (46.7, 31.5) | AA_DPS = 207 (152.1, 54.5)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(62.2, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(7.2, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 314 (259.2, 54.5)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 6.5s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 84 (52.4, 31.5) | onhit = 58 (26.0, 31.5) | AA_DPS = 123 (77.0, 46.3)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(38.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(4.0, 0.0),
+    'total_dmg': Damage(25.7, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 191 (144.5, 46.3)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 10.5s
+---
+
+--- lvl 11 st 5 [Devourer(15), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(15), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 5
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 160 (125.7, 34.5) | onhit = 88 (53.9, 34.5) | AA_DPS = 277 (217.1, 59.6)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(96.8, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(11.0, 0.0),
+    'total_dmg': Damage(64.2, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 444 (384.2, 59.6)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.6s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 132 (100.0, 31.5) | onhit = 90 (58.7, 31.5) | AA_DPS = 227 (172.8, 54.5)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(69.4, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(12.0, 0.0),
+    'total_dmg': Damage(46.0, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 342 (287.1, 54.5)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 6.0s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 91 (59.1, 31.5) | onhit = 64 (32.7, 31.5) | AA_DPS = 133 (86.8, 46.3)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(42.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(28.4, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 205 (158.3, 46.3)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 9.8s
+---
+
+--- lvl 11 st 7 [Devourer(15), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(15), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 7
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 171 (136.7, 34.5) | onhit = 99 (64.9, 34.5) | AA_DPS = 296 (236.2, 59.6)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(103.4, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(15.4, 0.0),
+    'total_dmg': Damage(68.6, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 469 (409.8, 59.6)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.4s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 144 (112.0, 31.5) | onhit = 102 (70.6, 31.5) | AA_DPS = 248 (193.5, 54.5)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(76.6, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(16.8, 0.0),
+    'total_dmg': Damage(50.8, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 370 (315.0, 54.5)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 5.5s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 97 (65.7, 31.5) | onhit = 71 (39.3, 31.5) | AA_DPS = 143 (96.5, 46.3)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(46.9, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(31.1, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 218 (172.1, 46.3)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 9.1s
+---
+
+--- lvl 11 st 3 [Devourer(15), Berserker's, Blade of the Ruined King(active)] ---
+	Kindred lvl 11
+	Items: [Devourer(15), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -2509,9 +3238,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 10.2s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 5 [Devourer(15), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(15), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(15), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -2590,9 +3319,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 9.5s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 7 [Devourer(15), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(15), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(15), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -2671,7 +3400,7 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 8.9s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade] ---
+--- lvl 11 st 3 [Devourer(15), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2752,7 +3481,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 11.4s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade] ---
+--- lvl 11 st 5 [Devourer(15), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2833,7 +3562,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 10.6s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade] ---
+--- lvl 11 st 7 [Devourer(15), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -2914,7 +3643,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 9.9s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 3 [Devourer(15), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -2995,7 +3724,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 10.0s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 5 [Devourer(15), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -3076,7 +3805,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 9.3s
 ---
 
---- lvl 11 [Devourer(15), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 7 [Devourer(15), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(15), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -3157,9 +3886,252 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 8.7s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 3 [Devourer(30), Berserker's, Blade of the Ruined King] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 3
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 172 (114.7, 57.5) | onhit = 100 (42.9, 57.5) | AA_DPS = 297 (198.1, 99.3)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(90.2, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(6.6, 0.0),
+    'total_dmg': Damage(59.8, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 458 (358.5, 99.3)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.5s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 141 (88.0, 52.6) | onhit = 99 (46.7, 52.6) | AA_DPS = 243 (152.1, 90.8)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(62.2, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(7.2, 0.0),
+    'total_dmg': Damage(41.3, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 350 (259.2, 90.8)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 5.8s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 105 (52.4, 52.6) | onhit = 79 (26.0, 52.6) | AA_DPS = 154 (77.0, 77.2)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(38.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(4.0, 0.0),
+    'total_dmg': Damage(25.7, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 222 (144.5, 77.2)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 9.0s
+---
+
+--- lvl 11 st 5 [Devourer(30), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(30), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 5
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 183 (125.7, 57.5) | onhit = 111 (53.9, 57.5) | AA_DPS = 316 (217.1, 99.3)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(96.8, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(11.0, 0.0),
+    'total_dmg': Damage(64.2, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 484 (384.2, 99.3)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.4s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 153 (100.0, 52.6) | onhit = 111 (58.7, 52.6) | AA_DPS = 264 (172.8, 90.8)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(69.4, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(12.0, 0.0),
+    'total_dmg': Damage(46.0, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 378 (287.1, 90.8)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 5.4s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 112 (59.1, 52.6) | onhit = 85 (32.7, 52.6) | AA_DPS = 164 (86.8, 77.2)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(42.8, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(6.7, 0.0),
+    'total_dmg': Damage(28.4, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 235 (158.3, 77.2)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 8.5s
+---
+
+--- lvl 11 st 7 [Devourer(30), Berserker's, Blade of the Ruined King] ---
+	Kindred lvl 11
+	Items: [Devourer(30), Berserker's, Blade of the Ruined King]
+	HPR:  11.8		| MPR:  10.5
+	APen: 5.2/3%	| MPen: 3.1/0%
+	LS:   12%		| SV:   2%
+	Rg:   500		| ??: 
+	AD:   102		| AP:   0
+	AR:   64(39%)	| MR:   42(29%)
+	AS:   1.728		| CDR:  0
+	??:   			| MS:   325
+	q: 5 | w: 3 | e: 1 | r: 2
+Stacks: 7
+-
+vs. lvl 11 Lucian [] (1256 HP, 59 AR, 42 MR)
+AA_dmg = 194 (136.7, 57.5) | onhit = 122 (64.9, 57.5) | AA_DPS = 336 (236.2, 99.3)
+q:
+{   'base_dmg': Damage(126.1, 0.0),
+    'dps': Damage(70.2, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(140.4, 0.0)}
+w:
+{   'base_dmg': Damage(24.5, 0.0),
+    'dps': Damage(103.4, 0.0),
+    'scaling_dmg': Damage(28.7, 0.0),
+    'stack_dmg': Damage(15.4, 0.0),
+    'total_dmg': Damage(68.6, 0.0)}
+e:
+{   'base_dmg': Damage(56.0, 0.0),
+    'hp_dmg': Damage(44.0, 0.0),
+    'scaling_dmg': Damage(14.4, 0.0),
+    'total_dmg': Damage(114.4, 0.0)}
+Total DPS = 509 (409.8, 99.3)
+Total Burst = 114 (114.4, 0.0)
+Time to Kill = 2.2s
+-
+vs. lvl 11 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate] (2135 HP, 147 AR, 55 MR)
+AA_dmg = 165 (112.0, 52.6) | onhit = 123 (70.6, 52.6) | AA_DPS = 284 (193.5, 90.8)
+q:
+{   'base_dmg': Damage(80.7, 0.0),
+    'dps': Damage(45.0, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(89.9, 0.0)}
+w:
+{   'base_dmg': Damage(15.7, 0.0),
+    'dps': Damage(76.6, 0.0),
+    'scaling_dmg': Damage(18.4, 0.0),
+    'stack_dmg': Damage(16.8, 0.0),
+    'total_dmg': Damage(50.8, 0.0)}
+e:
+{   'base_dmg': Damage(35.9, 0.0),
+    'hp_dmg': Damage(47.9, 0.0),
+    'scaling_dmg': Damage(9.2, 0.0),
+    'total_dmg': Damage(92.9, 0.0)}
+Total DPS = 406 (315.0, 90.8)
+Total Burst = 93 (92.9, 0.0)
+Time to Kill = 5.0s
+-
+vs. lvl 11 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart] (1863 HP, 287 AR, 55 MR)
+AA_dmg = 118 (65.7, 52.6) | onhit = 92 (39.3, 52.6) | AA_DPS = 174 (96.5, 77.2)
+q:
+{   'base_dmg': Damage(51.5, 0.0),
+    'dps': Damage(28.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(57.4, 0.0)}
+w:
+{   'base_dmg': Damage(10.0, 0.0),
+    'dps': Damage(46.9, 0.0),
+    'scaling_dmg': Damage(11.7, 0.0),
+    'stack_dmg': Damage(9.3, 0.0),
+    'total_dmg': Damage(31.1, 0.0)}
+e:
+{   'base_dmg': Damage(22.9, 0.0),
+    'hp_dmg': Damage(26.7, 0.0),
+    'scaling_dmg': Damage(5.9, 0.0),
+    'total_dmg': Damage(55.4, 0.0)}
+Total DPS = 249 (172.1, 77.2)
+Total Burst = 55 (55.4, 0.0)
+Time to Kill = 8.0s
+---
+
+--- lvl 11 st 3 [Devourer(30), Berserker's, Blade of the Ruined King(active)] ---
+	Kindred lvl 11
+	Items: [Devourer(30), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -3238,9 +4210,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 8.8s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 5 [Devourer(30), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(30), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(30), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -3319,9 +4291,9 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 8.2s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Blade of the Ruined King] ---
+--- lvl 11 st 7 [Devourer(30), Berserker's, Blade of the Ruined King(active)] ---
 	Kindred lvl 11
-	Items: [Devourer(30), Berserker's, Blade of the Ruined King]
+	Items: [Devourer(30), Berserker's, Blade of the Ruined King(active)]
 	HPR:  11.8		| MPR:  10.5
 	APen: 5.2/3%	| MPen: 3.1/0%
 	LS:   12%		| SV:   2%
@@ -3400,7 +4372,7 @@ Total Burst = 109 (108.8, 0.0)
 Time to Kill = 7.8s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade] ---
+--- lvl 11 st 3 [Devourer(30), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -3481,7 +4453,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 9.9s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade] ---
+--- lvl 11 st 5 [Devourer(30), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -3562,7 +4534,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 9.3s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade] ---
+--- lvl 11 st 7 [Devourer(30), Berserker's, Ghostblade] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade]
 	HPR:  11.8		| MPR:  10.5
@@ -3643,7 +4615,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 8.8s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 3 [Devourer(30), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -3724,7 +4696,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 8.7s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 5 [Devourer(30), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -3805,7 +4777,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 8.1s
 ---
 
---- lvl 11 [Devourer(30), Berserker's, Ghostblade(active)] ---
+--- lvl 11 st 7 [Devourer(30), Berserker's, Ghostblade(active)] ---
 	Kindred lvl 11
 	Items: [Devourer(30), Berserker's, Ghostblade(active)]
 	HPR:  11.8		| MPR:  10.5
@@ -3886,7 +4858,7 @@ Total Burst = 61 (61.0, 0.0)
 Time to Kill = 7.7s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -3919,8 +4891,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 608 (608.4, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 2.0s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 2.2s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 172 (172.4, 0.0) | onhit = 75 (74.8, 0.0) | AA_DPS = 264 (263.7, 0.0)
@@ -3941,8 +4913,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 422 (421.5, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 6.3s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 6.6s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 96 (96.4, 0.0) | onhit = 35 (34.9, 0.0) | AA_DPS = 125 (125.3, 0.0)
@@ -3963,11 +4935,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 222 (221.7, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 10.1s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 10.4s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -4000,8 +4972,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 638 (638.1, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 1.9s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 2.1s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 189 (189.4, 0.0) | onhit = 92 (91.8, 0.0) | AA_DPS = 290 (289.7, 0.0)
@@ -4022,8 +4994,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 457 (456.7, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 5.8s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 6.1s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 104 (104.3, 0.0) | onhit = 43 (42.8, 0.0) | AA_DPS = 136 (135.6, 0.0)
@@ -4044,11 +5016,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 236 (236.2, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 9.5s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 9.7s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -4081,8 +5053,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 683 (682.8, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 1.8s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 2.0s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 215 (214.9, 0.0) | onhit = 117 (117.3, 0.0) | AA_DPS = 329 (328.8, 0.0)
@@ -4103,8 +5075,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 509 (509.5, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 5.2s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 5.5s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 116 (116.2, 0.0) | onhit = 55 (54.7, 0.0) | AA_DPS = 151 (151.0, 0.0)
@@ -4125,11 +5097,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 258 (258.1, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 8.7s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 8.9s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -4162,8 +5134,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 691 (691.5, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 1.8s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 1.9s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 172 (172.4, 0.0) | onhit = 75 (74.8, 0.0) | AA_DPS = 307 (306.8, 0.0)
@@ -4184,8 +5156,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 480 (480.2, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 5.5s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 5.8s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 96 (96.4, 0.0) | onhit = 35 (34.9, 0.0) | AA_DPS = 146 (145.7, 0.0)
@@ -4206,11 +5178,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 252 (251.5, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 8.9s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 9.1s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -4243,8 +5215,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 726 (725.9, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 1.7s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 1.9s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 189 (189.4, 0.0) | onhit = 92 (91.8, 0.0) | AA_DPS = 337 (337.1, 0.0)
@@ -4265,8 +5237,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 521 (521.0, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 5.1s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 5.3s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 104 (104.3, 0.0) | onhit = 43 (42.8, 0.0) | AA_DPS = 158 (157.7, 0.0)
@@ -4287,11 +5259,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 268 (268.4, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 8.3s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 8.6s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -4324,8 +5296,8 @@ e:
     'scaling_dmg': Damage(35.2, 0.0),
     'total_dmg': Damage(175.9, 0.0)}
 Total DPS = 778 (777.7, 0.0)
-Total Burst = 291 (290.9, 0.0)
-Time to Kill = 1.6s
+Total Burst = 176 (175.9, 0.0)
+Time to Kill = 1.7s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 215 (214.9, 0.0) | onhit = 117 (117.3, 0.0) | AA_DPS = 382 (382.5, 0.0)
@@ -4346,8 +5318,8 @@ e:
     'scaling_dmg': Damage(21.7, 0.0),
     'total_dmg': Damage(140.9, 0.0)}
 Total DPS = 582 (582.2, 0.0)
-Total Burst = 277 (276.9, 0.0)
-Time to Kill = 4.5s
+Total Burst = 141 (140.9, 0.0)
+Time to Kill = 4.8s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 116 (116.2, 0.0) | onhit = 55 (54.7, 0.0) | AA_DPS = 176 (175.7, 0.0)
@@ -4368,11 +5340,11 @@ e:
     'scaling_dmg': Damage(13.7, 0.0),
     'total_dmg': Damage(77.6, 0.0)}
 Total DPS = 294 (293.7, 0.0)
-Total Burst = 141 (141.0, 0.0)
-Time to Kill = 7.6s
+Total Burst = 78 (77.6, 0.0)
+Time to Kill = 7.8s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4453,7 +5425,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 12.5s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4534,7 +5506,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 11.6s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade, Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4615,7 +5587,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 10.4s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4696,7 +5668,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 11.0s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4777,7 +5749,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 10.2s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]
 	HPR:  13.6		| MPR:  11.8
@@ -4858,7 +5830,7 @@ Total Burst = 156 (76.1, 79.7)
 Time to Kill = 9.2s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -4939,7 +5911,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 9.8s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -5020,7 +5992,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 9.2s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade, Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade, Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -5101,7 +6073,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 8.4s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
+--- lvl 14 st 4 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -5182,7 +6154,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 8.5s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
+--- lvl 14 st 6 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -5263,7 +6235,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 8.0s
 ---
 
---- lvl 14 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
+--- lvl 14 st 9 [Warrior, Berserker's, Ghostblade(active), Cleaver(5)] ---
 	Kindred lvl 14
 	Items: [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]
 	HPR:  13.6		| MPR:  11.8
@@ -5344,7 +6316,7 @@ Total Burst = 100 (100.0, 0.0)
 Time to Kill = 7.3s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 4 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5377,8 +6349,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 681 (578.1, 102.7)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.8s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 2.0s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 183 (147.3, 35.4) | onhit = 110 (74.8, 35.4) | AA_DPS = 325 (262.1, 63.0)
@@ -5399,8 +6371,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 478 (415.4, 63.0)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 5.5s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 5.8s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 119 (80.5, 38.8) | onhit = 74 (34.9, 38.8) | AA_DPS = 181 (121.8, 58.7)
@@ -5421,11 +6393,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 274 (214.9, 58.7)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 8.2s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 8.4s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 6 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5458,8 +6430,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 715 (612.6, 102.7)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.7s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 1.9s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 200 (164.3, 35.4) | onhit = 127 (91.8, 35.4) | AA_DPS = 355 (292.4, 63.0)
@@ -5480,8 +6452,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 519 (456.2, 63.0)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 5.1s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 5.4s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 127 (88.4, 38.8) | onhit = 82 (42.8, 38.8) | AA_DPS = 193 (133.8, 58.7)
@@ -5502,11 +6474,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 291 (231.8, 58.7)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 7.7s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 7.9s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
+--- lvl 14 st 9 [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5539,8 +6511,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 767 (664.3, 102.7)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.6s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 1.8s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 225 (189.8, 35.4) | onhit = 153 (117.3, 35.4) | AA_DPS = 401 (337.8, 63.0)
@@ -5561,8 +6533,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 580 (517.4, 63.0)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 4.6s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 4.8s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 139 (100.3, 38.8) | onhit = 94 (54.7, 38.8) | AA_DPS = 211 (151.8, 58.7)
@@ -5583,11 +6555,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 316 (257.2, 58.7)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 7.1s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 7.3s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 4 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5620,8 +6592,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 763 (646.2, 117.1)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.6s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 1.8s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 183 (147.3, 35.4) | onhit = 110 (74.8, 35.4) | AA_DPS = 371 (299.0, 71.8)
@@ -5642,8 +6614,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 537 (465.6, 71.8)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 4.9s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 5.2s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 119 (80.5, 38.8) | onhit = 74 (34.9, 38.8) | AA_DPS = 206 (138.9, 67.0)
@@ -5664,11 +6636,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 307 (240.0, 67.0)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 7.3s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 7.5s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 6 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5701,8 +6673,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 803 (685.5, 117.1)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.5s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 1.7s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 200 (164.3, 35.4) | onhit = 127 (91.8, 35.4) | AA_DPS = 405 (333.5, 71.8)
@@ -5723,8 +6695,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 584 (512.0, 71.8)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 4.5s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 4.8s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 127 (88.4, 38.8) | onhit = 82 (42.8, 38.8) | AA_DPS = 220 (152.6, 67.0)
@@ -5745,11 +6717,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 326 (259.2, 67.0)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 6.9s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 7.1s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
+--- lvl 14 st 9 [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King]
 	HPR:  13.6		| MPR:  11.8
@@ -5782,8 +6754,8 @@ e:
     'scaling_dmg': Damage(26.2, 0.0),
     'total_dmg': Damage(166.8, 0.0)}
 Total DPS = 861 (744.3, 117.1)
-Total Burst = 282 (281.9, 0.0)
-Time to Kill = 1.4s
+Total Burst = 167 (166.8, 0.0)
+Time to Kill = 1.6s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 225 (189.8, 35.4) | onhit = 153 (117.3, 35.4) | AA_DPS = 457 (385.2, 71.8)
@@ -5804,8 +6776,8 @@ e:
     'scaling_dmg': Damage(16.1, 0.0),
     'total_dmg': Damage(135.3, 0.0)}
 Total DPS = 653 (581.6, 71.8)
-Total Burst = 271 (271.3, 0.0)
-Time to Kill = 4.1s
+Total Burst = 135 (135.3, 0.0)
+Time to Kill = 4.3s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 139 (100.3, 38.8) | onhit = 94 (54.7, 38.8) | AA_DPS = 240 (173.1, 67.0)
@@ -5826,11 +6798,11 @@ e:
     'scaling_dmg': Damage(10.1, 0.0),
     'total_dmg': Damage(74.1, 0.0)}
 Total DPS = 355 (288.0, 67.0)
-Total Burst = 137 (137.5, 0.0)
-Time to Kill = 6.3s
+Total Burst = 74 (74.1, 0.0)
+Time to Kill = 6.5s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
+--- lvl 14 st 4 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane]
 	HPR:  13.6		| MPR:  11.8
@@ -5863,8 +6835,8 @@ e:
     'scaling_dmg': Damage(14.3, 0.0),
     'total_dmg': Damage(137.5, 0.0)}
 Total DPS = 561 (444.2, 117.1)
-Total Burst = 238 (238.2, 0.0)
-Time to Kill = 2.3s
+Total Burst = 137 (137.5, 0.0)
+Time to Kill = 2.5s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 146 (110.4, 35.4) | onhit = 104 (68.8, 35.4) | AA_DPS = 296 (224.1, 71.8)
@@ -5885,8 +6857,8 @@ e:
     'scaling_dmg': Damage(9.3, 0.0),
     'total_dmg': Damage(118.9, 0.0)}
 Total DPS = 427 (355.2, 71.8)
-Total Burst = 244 (244.0, 0.0)
-Time to Kill = 6.3s
+Total Burst = 119 (118.9, 0.0)
+Time to Kill = 6.6s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 99 (60.1, 38.8) | onhit = 72 (33.0, 38.8) | AA_DPS = 171 (103.6, 67.0)
@@ -5907,11 +6879,11 @@ e:
     'scaling_dmg': Damage(6.0, 0.0),
     'total_dmg': Damage(66.6, 0.0)}
 Total DPS = 252 (185.0, 67.0)
-Total Burst = 127 (126.7, 0.0)
-Time to Kill = 8.9s
+Total Burst = 67 (66.6, 0.0)
+Time to Kill = 9.2s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
+--- lvl 14 st 6 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane]
 	HPR:  13.6		| MPR:  11.8
@@ -5944,8 +6916,8 @@ e:
     'scaling_dmg': Damage(14.3, 0.0),
     'total_dmg': Damage(137.5, 0.0)}
 Total DPS = 596 (478.5, 117.1)
-Total Burst = 238 (238.2, 0.0)
-Time to Kill = 2.2s
+Total Burst = 137 (137.5, 0.0)
+Time to Kill = 2.3s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 161 (126.1, 35.4) | onhit = 120 (84.4, 35.4) | AA_DPS = 328 (255.9, 71.8)
@@ -5966,8 +6938,8 @@ e:
     'scaling_dmg': Damage(9.3, 0.0),
     'total_dmg': Damage(118.9, 0.0)}
 Total DPS = 470 (397.8, 71.8)
-Total Burst = 244 (244.0, 0.0)
-Time to Kill = 5.7s
+Total Burst = 119 (118.9, 0.0)
+Time to Kill = 6.0s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 106 (67.6, 38.8) | onhit = 79 (40.5, 38.8) | AA_DPS = 184 (116.6, 67.0)
@@ -5988,11 +6960,11 @@ e:
     'scaling_dmg': Damage(6.0, 0.0),
     'total_dmg': Damage(66.6, 0.0)}
 Total DPS = 270 (203.2, 67.0)
-Total Burst = 127 (126.7, 0.0)
-Time to Kill = 8.3s
+Total Burst = 67 (66.6, 0.0)
+Time to Kill = 8.6s
 ---
 
---- lvl 14 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
+--- lvl 14 st 9 [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] ---
 	Kindred lvl 14
 	Items: [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane]
 	HPR:  13.6		| MPR:  11.8
@@ -6025,8 +6997,8 @@ e:
     'scaling_dmg': Damage(14.3, 0.0),
     'total_dmg': Damage(137.5, 0.0)}
 Total DPS = 647 (530.1, 117.1)
-Total Burst = 238 (238.2, 0.0)
-Time to Kill = 2.0s
+Total Burst = 137 (137.5, 0.0)
+Time to Kill = 2.1s
 -
 vs. lvl 14 Renekton [Cleaver(0), Ninja Tabi, Dead Man's Plate, Spirit Visage] (2923 HP, 160 AR, 129 MR)
 AA_dmg = 185 (149.5, 35.4) | onhit = 143 (107.9, 35.4) | AA_DPS = 375 (303.5, 71.8)
@@ -6047,8 +7019,8 @@ e:
     'scaling_dmg': Damage(9.3, 0.0),
     'total_dmg': Damage(118.9, 0.0)}
 Total DPS = 534 (461.9, 71.8)
-Total Burst = 244 (244.0, 0.0)
-Time to Kill = 5.0s
+Total Burst = 119 (118.9, 0.0)
+Time to Kill = 5.3s
 -
 vs. lvl 14 Malphite [Sunfire Cape, Ninja Tabi, Frozen Heart, Abyssal Scepter] (2162 HP, 299 AR, 109 MR)
 AA_dmg = 118 (78.8, 38.8) | onhit = 91 (51.8, 38.8) | AA_DPS = 203 (136.0, 67.0)
@@ -6069,83 +7041,95 @@ e:
     'scaling_dmg': Damage(6.0, 0.0),
     'total_dmg': Damage(66.6, 0.0)}
 Total DPS = 298 (230.5, 67.0)
-Total Burst = 127 (126.7, 0.0)
-Time to Kill = 7.6s
+Total Burst = 67 (66.6, 0.0)
+Time to Kill = 7.8s
 ---
 
-| Level | Items                                                                     | Stacks | Squishy | Bruiser | Tank |
-| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 3      | 2.6     | 6.6     | 11.1 |
-| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 3      | 2.3     | 6.6     | 10.9 |
-| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 3      | 2.6     | 7.4     | 12.3 |
-| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 3      | 2.5     | 6.2     | 10.2 |
-| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 3      | 2.2     | 6.2     | 10.0 |
-| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 3      | 2.5     | 7.0     | 11.4 |
-| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 3      | 2.3     | 5.6     | 8.8  |
-| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 3      | 2.1     | 5.6     | 8.7  |
-| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 3      | 2.4     | 6.4     | 9.9  |
-| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 3      | 2.6     | 6.9     | 12.2 |
-| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 3      | 2.3     | 6.8     | 11.9 |
-| 11    | [Warrior, Berserker's, Ghostblade]                                        | 3      | 2.6     | 7.8     | 13.7 |
-| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 5      | 2.5     | 6.0     | 10.3 |
-| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 5      | 2.2     | 6.0     | 10.1 |
-| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 5      | 2.5     | 6.8     | 11.4 |
-| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 5      | 2.4     | 5.7     | 9.5  |
-| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 5      | 2.1     | 5.7     | 9.3  |
-| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 5      | 2.4     | 6.5     | 10.6 |
-| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 5      | 2.2     | 5.2     | 8.2  |
-| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 5      | 2.0     | 5.1     | 8.1  |
-| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 5      | 2.2     | 5.9     | 9.3  |
-| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 5      | 2.4     | 6.4     | 11.4 |
-| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 5      | 2.1     | 6.2     | 11.0 |
-| 11    | [Warrior, Berserker's, Ghostblade]                                        | 5      | 2.5     | 7.2     | 12.7 |
-| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 7      | 2.3     | 5.5     | 9.6  |
-| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 7      | 2.1     | 5.5     | 9.4  |
-| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 7      | 2.4     | 6.2     | 10.6 |
-| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 7      | 2.2     | 5.3     | 8.9  |
-| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 7      | 2.0     | 5.2     | 8.7  |
-| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 7      | 2.3     | 6.0     | 9.9  |
-| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 7      | 2.1     | 4.8     | 7.8  |
-| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 7      | 1.9     | 4.8     | 7.7  |
-| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 7      | 2.1     | 5.5     | 8.8  |
-| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 7      | 2.3     | 5.9     | 10.6 |
-| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 7      | 2.0     | 5.8     | 10.3 |
-| 11    | [Warrior, Berserker's, Ghostblade]                                        | 7      | 2.4     | 6.7     | 11.9 |
-| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 4      | 2.3     | 6.3     | 8.9  |
-| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 4      | 1.6     | 4.9     | 7.3  |
-| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 4      | 1.8     | 5.5     | 8.2  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 4      | 1.8     | 5.5     | 8.9  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 4      | 1.9     | 5.9     | 8.5  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 4      | 2.2     | 7.3     | 11.0 |
-| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 4      | 2.0     | 6.3     | 10.1 |
-| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 4      | 2.2     | 6.8     | 9.8  |
-| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 4      | 2.5     | 8.4     | 12.5 |
-| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 6      | 2.2     | 5.7     | 8.3  |
-| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 6      | 1.5     | 4.5     | 6.9  |
-| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 6      | 1.7     | 5.1     | 7.7  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 6      | 1.7     | 5.1     | 8.3  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 6      | 1.8     | 5.4     | 8.0  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 6      | 2.1     | 6.6     | 10.2 |
-| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 6      | 1.9     | 5.8     | 9.5  |
-| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 6      | 2.1     | 6.2     | 9.2  |
-| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 6      | 2.3     | 7.6     | 11.6 |
-| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 9      | 2.0     | 5.0     | 7.6  |
-| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 9      | 1.4     | 4.1     | 6.3  |
-| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 9      | 1.6     | 4.6     | 7.1  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 9      | 1.6     | 4.5     | 7.6  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 9      | 1.7     | 4.8     | 7.3  |
-| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 9      | 1.9     | 5.8     | 9.2  |
-| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 9      | 1.8     | 5.2     | 8.7  |
-| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 9      | 2.0     | 5.6     | 8.4  |
-| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 9      | 2.2     | 6.6     | 10.4 |
-| 5     | [Devourer(0)]                                                             | 1      | 3.6     | 5.4     | 9.9  |
-| 5     | [Devourer(15)]                                                            | 1      | 3.4     | 5.1     | 9.1  |
-| 5     | [Devourer(30)]                                                            | 1      | 3.0     | 4.5     | 7.8  |
-| 5     | [Warrior]                                                                 | 1      | 3.3     | 5.0     | 9.7  |
-| 5     | [Devourer(0)]                                                             | 3      | 3.4     | 4.9     | 9.0  |
-| 5     | [Devourer(15)]                                                            | 3      | 3.2     | 4.7     | 8.3  |
-| 5     | [Devourer(30)]                                                            | 3      | 2.8     | 4.2     | 7.2  |
-| 5     | [Warrior]                                                                 | 3      | 3.1     | 4.7     | 9.0  |
-| 5     | [Devourer(0)]                                                             | 4      | 3.3     | 4.7     | 8.6  |
-| 5     | [Devourer(15)]                                                            | 4      | 3.1     | 4.5     | 8.0  |
-| 5     | [Devourer(30)]                                                            | 4      | 2.8     | 4.0     | 6.9  |
-| 5     | [Warrior]                                                                 | 4      | 3.1     | 4.5     | 8.7  |
+| Level | Items                                                                     | Stacks | Squishy TTK | Squishy DMG                           | Bruiser TTK | Bruiser DMG                          | Tank TTK | Tank DMG                             |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King(active)]              | 3      | 2.6         | 398(358.5, 39.7)/s + 202(202.4, 0.0)  | 6.6         | 296(259.2, 36.3)/s + 189(188.7, 0.0) | 11.1     | 175(144.5, 30.9)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 3      | 2.9         | 398(358.5, 39.7)/s + 114(114.4, 0.0)  | 6.9         | 296(259.2, 36.3)/s + 93(92.9, 0.0)   | 11.4     | 175(144.5, 30.9)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 3      | 2.3         | 478(438.7, 39.7)/s + 138(138.2, 0.0)  | 6.6         | 309(273.1, 36.3)/s + 105(105.4, 0.0) | 10.9     | 183(152.3, 30.9)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 3      | 2.6         | 423(388.9, 34.0)/s + 138(138.2, 0.0)  | 7.4         | 273(241.9, 31.1)/s + 105(105.4, 0.0) | 12.3     | 162(135.4, 26.4)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King(active)]             | 3      | 2.5         | 418(358.5, 59.6)/s + 202(202.4, 0.0)  | 6.2         | 314(259.2, 54.5)/s + 189(188.7, 0.0) | 10.2     | 191(144.5, 46.3)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 3      | 2.7         | 418(358.5, 59.6)/s + 114(114.4, 0.0)  | 6.5         | 314(259.2, 54.5)/s + 93(92.9, 0.0)   | 10.5     | 191(144.5, 46.3)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 3      | 2.2         | 498(438.7, 59.6)/s + 138(138.2, 0.0)  | 6.2         | 328(273.1, 54.5)/s + 105(105.4, 0.0) | 10.0     | 199(152.3, 46.3)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 3      | 2.5         | 440(388.9, 51.0)/s + 138(138.2, 0.0)  | 7.0         | 289(241.9, 46.6)/s + 105(105.4, 0.0) | 11.4     | 175(135.4, 39.6)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King(active)]             | 3      | 2.3         | 458(358.5, 99.3)/s + 202(202.4, 0.0)  | 5.6         | 350(259.2, 90.8)/s + 189(188.7, 0.0) | 8.8      | 222(144.5, 77.2)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 3      | 2.5         | 458(358.5, 99.3)/s + 114(114.4, 0.0)  | 5.8         | 350(259.2, 90.8)/s + 93(92.9, 0.0)   | 9.0      | 222(144.5, 77.2)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 3      | 2.1         | 538(438.7, 99.3)/s + 138(138.2, 0.0)  | 5.6         | 364(273.1, 90.8)/s + 105(105.4, 0.0) | 8.7      | 230(152.3, 77.2)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 3      | 2.4         | 474(388.9, 85.0)/s + 138(138.2, 0.0)  | 6.4         | 320(241.9, 77.7)/s + 105(105.4, 0.0) | 9.9      | 201(135.4, 66.0)/s + 61(61.0, 0.0)   |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King(active)]                  | 3      | 2.6         | 406(406.2, 0.0)/s + 211(210.8, 0.0)   | 6.9         | 282(281.5, 0.0)/s + 194(194.1, 0.0)  | 12.2     | 158(158.3, 0.0)/s + 112(112.2, 0.0)  |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 3      | 2.8         | 406(406.2, 0.0)/s + 123(122.8, 0.0)   | 7.2         | 282(281.5, 0.0)/s + 98(98.3, 0.0)    | 12.6     | 158(158.3, 0.0)/s + 59(58.9, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 3      | 2.3         | 491(490.6, 0.0)/s + 148(147.9, 0.0)   | 6.8         | 299(299.3, 0.0)/s + 111(111.3, 0.0)  | 11.9     | 167(167.2, 0.0)/s + 65(64.6, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade]                                        | 3      | 2.6         | 425(424.7, 0.0)/s + 148(147.9, 0.0)   | 7.8         | 259(259.2, 0.0)/s + 111(111.3, 0.0)  | 13.7     | 145(145.4, 0.0)/s + 65(64.6, 0.0)    |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King(active)]              | 5      | 2.5         | 424(384.2, 39.7)/s + 202(202.4, 0.0)  | 6.0         | 323(287.1, 36.3)/s + 189(188.7, 0.0) | 10.3     | 189(158.3, 30.9)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 5      | 2.7         | 424(384.2, 39.7)/s + 114(114.4, 0.0)  | 6.3         | 323(287.1, 36.3)/s + 93(92.9, 0.0)   | 10.5     | 189(158.3, 30.9)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 5      | 2.2         | 508(468.3, 39.7)/s + 138(138.2, 0.0)  | 6.0         | 340(303.6, 36.3)/s + 105(105.4, 0.0) | 10.1     | 198(166.9, 30.9)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 5      | 2.5         | 448(414.2, 34.0)/s + 138(138.2, 0.0)  | 6.8         | 299(268.1, 31.1)/s + 105(105.4, 0.0) | 11.4     | 174(148.0, 26.4)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King(active)]             | 5      | 2.4         | 444(384.2, 59.6)/s + 202(202.4, 0.0)  | 5.7         | 342(287.1, 54.5)/s + 189(188.7, 0.0) | 9.5      | 205(158.3, 46.3)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 5      | 2.6         | 444(384.2, 59.6)/s + 114(114.4, 0.0)  | 6.0         | 342(287.1, 54.5)/s + 93(92.9, 0.0)   | 9.8      | 205(158.3, 46.3)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 5      | 2.1         | 528(468.3, 59.6)/s + 138(138.2, 0.0)  | 5.7         | 358(303.6, 54.5)/s + 105(105.4, 0.0) | 9.3      | 213(166.9, 46.3)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 5      | 2.4         | 465(414.2, 51.0)/s + 138(138.2, 0.0)  | 6.5         | 315(268.1, 46.6)/s + 105(105.4, 0.0) | 10.6     | 188(148.0, 39.6)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King(active)]             | 5      | 2.2         | 484(384.2, 99.3)/s + 202(202.4, 0.0)  | 5.2         | 378(287.1, 90.8)/s + 189(188.7, 0.0) | 8.2      | 235(158.3, 77.2)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 5      | 2.4         | 484(384.2, 99.3)/s + 114(114.4, 0.0)  | 5.4         | 378(287.1, 90.8)/s + 93(92.9, 0.0)   | 8.5      | 235(158.3, 77.2)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 5      | 2.0         | 568(468.3, 99.3)/s + 138(138.2, 0.0)  | 5.1         | 394(303.6, 90.8)/s + 105(105.4, 0.0) | 8.1      | 244(166.9, 77.2)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 5      | 2.2         | 499(414.2, 85.0)/s + 138(138.2, 0.0)  | 5.9         | 346(268.1, 77.7)/s + 105(105.4, 0.0) | 9.3      | 214(148.0, 66.0)/s + 61(61.0, 0.0)   |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King(active)]                  | 5      | 2.4         | 428(428.2, 0.0)/s + 211(210.8, 0.0)   | 6.4         | 305(305.5, 0.0)/s + 194(194.1, 0.0)  | 11.4     | 170(170.1, 0.0)/s + 112(112.2, 0.0)  |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 5      | 2.6         | 428(428.2, 0.0)/s + 123(122.8, 0.0)   | 6.7         | 305(305.5, 0.0)/s + 98(98.3, 0.0)    | 11.7     | 170(170.1, 0.0)/s + 59(58.9, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 5      | 2.1         | 516(515.9, 0.0)/s + 148(147.9, 0.0)   | 6.2         | 325(325.4, 0.0)/s + 111(111.3, 0.0)  | 11.0     | 180(179.8, 0.0)/s + 65(64.6, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade]                                        | 5      | 2.5         | 446(445.9, 0.0)/s + 148(147.9, 0.0)   | 7.2         | 281(281.0, 0.0)/s + 111(111.3, 0.0)  | 12.7     | 156(155.9, 0.0)/s + 65(64.6, 0.0)    |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King(active)]              | 7      | 2.3         | 450(409.8, 39.7)/s + 202(202.4, 0.0)  | 5.5         | 351(315.0, 36.3)/s + 189(188.7, 0.0) | 9.6      | 203(172.1, 30.9)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(0), Berserker's, Blade of the Ruined King]                      | 7      | 2.5         | 450(409.8, 39.7)/s + 114(114.4, 0.0)  | 5.8         | 351(315.0, 36.3)/s + 93(92.9, 0.0)   | 9.8      | 203(172.1, 30.9)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade(active)]                            | 7      | 2.1         | 538(497.8, 39.7)/s + 138(138.2, 0.0)  | 5.5         | 370(334.0, 36.3)/s + 105(105.4, 0.0) | 9.4      | 212(181.5, 30.9)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(0), Berserker's, Ghostblade]                                    | 7      | 2.4         | 474(439.6, 34.0)/s + 138(138.2, 0.0)  | 6.2         | 325(294.2, 31.1)/s + 105(105.4, 0.0) | 10.6     | 187(160.5, 26.4)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King(active)]             | 7      | 2.2         | 469(409.8, 59.6)/s + 202(202.4, 0.0)  | 5.3         | 370(315.0, 54.5)/s + 189(188.7, 0.0) | 8.9      | 218(172.1, 46.3)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(15), Berserker's, Blade of the Ruined King]                     | 7      | 2.4         | 469(409.8, 59.6)/s + 114(114.4, 0.0)  | 5.5         | 370(315.0, 54.5)/s + 93(92.9, 0.0)   | 9.1      | 218(172.1, 46.3)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade(active)]                           | 7      | 2.0         | 557(497.8, 59.6)/s + 138(138.2, 0.0)  | 5.2         | 389(334.0, 54.5)/s + 105(105.4, 0.0) | 8.7      | 228(181.5, 46.3)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(15), Berserker's, Ghostblade]                                   | 7      | 2.3         | 491(439.6, 51.0)/s + 138(138.2, 0.0)  | 6.0         | 341(294.2, 46.6)/s + 105(105.4, 0.0) | 9.9      | 200(160.5, 39.6)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King(active)]             | 7      | 2.1         | 509(409.8, 99.3)/s + 202(202.4, 0.0)  | 4.8         | 406(315.0, 90.8)/s + 189(188.7, 0.0) | 7.8      | 249(172.1, 77.2)/s + 109(108.8, 0.0) |
+| 11    | [Devourer(30), Berserker's, Blade of the Ruined King]                     | 7      | 2.2         | 509(409.8, 99.3)/s + 114(114.4, 0.0)  | 5.0         | 406(315.0, 90.8)/s + 93(92.9, 0.0)   | 8.0      | 249(172.1, 77.2)/s + 55(55.4, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade(active)]                           | 7      | 1.9         | 597(497.8, 99.3)/s + 138(138.2, 0.0)  | 4.8         | 425(334.0, 90.8)/s + 105(105.4, 0.0) | 7.7      | 259(181.5, 77.2)/s + 61(61.0, 0.0)   |
+| 11    | [Devourer(30), Berserker's, Ghostblade]                                   | 7      | 2.1         | 525(439.6, 85.0)/s + 138(138.2, 0.0)  | 5.5         | 372(294.2, 77.7)/s + 105(105.4, 0.0) | 8.8      | 227(160.5, 66.0)/s + 61(61.0, 0.0)   |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King(active)]                  | 7      | 2.3         | 450(450.2, 0.0)/s + 211(210.8, 0.0)   | 5.9         | 329(329.4, 0.0)/s + 194(194.1, 0.0)  | 10.6     | 182(182.0, 0.0)/s + 112(112.2, 0.0)  |
+| 11    | [Warrior, Berserker's, Blade of the Ruined King]                          | 7      | 2.5         | 450(450.2, 0.0)/s + 123(122.8, 0.0)   | 6.2         | 329(329.4, 0.0)/s + 98(98.3, 0.0)    | 10.9     | 182(182.0, 0.0)/s + 59(58.9, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade(active)]                                | 7      | 2.0         | 541(541.2, 0.0)/s + 148(147.9, 0.0)   | 5.8         | 352(351.6, 0.0)/s + 111(111.3, 0.0)  | 10.3     | 192(192.3, 0.0)/s + 65(64.6, 0.0)    |
+| 11    | [Warrior, Berserker's, Ghostblade]                                        | 7      | 2.4         | 467(467.1, 0.0)/s + 148(147.9, 0.0)   | 6.7         | 303(302.8, 0.0)/s + 111(111.3, 0.0)  | 11.9     | 166(166.4, 0.0)/s + 65(64.6, 0.0)    |
+| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 4      | 2.5         | 561(444.2, 117.1)/s + 137(137.5, 0.0) | 6.6         | 427(355.2, 71.8)/s + 119(118.9, 0.0) | 9.2      | 252(185.0, 67.0)/s + 67(66.6, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 4      | 1.8         | 763(646.2, 117.1)/s + 167(166.8, 0.0) | 5.2         | 537(465.6, 71.8)/s + 135(135.3, 0.0) | 7.5      | 307(240.0, 67.0)/s + 74(74.1, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 4      | 2.0         | 681(578.1, 102.7)/s + 167(166.8, 0.0) | 5.8         | 478(415.4, 63.0)/s + 135(135.3, 0.0) | 8.4      | 274(214.9, 58.7)/s + 74(74.1, 0.0)   |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 4      | 1.9         | 691(691.5, 0.0)/s + 176(175.9, 0.0)   | 5.8         | 480(480.2, 0.0)/s + 141(140.9, 0.0)  | 9.1      | 252(251.5, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 4      | 1.9         | 690(689.6, 0.0)/s + 206(205.7, 0.0)   | 5.9         | 470(469.6, 0.0)/s + 174(174.2, 0.0)  | 8.5      | 268(268.2, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 4      | 2.2         | 566(565.8, 0.0)/s + 291(172.1, 118.5) | 7.3         | 369(369.4, 0.0)/s + 211(138.6, 72.7) | 11.0     | 202(201.6, 0.0)/s + 156(76.1, 79.7)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 4      | 2.2         | 608(608.4, 0.0)/s + 176(175.9, 0.0)   | 6.6         | 422(421.5, 0.0)/s + 141(140.9, 0.0)  | 10.4     | 222(221.7, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 4      | 2.2         | 596(596.2, 0.0)/s + 206(205.7, 0.0)   | 6.8         | 406(405.6, 0.0)/s + 174(174.2, 0.0)  | 9.8      | 233(232.7, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 4      | 2.5         | 498(497.6, 0.0)/s + 291(172.1, 118.5) | 8.4         | 324(324.4, 0.0)/s + 211(138.6, 72.7) | 12.5     | 178(177.7, 0.0)/s + 156(76.1, 79.7)  |
+| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 6      | 2.3         | 596(478.5, 117.1)/s + 137(137.5, 0.0) | 6.0         | 470(397.8, 71.8)/s + 119(118.9, 0.0) | 8.6      | 270(203.2, 67.0)/s + 67(66.6, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 6      | 1.7         | 803(685.5, 117.1)/s + 167(166.8, 0.0) | 4.8         | 584(512.0, 71.8)/s + 135(135.3, 0.0) | 7.1      | 326(259.2, 67.0)/s + 74(74.1, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 6      | 1.9         | 715(612.6, 102.7)/s + 167(166.8, 0.0) | 5.4         | 519(456.2, 63.0)/s + 135(135.3, 0.0) | 7.9      | 291(231.8, 58.7)/s + 74(74.1, 0.0)   |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 6      | 1.9         | 726(725.9, 0.0)/s + 176(175.9, 0.0)   | 5.3         | 521(521.0, 0.0)/s + 141(140.9, 0.0)  | 8.6      | 268(268.4, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 6      | 1.8         | 724(723.5, 0.0)/s + 206(205.7, 0.0)   | 5.4         | 512(512.2, 0.0)/s + 174(174.2, 0.0)  | 8.0      | 287(286.6, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 6      | 2.1         | 599(599.1, 0.0)/s + 291(172.1, 118.5) | 6.6         | 409(408.8, 0.0)/s + 211(138.6, 72.7) | 10.2     | 218(217.9, 0.0)/s + 156(76.1, 79.7)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 6      | 2.1         | 638(638.1, 0.0)/s + 176(175.9, 0.0)   | 6.1         | 457(456.7, 0.0)/s + 141(140.9, 0.0)  | 9.7      | 236(236.2, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 6      | 2.1         | 625(624.7, 0.0)/s + 206(205.7, 0.0)   | 6.2         | 441(441.5, 0.0)/s + 174(174.2, 0.0)  | 9.2      | 248(248.1, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 6      | 2.3         | 526(526.1, 0.0)/s + 291(172.1, 118.5) | 7.6         | 358(358.2, 0.0)/s + 211(138.6, 72.7) | 11.6     | 192(191.7, 0.0)/s + 156(76.1, 79.7)  |
+| 14    | [Devourer(30), Berserker's, Blade of the Ruined King, Runaan's Hurricane] | 9      | 2.1         | 647(530.1, 117.1)/s + 137(137.5, 0.0) | 5.3         | 534(461.9, 71.8)/s + 119(118.9, 0.0) | 7.8      | 298(230.5, 67.0)/s + 67(66.6, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade(active), Blade of the Ruined King] | 9      | 1.6         | 861(744.3, 117.1)/s + 167(166.8, 0.0) | 4.3         | 653(581.6, 71.8)/s + 135(135.3, 0.0) | 6.5      | 355(288.0, 67.0)/s + 74(74.1, 0.0)   |
+| 14    | [Devourer(30), Berserker's, Ghostblade, Blade of the Ruined King]         | 9      | 1.8         | 767(664.3, 102.7)/s + 167(166.8, 0.0) | 4.8         | 580(517.4, 63.0)/s + 135(135.3, 0.0) | 7.3      | 316(257.2, 58.7)/s + 74(74.1, 0.0)   |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Blade of the Ruined King]      | 9      | 1.7         | 778(777.7, 0.0)/s + 176(175.9, 0.0)   | 4.8         | 582(582.2, 0.0)/s + 141(140.9, 0.0)  | 7.8      | 294(293.7, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Cleaver(5)]                    | 9      | 1.7         | 774(774.4, 0.0)/s + 206(205.7, 0.0)   | 4.8         | 576(576.2, 0.0)/s + 174(174.2, 0.0)  | 7.3      | 314(314.1, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade(active), Rapid Firecannon]              | 9      | 1.9         | 649(649.0, 0.0)/s + 291(172.1, 118.5) | 5.8         | 468(467.9, 0.0)/s + 211(138.6, 72.7) | 9.2      | 242(242.3, 0.0)/s + 156(76.1, 79.7)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Blade of the Ruined King]              | 9      | 2.0         | 683(682.8, 0.0)/s + 176(175.9, 0.0)   | 5.5         | 509(509.5, 0.0)/s + 141(140.9, 0.0)  | 8.9      | 258(258.1, 0.0)/s + 78(77.6, 0.0)    |
+| 14    | [Warrior, Berserker's, Ghostblade, Cleaver(5)]                            | 9      | 2.0         | 667(667.5, 0.0)/s + 206(205.7, 0.0)   | 5.6         | 495(495.3, 0.0)/s + 174(174.2, 0.0)  | 8.4      | 271(271.3, 0.0)/s + 100(100.0, 0.0)  |
+| 14    | [Warrior, Berserker's, Ghostblade, Rapid Firecannon]                      | 9      | 2.2         | 569(569.0, 0.0)/s + 291(172.1, 118.5) | 6.6         | 409(408.9, 0.0)/s + 211(138.6, 72.7) | 10.4     | 213(212.7, 0.0)/s + 156(76.1, 79.7)  |
+| 5     | [Devourer(0)]                                                             | 1      | 3.6         | 193(165.5, 27.5)/s + 104(103.8, 0.0)  | 5.4         | 190(163.6, 26.3)/s + 114(113.8, 0.0) | 9.9      | 141(115.0, 26.3)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(15)]                                                            | 1      | 3.4         | 207(165.5, 41.2)/s + 104(103.8, 0.0)  | 5.1         | 203(163.6, 39.5)/s + 114(113.8, 0.0) | 9.1      | 155(115.0, 39.5)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(30)]                                                            | 1      | 3.0         | 234(165.5, 68.6)/s + 104(103.8, 0.0)  | 4.5         | 229(163.6, 65.8)/s + 114(113.8, 0.0) | 7.8      | 181(115.0, 65.8)/s + 85(84.8, 0.0)   |
+| 5     | [Warrior]                                                                 | 1      | 3.3         | 209(208.5, 0.0)/s + 113(113.2, 0.0)   | 5.0         | 205(204.9, 0.0)/s + 123(122.9, 0.0)  | 9.7      | 144(143.5, 0.0)/s + 91(91.1, 0.0)    |
+| 5     | [Devourer(0)]                                                             | 3      | 3.4         | 206(178.3, 27.5)/s + 104(103.8, 0.0)  | 4.9         | 208(181.2, 26.3)/s + 114(113.8, 0.0) | 9.0      | 156(129.6, 26.3)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(15)]                                                            | 3      | 3.2         | 219(178.3, 41.2)/s + 104(103.8, 0.0)  | 4.7         | 221(181.2, 39.5)/s + 114(113.8, 0.0) | 8.3      | 169(129.6, 39.5)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(30)]                                                            | 3      | 2.8         | 247(178.3, 68.6)/s + 104(103.8, 0.0)  | 4.2         | 247(181.2, 65.8)/s + 114(113.8, 0.0) | 7.2      | 195(129.6, 65.8)/s + 85(84.8, 0.0)   |
+| 5     | [Warrior]                                                                 | 3      | 3.1         | 219(218.7, 0.0)/s + 113(113.2, 0.0)   | 4.7         | 219(218.9, 0.0)/s + 123(122.9, 0.0)  | 9.0      | 155(155.1, 0.0)/s + 91(91.1, 0.0)    |
+| 5     | [Devourer(0)]                                                             | 4      | 3.3         | 212(184.6, 27.5)/s + 104(103.8, 0.0)  | 4.7         | 216(190.0, 26.3)/s + 114(113.8, 0.0) | 8.6      | 163(136.8, 26.3)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(15)]                                                            | 4      | 3.1         | 226(184.6, 41.2)/s + 104(103.8, 0.0)  | 4.5         | 230(190.0, 39.5)/s + 114(113.8, 0.0) | 8.0      | 176(136.8, 39.5)/s + 85(84.8, 0.0)   |
+| 5     | [Devourer(30)]                                                            | 4      | 2.8         | 253(184.6, 68.6)/s + 104(103.8, 0.0)  | 4.0         | 256(190.0, 65.8)/s + 114(113.8, 0.0) | 6.9      | 203(136.8, 65.8)/s + 85(84.8, 0.0)   |
+| 5     | [Warrior]                                                                 | 4      | 3.1         | 224(223.8, 0.0)/s + 113(113.2, 0.0)   | 4.5         | 226(226.0, 0.0)/s + 123(122.9, 0.0)  | 8.7      | 161(160.9, 0.0)/s + 91(91.1, 0.0)    |

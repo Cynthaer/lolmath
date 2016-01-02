@@ -166,7 +166,8 @@ class Champion(object):
 
             @property
             def perc_bonus_APen(self):
-                return 0
+                item_APen = self.get_ext_stat(self.items, 'perc_bonus_APen')
+                return item_APen
 
             @property
             def LS(self):
@@ -216,8 +217,10 @@ class Champion(object):
             @property
             def bonus_AR(self):
                 rune_AR = self.runepage.AR
+                mast_AR = self.masterypage.AR
                 item_AR = self.get_ext_stat(self.items, 'AR')
-                return rune_AR + item_AR
+                bonus_AR_mult = 1 + self.masterypage.perc_bonus_AR
+                return (rune_AR + mast_AR + item_AR) * bonus_AR_mult
 
             @property
             def AR(self):
@@ -226,8 +229,10 @@ class Champion(object):
             @property
             def bonus_MR(self):
                 rune_MR = self.runepage.MR
+                mast_MR = self.masterypage.MR
                 item_MR = self.get_ext_stat(self.items, 'MR')
-                return rune_MR + item_MR
+                bonus_MR_mult = 1 + self.masterypage.perc_bonus_MR
+                return (rune_MR + mast_MR + item_MR) * bonus_MR_mult
 
             @property
             def MR(self):
@@ -261,18 +266,23 @@ class Champion(object):
 
             @property
             def flat_MPen(self):
+                rune_MPen = self.runepage.MPen
                 mast_MPen = self.masterypage.flat_MPen + \
                     (self.masterypage.flat_MPen_per_lvl * self.level)
-                return mast_MPen
+                item_MPen = self.get_ext_stat(self.items, 'flat_MPen')
+                return rune_MPen + mast_MPen + item_MPen
 
             @property
             def perc_MPen(self):
-                return 0
+                mast_MPen = self.masterypage.perc_MPen
+                item_MPen = self.get_ext_stat(self.items, 'perc_MPen')
+                return mast_MPen + item_MPen
 
             @property
             def SV(self):
                 mast_SV = self.masterypage.SV
-                return mast_SV
+                item_SV = self.get_ext_stat(self.items, 'SV')
+                return mast_SV + item_SV
 
         ''' Movement '''
         if True:

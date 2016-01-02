@@ -2,17 +2,21 @@ import sys
 import pprint
 import re
 import csv
+import itertools
+import operator
 
 from champion import *
 from kindred import *
 
 detail_lvl = 2  # determines how much debugging detail we print out
-result = [['Level', 'Items', 'Stacks', 'Squishy', 'Bruiser', 'Tank']]
+result = [['Level', 'Items', 'Stacks', 'Squishy TTK', 'Squishy DMG',
+           'Bruiser TTK', 'Bruiser DMG', 'Tank TTK', 'Tank DMG']]
 
 
 def main():
     global result
     with open('out.txt', 'w') as out:
+        old_stdout = sys.stdout
         sys.stdout = out
 
         def test_itemsets(testfun, kindred, itemsets, stackvals):
@@ -45,15 +49,19 @@ def main():
         stackvals = [3, 5, 7]
         itemsets = [
             [Warrior(), Berserkers(), BotRK()],
+            [Warrior(), Berserkers(), BotRK(True)],
             [Warrior(), Berserkers(), Ghostblade()],
             [Warrior(), Berserkers(), Ghostblade(True)],
             [Devourer(0), Berserkers(), BotRK()],
+            [Devourer(0), Berserkers(), BotRK(True)],
             [Devourer(0), Berserkers(), Ghostblade()],
             [Devourer(0), Berserkers(), Ghostblade(True)],
             [Devourer(15), Berserkers(), BotRK()],
+            [Devourer(15), Berserkers(), BotRK(True)],
             [Devourer(15), Berserkers(), Ghostblade()],
             [Devourer(15), Berserkers(), Ghostblade(True)],
             [Devourer(30), Berserkers(), BotRK()],
+            [Devourer(30), Berserkers(), BotRK(True)],
             [Devourer(30), Berserkers(), Ghostblade()],
             [Devourer(30), Berserkers(), Ghostblade(True)],
         ]
@@ -83,13 +91,16 @@ def main():
 
         print_table(result)
 
+        sys.stdout = old_stdout
+
     with open('out.csv', 'wb') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerows(result)
 
 
 def test_one_item(kindred):
-    scenario = "lvl %d %s" % (kindred.level, kindred.items)
+    scenario = "lvl %d st %d %s" % (
+        kindred.level, kindred.stacks, kindred.items)
     print '--- %s ---' % scenario
     lucian = Champion('Lucian', level=5, runepage='ADC')
     renekton = Champion('Renekton', level=5,
@@ -99,7 +110,8 @@ def test_one_item(kindred):
 
 
 def test_two_items(kindred):
-    scenario = "lvl %d %s" % (kindred.level, kindred.items)
+    scenario = "lvl %d st %d %s" % (
+        kindred.level, kindred.stacks, kindred.items)
     print '--- %s ---' % scenario
     lucian = Champion('Lucian', level=11, runepage='ADC')
     renekton = Champion('Renekton', level=11, runepage='Bruiser',
@@ -110,7 +122,8 @@ def test_two_items(kindred):
 
 
 def test_three_items(kindred):
-    scenario = "lvl %d %s" % (kindred.level, kindred.items)
+    scenario = "lvl %d st %d %s" % (
+        kindred.level, kindred.stacks, kindred.items)
     print '--- %s ---' % scenario
     lucian = Champion('Lucian', level=14, runepage='ADC')
     renekton = Champion('Renekton', level=14, runepage='Bruiser',
@@ -121,9 +134,11 @@ def test_three_items(kindred):
 
 
 def test_four_items(kindred):
-    scenario = "lvl %d %s" % (kindred.level, kindred.items)
+    scenario = "lvl %d st %d %s" % (
+        kindred.level, kindred.stacks, kindred.items)
     print '--- %s ---' % scenario
-    lucian = Champion('Lucian', level=16, runepage='ADC', items=[Bloodthirster()])
+    lucian = Champion('Lucian', level=16, runepage='ADC',
+                      items=[Bloodthirster()])
     renekton = Champion('Renekton', level=16, runepage='Bruiser',
                         items=[Cleaver(), Tabi(), DMP(), SV()])
     malphite = Malphite(level=16, runepage='Tank',
@@ -139,7 +154,7 @@ def test(scenario, kindred, squishy, bruiser, tank):
     print_matchup(kindred, tank)
     print '---\n'
     result.append([str(kindred.level), str(kindred.items), str(kindred.stacks)] +
-                  map(lambda t: '%.1f' % kindred.time_to_kill(t), [squishy, bruiser, tank]))
+                  reduce(operator.add, map(lambda t: ['%.1f' % kindred.time_to_kill(t), '%.0f%s/s + %.0f%s' % (kindred.total_DPS(t).total, kindred.total_DPS(t), kindred.total_burst(t).total, kindred.total_burst(t))], [squishy, bruiser, tank])))
 
 
 def print_matchup(kindred, target):

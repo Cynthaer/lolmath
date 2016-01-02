@@ -84,7 +84,7 @@ class Kindred(Champion):
     def total_burst(self, target=None):
         mast_perc_mult = 1 + self.masterypage.perc_dmg_out
         raw_item_dmg = Damage(0)
-        if target is not None and self.get_item(BotRK) is not None:
+        if target is not None and self.get_item(BotRK) is not None and self.get_item(BotRK).active:
             raw_item_dmg += Damage(0.1 * target.HP, 0)
         if self.get_item(RFC) is not None:
             raw_item_dmg += Damage(0, 50 if self.level <= 4

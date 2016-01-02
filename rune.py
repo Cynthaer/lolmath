@@ -5,7 +5,7 @@ class Runepage(object):
     def __init__(self, name=''):
         self.name = name
         
-        for stat in ['AD', 'AS', 'APen', 'HP', 'AR', 'MR', 'AP', 'CDR', 'LS']:
+        for stat in ['AD', 'AS', 'APen', 'MPen', 'HP', 'AR', 'MR', 'AP', 'CDR', 'LS']:
             setattr(self, stat, 0)
         
         if name in ('ADC', 'Marksman'):
@@ -18,8 +18,10 @@ class Runepage(object):
             self.MR = 1.34 * 9
             self.AR = 1 * 9
         elif name in ('Tank'):
+            self.MPen = 0.87 * 9
             self.MR = 1.34 * 9
             self.AR = 1 * 9
+            self.AP = 4.95 * 3
 
 def main():
     page = Runepage('ADC')

@@ -12,25 +12,17 @@ def get_by_name(data, name):
 
 
 class Item(object):
+    """Base class for all items. Handles standard stats present in the Riot 
+    API, but needs to be extended for individual items."""
 
     def __init__(self, name, refresh=False):
         self.api = riot.LoLAPI(refresh=refresh)
         self.name = name
 
-        self._set_api_data(refresh)
+        self._set_api_data()
 
-    def _set_api_data(self, refresh):
-        cachepath = 'json_cache/items.json'
-        if refresh == False and os.path.isfile(cachepath):
-            with open(cachepath, 'r') as f:
-                items_data = json.load(f)
-        else:
-            print 'invoking api'
-            items_data = self.api.get_item_list(
-                ['effect', 'from', 'gold', 'stats'])
-            with open(cachepath, 'w') as f:
-                json.dump(items_data, f, indent=4, sort_keys=True)
-
+    def _set_api_data(self):
+        items_data = self.api.get_item_list(['effect', 'from', 'gold', 'stats'])
         self.item_api_data = get_by_name(items_data['data'], self.name)
 
         stats = self.item_api_data['stats']
@@ -59,13 +51,14 @@ class Item(object):
 
 
 class Devourer(Item):
+    """Enchantment: Devourer"""
 
     def __init__(self, stacks=0):
         super(Devourer, self).__init__("Enchantment: Devourer")
         self.stacks = stacks
 
     def __repr__(self):
-        return 'Devourer(%s)' % (self.stacks)
+        return "Devourer(%s)" % (self.stacks)
 
     @property
     def onhit(self):
@@ -77,6 +70,7 @@ class Devourer(Item):
 
 
 class Warrior(Item):
+    """Enchantment: Warrior"""
 
     def __init__(self):
         super(Warrior, self).__init__("Enchantment: Warrior")
@@ -87,6 +81,7 @@ class Warrior(Item):
 
 
 class Ghostblade(Item):
+    """ Youmuu's Ghostblade"""
 
     def __init__(self, active=False):
         super(Ghostblade, self).__init__("Youmuu's Ghostblade")
@@ -115,10 +110,14 @@ class Ghostblade(Item):
 
 
 class BotRK(Item):
-    """docstring for BotRK"""
+    """Blade of the Ruined King"""
 
-    def __init__(self):
+    def __init__(self, active=False):
         super(BotRK, self).__init__("Blade of the Ruined King")
+        self.active = active
+
+    def __repr__(self):
+        return self.name + ("(active)" if self.active else "")
 
 
 class Bloodthirster(Item):
