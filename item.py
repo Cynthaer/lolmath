@@ -44,8 +44,10 @@ class Item(object):
         # Defensive
         self.HP = stats.get('FlatHPPoolMod', 0)
         self.AR = stats.get('FlatArmorMod', 0)
+        self.MR = stats.get('FlatSpellBlockMod', 0)
 
         # Ability
+        self.AP = stats.get('FlatMagicDamageMod', 0)
         self.MP = stats.get('FlatMPPoolMod', 0)
 
         # Movement

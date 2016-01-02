@@ -17,6 +17,9 @@ class Runepage(object):
             self.AD = 0.95 * 9 + 2.25 * 3
             self.MR = 1.34 * 9
             self.AR = 1 * 9
+        elif name in ('Tank'):
+            self.MR = 1.34 * 9
+            self.AR = 1 * 9
 
 def main():
     page = Runepage('ADC')

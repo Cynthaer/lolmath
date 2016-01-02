@@ -99,7 +99,7 @@ class Champion(object):
                      ((7 / 400) * (pow(self.level, 2) - 1) +
                       (267 / 400) * (self.level - 1)))
 
-        if stat is self.base_AD and self.get_item(Steraks):
+        if stat is self.nat_AD and self.get_item(Steraks):
             base_stat *= (1.5 if self.get_item(Steraks).active else 1.25)
 
         return base_stat
@@ -226,7 +226,8 @@ class Champion(object):
             @property
             def bonus_MR(self):
                 rune_MR = self.runepage.MR
-                return rune_MR
+                item_MR = self.get_ext_stat(self.items, 'MR')
+                return rune_MR + item_MR
 
             @property
             def MR(self):
@@ -399,8 +400,8 @@ class Champion(object):
         if target is None:
             return 1
 
-        net_AR = (target.base('AR') + target.bonus_AR * (1 -
-                                                         self.perc_bonus_APen)) * (1 - self.perc_APen) - self.flat_APen
+        net_AR = ((target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen)) 
+                  * (1 - self.perc_APen) - self.flat_APen)
         mast_perc_mult = 1 + target.masterypage.perc_dmg_in
         return (1 - (net_AR / (100 + net_AR))) * mast_perc_mult
 
