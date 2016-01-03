@@ -412,7 +412,7 @@ class Champion(object):
             item_mult += Damage(0.015 * (hp_diff / 50), 0)
 
         direct_mult = Damage(1, 1) + mast_mult + item_mult
-        return direct_mult *
+        return direct_mult * self.def_factor(target)
 
     def def_factor(self, target=None):
         """Combines AR and MR factors for ease of use with Damage() type"""
