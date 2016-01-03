@@ -58,8 +58,8 @@ class Devourer(Item):
         super(Devourer, self).__init__("Enchantment: Devourer")
         self.stacks = stacks
 
-    def __repr__(self):
-        return "Devourer(%s)" % (self.stacks)
+    def __str__(self):
+        return "Dev(%s)" % (self.stacks)
 
     @property
     def onhit(self):
@@ -77,8 +77,8 @@ class Warrior(Item):
         super(Warrior, self).__init__("Enchantment: Warrior")
         self.CDR = 0.1
 
-    def __repr__(self):
-        return "Warrior"
+    def __str__(self):
+        return "War"
 
 
 class Ghostblade(Item):
@@ -90,8 +90,8 @@ class Ghostblade(Item):
         self.CDR = 0.1
         self.flat_APen = 20
 
-    def __repr__(self):
-        return '%s%s' % ('Ghostblade', '(active)' if self.active else '')
+    def __str__(self):
+        return '%s%s' % ('YGB', '(active)' if self.active else '')
 
     @property
     def perc_MS(self):
@@ -117,8 +117,8 @@ class BotRK(Item):
         super(BotRK, self).__init__("Blade of the Ruined King")
         self.active = active
 
-    def __repr__(self):
-        return self.name + ("(active)" if self.active else "")
+    def __str__(self):
+        return "BotRK" + ("(active)" if self.active else "")
 
 
 class Bloodthirster(Item):
@@ -129,21 +129,32 @@ class Bloodthirster(Item):
         self.shield = shield
         self.LS = 0.2
 
+    def __str__(self):
+        return "BT"
+
 
 class LDR(Item):
     """Lord Dominik's Regards"""
+
     def __init__(self):
         super(LDR, self).__init__("Lord Dominik's Regards")
-    
+
+    def __str__(self):
+        return "LDR"
+
     @property
     def perc_bonus_APen(self):
         return 0.4
+
 
 class RFC(Item):
     """Rapid Firecannon"""
 
     def __init__(self):
         super(RFC, self).__init__("Rapid Firecannon")
+
+    def __str__(self):
+        return "RFC"
 
 
 class Hurricane(Item):
@@ -153,8 +164,8 @@ class Hurricane(Item):
         super(Hurricane, self).__init__("Runaan's Hurricane")
         self.bolt = bolt
 
-    def __repr__(self):
-        return self.name + ("(bolt)" if self.bolt else "")
+    def __str__(self):
+        return "RH" + ("(bolt)" if self.bolt else "")
 
 
 class Berserkers(Item):
@@ -162,14 +173,17 @@ class Berserkers(Item):
     def __init__(self):
         super(Berserkers, self).__init__("Berserker's Greaves")
 
-    def __repr__(self):
-        return "Berserker's"
+    def __str__(self):
+        return "Greaves"
 
 
 class Tabi(Item):
 
     def __init__(self):
         super(Tabi, self).__init__("Ninja Tabi")
+
+    def __str__(self):
+        return "Tabi"
 
 
 class Cleaver(Item):
@@ -179,8 +193,8 @@ class Cleaver(Item):
         self.CDR = 0.2
         self.stacks = stacks
 
-    def __repr__(self):
-        return "Cleaver(%d)" % (self.stacks)
+    def __str__(self):
+        return "BC(%d)" % (self.stacks)
 
     @property
     def perc_APen(self):
@@ -194,6 +208,9 @@ class Steraks(Item):
         super(Steraks, self).__init__("Sterak's Gage")
         self.active = active
 
+    def __str__(self):
+        return "Sterak"
+
 
 class Abyssal(Item):
     """Abyssal Scepter"""
@@ -202,11 +219,17 @@ class Abyssal(Item):
         super(Abyssal, self).__init__("Abyssal Scepter")
         self.flat_MPen = 20
 
+    def __str__(self):
+        return "Abyssal"
+
 
 class DMP(Item):
 
     def __init__(self):
         super(DMP, self).__init__("Dead Man's Plate")
+
+    def __str__(self):
+        return "DMP"
 
 
 class Sunfire(Item):
@@ -214,12 +237,18 @@ class Sunfire(Item):
     def __init__(self):
         super(Sunfire, self).__init__("Sunfire Cape")
 
+    def __str__(self):
+        return "Sunfire"
+
 
 class FH(Item):
 
     def __init__(self):
         super(FH, self).__init__("Frozen Heart")
         self.CDR = 0.2
+
+    def __str__(self):
+        return "FH"
 
 
 class Thornmail(Item):
@@ -236,6 +265,9 @@ class SV(Item):
         super(SV, self).__init__("Spirit Visage")
         self.CDR = 0.1
         self.HPR = 1.5
+
+    def __str__(self):
+        return "SV"
 
 
 def main():

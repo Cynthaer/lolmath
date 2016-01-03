@@ -9,12 +9,16 @@ from champion import *
 from kindred import *
 
 detail_lvl = 2  # determines how much debugging detail we print out
-result = [['Level', 'Items', 'Stacks', 'Squishy TTK', 'Squishy DMG',
+result_google = [['Level', 'Items', 'Stacks', 'Squishy TTK', 'Squishy DMG',
            'Bruiser TTK', 'Bruiser DMG', 'Tank TTK', 'Tank DMG']]
+result_reddit = [['Level', 'Items', 'Stacks', 'Squishy TTK', 'Squishy DMG',
+           'Bruiser TTK', 'Bruiser DMG', 'Tank TTK', 'Tank DMG'], 
+           ['--'] * 9]
 
 
 def main():
-    global result
+    global result_google
+    global result_reddit
     with open('out.txt', 'w') as out:
         old_stdout = sys.stdout
         sys.stdout = out
@@ -52,10 +56,10 @@ def main():
             [Warrior(), Berserkers(), BotRK()],
             [Warrior(), Berserkers(), Ghostblade()],
             [Warrior(), Berserkers(), Ghostblade(True)],
-            [Devourer(0), Berserkers(), BotRK(False)],
-            [Devourer(0), Berserkers(), BotRK()],
-            [Devourer(0), Berserkers(), Ghostblade()],
-            [Devourer(0), Berserkers(), Ghostblade(True)],
+            # [Devourer(0), Berserkers(), BotRK(False)],
+            # [Devourer(0), Berserkers(), BotRK()],
+            # [Devourer(0), Berserkers(), Ghostblade()],
+            # [Devourer(0), Berserkers(), Ghostblade(True)],
             [Devourer(15), Berserkers(), BotRK(False)],
             [Devourer(15), Berserkers(), BotRK()],
             [Devourer(15), Berserkers(), Ghostblade()],
@@ -73,18 +77,14 @@ def main():
         kindred.ability_ranks = [5, 5, 2, 2]
         stackvals = [4, 6, 9]
         itemsets = [
-            [Warrior(), Berserkers(), Ghostblade(), BotRK(False)],
-            [Warrior(), Berserkers(), Ghostblade(True), BotRK()],
-            [Warrior(), Berserkers(), Ghostblade(), RFC()],
+            [Warrior(), Berserkers(), Ghostblade(True), BotRK(True)],
             [Warrior(), Berserkers(), Ghostblade(True), RFC()],
-            [Warrior(), Berserkers(), Ghostblade(), Cleaver(5)],
             [Warrior(), Berserkers(), Ghostblade(True), Cleaver(5)],
-            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False)],
-            [Devourer(30), Berserkers(), Ghostblade(True), BotRK()],
-            [Devourer(30), Berserkers(), BotRK(), Hurricane()],
-            [Devourer(30), Berserkers(), BotRK(False), Hurricane()],
-            [Devourer(30), Berserkers(), Ghostblade(), Cleaver(5)],
+            [Warrior(), Berserkers(), Ghostblade(True), LDR()],
+            [Devourer(30), Berserkers(), Ghostblade(True), BotRK(True)],
+            [Devourer(30), Berserkers(), BotRK(True), Hurricane()],
             [Devourer(30), Berserkers(), Ghostblade(True), Cleaver(5)],
+            [Devourer(30), Berserkers(), Ghostblade(True), LDR()],
         ]
 
         test_itemsets(test_three_items, kindred, itemsets, stackvals)
@@ -103,28 +103,31 @@ def main():
             [Devourer(30), Berserkers(), Ghostblade(True), BotRK(), LDR()],
             [Devourer(30), Berserkers(), BotRK(), Hurricane(), LDR()],
             # actives down
-            [Warrior(), Berserkers(), Ghostblade(), BotRK(False), LDR()],
-            [Warrior(), Berserkers(), Ghostblade(), RFC(), LDR()],
-            [Warrior(), Berserkers(), Ghostblade(), BotRK(False), Cleaver(5)],
-            [Warrior(), Berserkers(), Ghostblade(), Cleaver(5), LDR()],
-            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), Hurricane()],
-            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), LDR()],
-            [Devourer(30), Berserkers(), BotRK(False), Hurricane(), LDR()],
+            # [Warrior(), Berserkers(), Ghostblade(), BotRK(False), LDR()],
+            # [Warrior(), Berserkers(), Ghostblade(), RFC(), LDR()],
+            # [Warrior(), Berserkers(), Ghostblade(), BotRK(False), Cleaver(5)],
+            # [Warrior(), Berserkers(), Ghostblade(), Cleaver(5), LDR()],
+            # [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), Hurricane()],
+            # [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), LDR()],
+            # [Devourer(30), Berserkers(), BotRK(False), Hurricane(), LDR()],
         ]
 
-        test_itemsets(test_three_items, kindred, itemsets, stackvals)
+        test_itemsets(test_four_items, kindred, itemsets, stackvals)
 
-        result = ([result[0]] + sorted(result[1:],
+        result_google = ([result_google[0]] + sorted(result_google[1:],
                                        key=lambda l: ' '.join([l[0], l[2], l[1]])))
 
-        print_table(result)
+        print_table(result_reddit)
 
         sys.stdout = old_stdout
 
-    with open('out.csv', 'wb') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerows(result)
-
+    with open('google_result.csv', 'wb') as googlefile:
+        googlewriter = csv.writer(googlefile, delimiter=",")
+        googlewriter.writerows(result_google)
+        
+    with open('reddit_result.csv', 'wb') as redditfile:
+        redditwriter = csv.writer(redditfile, delimiter="|")
+        redditwriter.writerows(result_reddit)
 
 def test_one_item(kindred):
     scenario = "lvl %d st %d %s" % (
@@ -181,8 +184,14 @@ def test(scenario, kindred, squishy, bruiser, tank):
     print_matchup(kindred, bruiser)
     print_matchup(kindred, tank)
     print '---\n'
-    result.append([str(kindred.level), str(kindred.items), str(kindred.stacks)] +
-                  reduce(operator.add, map(lambda t: ['%.1f' % kindred.time_to_kill(t), '%.0f%s/s + %.0f%s' % (kindred.total_DPS(t).total, kindred.total_DPS(t), kindred.total_burst(t).total, kindred.total_burst(t))], [squishy, bruiser, tank])))
+    
+    kindred_vals = [str(kindred.level), ', '.join(map(str, kindred.items)), str(kindred.stacks)]
+    other_vals_google = reduce(operator.add, map(lambda t: ['%.1f' % kindred.time_to_kill(t), '%.0f%s/s +%.0f%s' % (kindred.total_DPS(t).total, kindred.total_DPS(t), kindred.total_burst(t).total, kindred.total_burst(t))], [squishy, bruiser, tank]))
+    other_vals_reddit = reduce(operator.add, map(lambda t: ['%.1f' % kindred.time_to_kill(t), '%.0f/s +%.0f' % (kindred.total_DPS(t).total, kindred.total_burst(t).total)], [squishy, bruiser, tank]))
+    
+    result_google.append(kindred_vals + other_vals_google)
+    result_reddit.append(kindred_vals + other_vals_reddit)
+                  
 
 
 def print_matchup(kindred, target):

@@ -55,7 +55,7 @@ class Damage(object):
         return not self.__eq__(other)
 
     def __str__(self):
-        return '(%.1f, %.1f)' % (self.p, self.m)
+        return '(%.0f, %.0f)' % (self.p, self.m)
 
     def __repr__(self):
         return 'Damage' + str(self)

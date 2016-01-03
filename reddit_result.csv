@@ -1,0 +1,95 @@
+Level|Items|Stacks|Squishy TTK|Squishy DMG|Bruiser TTK|Bruiser DMG|Tank TTK|Tank DMG
+--|--|--|--|--|--|--|--|--
+5|War|1|3.3|209/s +113|5.0|205/s +123|9.7|144/s +91
+5|War|3|3.1|219/s +113|4.7|219/s +123|9.0|155/s +91
+5|War|5|3.0|229/s +113|4.4|233/s +123|8.4|167/s +91
+5|Dev(0)|1|3.6|193/s +104|5.4|190/s +114|9.9|141/s +85
+5|Dev(0)|3|3.4|206/s +104|4.9|208/s +114|9.0|156/s +85
+5|Dev(0)|5|3.2|218/s +104|4.6|225/s +114|8.2|170/s +85
+5|Dev(15)|1|3.4|207/s +104|5.1|203/s +114|9.1|155/s +85
+5|Dev(15)|3|3.2|219/s +104|4.7|221/s +114|8.3|169/s +85
+5|Dev(15)|5|3.0|232/s +104|4.3|238/s +114|7.6|184/s +85
+5|Dev(30)|1|3.0|234/s +104|4.5|229/s +114|7.8|181/s +85
+5|Dev(30)|3|2.8|247/s +104|4.2|247/s +114|7.2|195/s +85
+5|Dev(30)|5|2.7|260/s +104|3.9|265/s +114|6.7|210/s +85
+11|War, Greaves, BotRK|3|2.8|406/s +123|7.2|282/s +98|12.6|158/s +59
+11|War, Greaves, BotRK|5|2.6|428/s +123|6.7|305/s +98|11.7|170/s +59
+11|War, Greaves, BotRK|8|2.5|461/s +123|6.0|341/s +98|10.6|188/s +59
+11|War, Greaves, BotRK(active)|3|2.6|406/s +211|6.9|282/s +194|12.2|158/s +112
+11|War, Greaves, BotRK(active)|5|2.4|428/s +211|6.4|305/s +194|11.4|170/s +112
+11|War, Greaves, BotRK(active)|8|2.3|461/s +211|5.7|341/s +194|10.3|188/s +112
+11|War, Greaves, YGB|3|2.6|425/s +148|7.8|259/s +111|13.7|145/s +65
+11|War, Greaves, YGB|5|2.5|446/s +148|7.2|281/s +111|12.7|156/s +65
+11|War, Greaves, YGB|8|2.3|478/s +148|6.5|314/s +111|11.6|172/s +65
+11|War, Greaves, YGB(active)|3|2.3|491/s +148|6.8|299/s +111|11.9|167/s +65
+11|War, Greaves, YGB(active)|5|2.1|516/s +148|6.2|325/s +111|11.0|180/s +65
+11|War, Greaves, YGB(active)|8|2.0|554/s +148|5.6|365/s +111|10.0|199/s +65
+11|Dev(15), Greaves, BotRK|3|2.7|418/s +114|6.5|314/s +93|10.5|191/s +55
+11|Dev(15), Greaves, BotRK|5|2.6|444/s +114|6.0|342/s +93|9.8|205/s +55
+11|Dev(15), Greaves, BotRK|8|2.4|482/s +114|5.3|383/s +93|8.9|225/s +55
+11|Dev(15), Greaves, BotRK(active)|3|2.5|418/s +202|6.2|314/s +189|10.2|191/s +109
+11|Dev(15), Greaves, BotRK(active)|5|2.4|444/s +202|5.7|342/s +189|9.5|205/s +109
+11|Dev(15), Greaves, BotRK(active)|8|2.2|482/s +202|5.1|383/s +189|8.6|225/s +109
+11|Dev(15), Greaves, YGB|3|2.5|440/s +138|7.0|289/s +105|11.4|175/s +61
+11|Dev(15), Greaves, YGB|5|2.4|465/s +138|6.5|315/s +105|10.6|188/s +61
+11|Dev(15), Greaves, YGB|8|2.2|503/s +138|5.7|354/s +105|9.6|206/s +61
+11|Dev(15), Greaves, YGB(active)|3|2.2|498/s +138|6.2|328/s +105|10.0|199/s +61
+11|Dev(15), Greaves, YGB(active)|5|2.1|528/s +138|5.7|358/s +105|9.3|213/s +61
+11|Dev(15), Greaves, YGB(active)|8|2.0|572/s +138|5.0|404/s +105|8.5|235/s +61
+11|Dev(30), Greaves, BotRK|3|2.5|458/s +114|5.8|350/s +93|9.0|222/s +55
+11|Dev(30), Greaves, BotRK|5|2.4|484/s +114|5.4|378/s +93|8.5|235/s +55
+11|Dev(30), Greaves, BotRK|8|2.2|522/s +114|4.9|420/s +93|7.8|256/s +55
+11|Dev(30), Greaves, BotRK(active)|3|2.3|458/s +202|5.6|350/s +189|8.8|222/s +109
+11|Dev(30), Greaves, BotRK(active)|5|2.2|484/s +202|5.2|378/s +189|8.2|235/s +109
+11|Dev(30), Greaves, BotRK(active)|8|2.0|522/s +202|4.6|420/s +189|7.6|256/s +109
+11|Dev(30), Greaves, YGB|3|2.4|474/s +138|6.4|320/s +105|9.9|201/s +61
+11|Dev(30), Greaves, YGB|5|2.2|499/s +138|5.9|346/s +105|9.3|214/s +61
+11|Dev(30), Greaves, YGB|8|2.1|537/s +138|5.3|385/s +105|8.5|233/s +61
+11|Dev(30), Greaves, YGB(active)|3|2.1|538/s +138|5.6|364/s +105|8.7|230/s +61
+11|Dev(30), Greaves, YGB(active)|5|2.0|568/s +138|5.1|394/s +105|8.1|244/s +61
+11|Dev(30), Greaves, YGB(active)|8|1.8|612/s +138|4.6|440/s +105|7.5|266/s +61
+14|War, Greaves, YGB(active), BotRK(active)|4|1.8|691/s +291|5.5|480/s +277|8.9|252/s +141
+14|War, Greaves, YGB(active), BotRK(active)|6|1.7|726/s +291|5.1|521/s +277|8.3|268/s +141
+14|War, Greaves, YGB(active), BotRK(active)|9|1.6|778/s +291|4.5|582/s +277|7.6|294/s +141
+14|War, Greaves, YGB(active), RFC|4|2.2|566/s +291|7.3|369/s +211|11.0|202/s +156
+14|War, Greaves, YGB(active), RFC|6|2.1|599/s +291|6.6|409/s +211|10.2|218/s +156
+14|War, Greaves, YGB(active), RFC|9|1.9|649/s +291|5.8|468/s +211|9.2|242/s +156
+14|War, Greaves, YGB(active), BC(5)|4|1.9|690/s +206|5.9|470/s +174|8.5|268/s +100
+14|War, Greaves, YGB(active), BC(5)|6|1.8|724/s +206|5.4|512/s +174|8.0|287/s +100
+14|War, Greaves, YGB(active), BC(5)|9|1.7|774/s +206|4.8|576/s +174|7.3|314/s +100
+14|War, Greaves, YGB(active), LDR|4|2.3|595/s +183|5.6|492/s +191|7.4|304/s +118
+14|War, Greaves, YGB(active), LDR|6|2.1|625/s +183|5.1|535/s +191|7.0|324/s +118
+14|War, Greaves, YGB(active), LDR|9|2.0|671/s +183|4.6|600/s +191|6.4|354/s +118
+14|Dev(30), Greaves, YGB(active), BotRK(active)|4|1.6|763/s +282|4.9|537/s +271|7.3|307/s +137
+14|Dev(30), Greaves, YGB(active), BotRK(active)|6|1.5|803/s +282|4.5|584/s +271|6.9|326/s +137
+14|Dev(30), Greaves, YGB(active), BotRK(active)|9|1.4|861/s +282|4.1|653/s +271|6.3|355/s +137
+14|Dev(30), Greaves, BotRK(active), RH|4|2.3|561/s +238|6.3|427/s +244|8.9|252/s +127
+14|Dev(30), Greaves, BotRK(active), RH|6|2.2|596/s +238|5.7|470/s +244|8.3|270/s +127
+14|Dev(30), Greaves, BotRK(active), RH|9|2.0|647/s +238|5.0|534/s +244|7.6|298/s +127
+14|Dev(30), Greaves, YGB(active), BC(5)|4|1.8|756/s +195|5.3|518/s +167|7.2|316/s +96
+14|Dev(30), Greaves, YGB(active), BC(5)|6|1.7|796/s +195|4.9|567/s +167|6.8|338/s +96
+14|Dev(30), Greaves, YGB(active), BC(5)|9|1.6|855/s +195|4.3|642/s +167|6.2|370/s +96
+14|Dev(30), Greaves, YGB(active), LDR|4|2.0|661/s +173|5.1|535/s +183|6.5|348/s +113
+14|Dev(30), Greaves, YGB(active), LDR|6|1.9|697/s +173|4.7|585/s +183|6.1|371/s +113
+14|Dev(30), Greaves, YGB(active), LDR|9|1.8|750/s +173|4.2|659/s +183|5.6|405/s +113
+16|War, Greaves, YGB(active), BotRK(active), LDR|6|2.0|828/s +335|5.5|789/s +417|7.0|350/s +177
+16|War, Greaves, YGB(active), BotRK(active), LDR|8|1.9|867/s +335|5.1|850/s +417|6.6|370/s +177
+16|War, Greaves, YGB(active), BotRK(active), LDR|10|1.9|905/s +335|4.7|910/s +417|6.3|390/s +177
+16|War, Greaves, YGB(active), RFC, LDR|6|2.4|690/s +341|7.2|616/s +305|8.4|287/s +195
+16|War, Greaves, YGB(active), RFC, LDR|8|2.3|728/s +341|6.5|675/s +305|7.9|306/s +195
+16|War, Greaves, YGB(active), RFC, LDR|10|2.2|765/s +341|6.0|733/s +305|7.4|325/s +195
+16|War, Greaves, YGB(active), BotRK(active), BC(5)|6|1.7|961/s +378|5.7|757/s +406|8.3|298/s +153
+16|War, Greaves, YGB(active), BotRK(active), BC(5)|8|1.6|1004/s +378|5.3|817/s +406|7.8|316/s +153
+16|War, Greaves, YGB(active), BotRK(active), BC(5)|10|1.6|1048/s +378|4.9|878/s +406|7.4|334/s +153
+16|War, Greaves, YGB(active), BC(5), LDR|6|2.2|822/s +243|5.9|752/s +275|7.0|356/s +130
+16|War, Greaves, YGB(active), BC(5), LDR|8|2.1|860/s +243|5.5|814/s +275|6.6|378/s +130
+16|War, Greaves, YGB(active), BC(5), LDR|10|2.0|899/s +243|5.1|877/s +275|6.2|399/s +130
+16|Dev(30), Greaves, YGB(active), BotRK(active), RH|6|1.9|905/s +313|6.3|702/s +323|8.4|298/s +114
+16|Dev(30), Greaves, YGB(active), BotRK(active), RH|8|1.8|953/s +313|5.7|765/s +323|7.9|315/s +114
+16|Dev(30), Greaves, YGB(active), BotRK(active), RH|10|1.7|1001/s +313|5.3|828/s +323|7.5|333/s +114
+16|Dev(30), Greaves, YGB(active), BotRK(active), LDR|6|1.8|919/s +326|5.0|862/s +409|5.9|411/s +173
+16|Dev(30), Greaves, YGB(active), BotRK(active), LDR|8|1.8|963/s +326|4.6|931/s +409|5.6|433/s +173
+16|Dev(30), Greaves, YGB(active), BotRK(active), LDR|10|1.7|1007/s +326|4.3|1000/s +409|5.4|456/s +173
+16|Dev(30), Greaves, BotRK(active), RH, LDR|6|2.5|700/s +278|6.3|697/s +366|7.2|343/s +159
+16|Dev(30), Greaves, BotRK(active), RH, LDR|8|2.3|738/s +278|5.7|759/s +366|6.7|364/s +159
+16|Dev(30), Greaves, BotRK(active), RH, LDR|10|2.2|777/s +278|5.3|822/s +366|6.4|386/s +159
