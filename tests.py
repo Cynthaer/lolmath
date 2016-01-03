@@ -33,7 +33,7 @@ def main():
         # 1-item tests
         kindred.level = 5
         kindred.ability_ranks = [3, 1, 1, 0]
-        stackvals = [1, 3, 4]
+        stackvals = [1, 3, 5]
         itemsets = [
             [Warrior()],
             [Devourer(0)],
@@ -46,7 +46,7 @@ def main():
         # 2-item tests
         kindred.level = 11
         kindred.ability_ranks = [5, 3, 1, 2]
-        stackvals = [3, 5, 7]
+        stackvals = [3, 5, 8]
         itemsets = [
             [Warrior(), Berserkers(), BotRK(False)],
             [Warrior(), Berserkers(), BotRK()],
@@ -73,15 +73,43 @@ def main():
         kindred.ability_ranks = [5, 5, 2, 2]
         stackvals = [4, 6, 9]
         itemsets = [
-            [Warrior(), Berserkers(), Ghostblade(), BotRK()],
+            [Warrior(), Berserkers(), Ghostblade(), BotRK(False)],
             [Warrior(), Berserkers(), Ghostblade(True), BotRK()],
             [Warrior(), Berserkers(), Ghostblade(), RFC()],
             [Warrior(), Berserkers(), Ghostblade(True), RFC()],
             [Warrior(), Berserkers(), Ghostblade(), Cleaver(5)],
             [Warrior(), Berserkers(), Ghostblade(True), Cleaver(5)],
-            [Devourer(30), Berserkers(), Ghostblade(), BotRK()],
+            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False)],
             [Devourer(30), Berserkers(), Ghostblade(True), BotRK()],
             [Devourer(30), Berserkers(), BotRK(), Hurricane()],
+            [Devourer(30), Berserkers(), BotRK(False), Hurricane()],
+            [Devourer(30), Berserkers(), Ghostblade(), Cleaver(5)],
+            [Devourer(30), Berserkers(), Ghostblade(True), Cleaver(5)],
+        ]
+
+        test_itemsets(test_three_items, kindred, itemsets, stackvals)
+        
+        # 4-item tests
+        kindred.level = 16
+        kindred.ability_ranks = [5, 5, 3, 3]
+        stackvals = [6, 8, 10]
+        itemsets = [
+            # actives up
+            [Warrior(), Berserkers(), Ghostblade(True), BotRK(), LDR()],
+            [Warrior(), Berserkers(), Ghostblade(True), RFC(), LDR()],
+            [Warrior(), Berserkers(), Ghostblade(True), BotRK(), Cleaver(5)],
+            [Warrior(), Berserkers(), Ghostblade(True), Cleaver(5), LDR()],
+            [Devourer(30), Berserkers(), Ghostblade(True), BotRK(), Hurricane()],
+            [Devourer(30), Berserkers(), Ghostblade(True), BotRK(), LDR()],
+            [Devourer(30), Berserkers(), BotRK(), Hurricane(), LDR()],
+            # actives down
+            [Warrior(), Berserkers(), Ghostblade(), BotRK(False), LDR()],
+            [Warrior(), Berserkers(), Ghostblade(), RFC(), LDR()],
+            [Warrior(), Berserkers(), Ghostblade(), BotRK(False), Cleaver(5)],
+            [Warrior(), Berserkers(), Ghostblade(), Cleaver(5), LDR()],
+            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), Hurricane()],
+            [Devourer(30), Berserkers(), Ghostblade(), BotRK(False), LDR()],
+            [Devourer(30), Berserkers(), BotRK(False), Hurricane(), LDR()],
         ]
 
         test_itemsets(test_three_items, kindred, itemsets, stackvals)
@@ -140,9 +168,9 @@ def test_four_items(kindred):
     lucian = Champion('Lucian', level=16, runepage='ADC',
                       items=[Bloodthirster()])
     renekton = Champion('Renekton', level=16, runepage='Bruiser',
-                        items=[Cleaver(), Tabi(), DMP(), SV()])
+                        items=[Cleaver(), Tabi(), DMP(), SV(), Steraks(True)])
     malphite = Malphite(level=16, runepage='Tank',
-                        items=[Sunfire(), Tabi(), FH(), Abyssal()])
+                        items=[Sunfire(), Tabi(), FH(), Abyssal(), Thornmail()])
     test(scenario, kindred, lucian, renekton, malphite)
 
 

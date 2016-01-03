@@ -343,8 +343,8 @@ class Champion(object):
         pass
 
     def apply_spell_mult(self, spelldata, target=None):
-        dmg_mult = 1 + self.masterypage.Ab_mult + self.masterypage.perc_dmg_out
-        return {k: v * self.def_factor(target) * dmg_mult for k, v in spelldata.iteritems()}
+        dmg_mult = self.dmg_mult(target) + Damage(self.masterypage.Ab_mult, self.masterypage.Ab_mult)
+        return {k: v * dmg_mult for k, v in spelldata.iteritems()}
 
     def ability_str(self, vertical=False):
         ar = self.ability_ranks
@@ -364,8 +364,7 @@ class Champion(object):
         if self.get_item(BotRK) is not None:
             raw_onhit += Damage(0.06 * (target.HP / 2), 0)
 
-        mast_perc_mult = 1 + self.masterypage.perc_dmg_out
-        net_onhit = raw_onhit * self.def_factor(target) * mast_perc_mult
+        net_onhit = raw_onhit * self.dmg_mult(target)
         return net_onhit
 
     def AA_dmg(self, target=None):
@@ -373,16 +372,12 @@ class Champion(object):
         crit_factor = Damage(self.AD * (1 - self.crit_chance) +
                              self.AD * self.crit_chance * self.crit_mult, 0)
 
-        if (target is not None
-                and any(map(lambda i: type(i) is Tabi, target.items))):
+        if (target is not None and target.get_item(Tabi) is not None):
             crit_factor *= 0.9
         if self.get_item(Hurricane) is not None and self.get_item(Hurricane).bolt:
             crit_factor *= 0.25
 
-        mast_perc_mult = 1 + self.masterypage.perc_dmg_out
-
-        net_crit_factor = (
-            crit_factor * self.def_factor(target) * mast_perc_mult)
+        net_crit_factor = crit_factor * self.dmg_mult(target)
 
         return net_crit_factor + self.onhit(target)
 
@@ -402,26 +397,41 @@ class Champion(object):
 
     ''' Utility '''
 
+    def dmg_mult(self, target=None):
+        """Complete damage multiplier, including self and target masteries, item multipliers (i.e. LDR), and target defense stats"""
+        mast_mult = Damage(self.masterypage.perc_dmg_out,
+                           self.masterypage.perc_dmg_out)
+        if target is not None:
+            mast_mult += Damage(target.masterypage.perc_dmg_in,
+                                target.masterypage.perc_dmg_in)
+
+        item_mult = Damage(0, 0)
+        if (self.get_item(LDR) is not None
+                and target is not None and target.HP > self.HP):
+            hp_diff = min(500, target.HP - self.HP)
+            item_mult += Damage(0.015 * (hp_diff / 50), 0)
+
+        direct_mult = Damage(1, 1) + mast_mult + item_mult
+        return direct_mult *
+
     def def_factor(self, target=None):
-        ''' combines AR and MR factors into a tuple for ease of use with Damage() type '''
+        """Combines AR and MR factors for ease of use with Damage() type"""
         return Damage(self.AR_factor(target), self.MR_factor(target))
 
     def AR_factor(self, target=None):
         if target is None:
             return 1
 
-        net_AR = ((target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen)) 
+        net_AR = ((target.base('AR') + target.bonus_AR * (1 - self.perc_bonus_APen))
                   * (1 - self.perc_APen) - self.flat_APen)
-        mast_perc_mult = 1 + target.masterypage.perc_dmg_in
-        return (1 - (net_AR / (100 + net_AR))) * mast_perc_mult
+        return (1 - (net_AR / (100 + net_AR)))
 
     def MR_factor(self, target=None):
         if target is None:
             return 1
 
         net_MR = target.MR * (1 - self.perc_MPen) - self.flat_MPen
-        mast_perc_mult = 1 + target.masterypage.perc_dmg_in
-        return (1 - (net_MR / (100 + net_MR))) * mast_perc_mult
+        return (1 - (net_MR / (100 + net_MR)))
 
     def get_item(self, itemtype):
         for item in self.items:

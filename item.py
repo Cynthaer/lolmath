@@ -22,7 +22,8 @@ class Item(object):
         self._set_api_data()
 
     def _set_api_data(self):
-        items_data = self.api.get_item_list(['effect', 'from', 'gold', 'stats'])
+        items_data = self.api.get_item_list(
+            ['effect', 'from', 'gold', 'stats'])
         self.item_api_data = get_by_name(items_data['data'], self.name)
 
         stats = self.item_api_data['stats']
@@ -129,6 +130,15 @@ class Bloodthirster(Item):
         self.LS = 0.2
 
 
+class LDR(Item):
+    """Lord Dominik's Regards"""
+    def __init__(self):
+        super(LDR, self).__init__("Lord Dominik's Regards")
+    
+    @property
+    def perc_bonus_APen(self):
+        return 0.4
+
 class RFC(Item):
     """Rapid Firecannon"""
 
@@ -210,6 +220,13 @@ class FH(Item):
     def __init__(self):
         super(FH, self).__init__("Frozen Heart")
         self.CDR = 0.2
+
+
+class Thornmail(Item):
+    """Thornmail"""
+
+    def __init__(self):
+        super(Thornmail, self).__init__("Thornmail")
 
 
 class SV(Item):
